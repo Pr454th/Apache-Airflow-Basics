@@ -1,0 +1,30 @@
+[2024-03-10T09:36:50.890+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_task_groups_edge_labels_dag.branch manual__2024-03-10T04:06:41.097485+00:00 [queued]>
+[2024-03-10T09:36:50.896+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_task_groups_edge_labels_dag.branch manual__2024-03-10T04:06:41.097485+00:00 [queued]>
+[2024-03-10T09:36:50.896+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-10T09:36:50.924+0530] {taskinstance.py:2214} INFO - Executing <Task(BranchPythonOperator): branch> on 2024-03-10 04:06:41.097485+00:00
+[2024-03-10T09:36:50.929+0530] {standard_task_runner.py:60} INFO - Started process 123129 to run task
+[2024-03-10T09:36:50.933+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_task_groups_edge_labels_dag', 'branch', 'manual__2024-03-10T04:06:41.097485+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/execute_branching_task_group_edge_labels.py', '--cfg-path', '/tmp/tmpmi8p7qsd']
+[2024-03-10T09:36:50.934+0530] {standard_task_runner.py:88} INFO - Job 154: Subtask branch
+[2024-03-10T09:36:50.987+0530] {task_command.py:423} INFO - Running <TaskInstance: pipeline_task_groups_edge_labels_dag.branch manual__2024-03-10T04:06:41.097485+00:00 [running]> on host BreakThrough.
+[2024-03-10T09:36:51.068+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='pipeline_task_groups_edge_labels_dag' AIRFLOW_CTX_TASK_ID='branch' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T04:06:41.097485+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T04:06:41.097485+00:00'
+[2024-03-10T09:36:51.069+0530] {logging_mixin.py:188} INFO - branch
+[2024-03-10T09:36:51.075+0530] {logging_mixin.py:188} INFO - filter_by_coverage
+[2024-03-10T09:36:51.076+0530] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 234, in execute
+    return self.do_branch(context, super().execute(context))
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kai/airflow/dags/execute_branching_task_group_edge_labels.py", line 36, in branch
+    return filtering.filter_by_coverage
+AttributeError: 'TaskGroup' object has no attribute 'filter_by_coverage'
+[2024-03-10T09:36:51.081+0530] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pipeline_task_groups_edge_labels_dag, task_id=branch, execution_date=20240310T040641, start_date=20240310T040650, end_date=20240310T040651
+[2024-03-10T09:36:51.115+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 154 for task branch ('TaskGroup' object has no attribute 'filter_by_coverage'; 123129)
+[2024-03-10T09:36:51.146+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-10T09:36:51.185+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

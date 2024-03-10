@@ -1,0 +1,66 @@
+[2024-03-09T15:44:28.473+0530] {processor.py:161} INFO - Started process (PID=4667) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:44:28.474+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:44:28.475+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:44:28.475+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:44:28.478+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:44:28.478+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:44:28.479+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:44:28.489+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2024-03-09T15:45:28.780+0530] {processor.py:161} INFO - Started process (PID=4731) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:45:28.783+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:45:28.784+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:45:28.784+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:45:28.787+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:45:28.787+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:45:28.787+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:45:28.797+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2024-03-09T15:46:22.905+0530] {processor.py:161} INFO - Started process (PID=4783) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:46:22.907+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:46:22.908+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:46:22.908+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:46:22.911+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:46:22.911+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:46:22.911+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:46:22.922+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2024-03-09T15:47:23.901+0530] {processor.py:161} INFO - Started process (PID=4843) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:47:23.904+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:47:23.906+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:47:23.905+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:47:23.910+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:47:23.909+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:47:23.910+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:47:23.921+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2024-03-09T15:48:34.087+0530] {processor.py:161} INFO - Started process (PID=4929) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:48:34.088+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:48:34.089+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:48:34.089+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:48:34.092+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:48:34.092+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:48:34.093+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:48:34.103+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2024-03-09T15:49:25.913+0530] {processor.py:161} INFO - Started process (PID=4993) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:49:25.915+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:49:25.916+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:49:25.916+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:49:25.919+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:49:25.919+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:49:25.919+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:49:25.930+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2024-03-09T15:50:36.376+0530] {processor.py:161} INFO - Started process (PID=5069) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:50:36.379+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:50:36.380+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:50:36.379+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:50:36.383+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:50:36.383+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:50:36.383+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:50:36.394+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2024-03-09T15:51:33.229+0530] {processor.py:161} INFO - Started process (PID=5129) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:51:33.232+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:51:33.234+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:51:33.233+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:51:33.238+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:51:33.237+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:51:33.238+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:51:33.249+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2024-03-09T15:52:24.943+0530] {processor.py:161} INFO - Started process (PID=5184) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:52:24.946+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:52:24.947+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:52:24.947+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:52:24.951+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:52:24.951+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:52:24.952+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:52:24.962+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2024-03-09T15:53:16.760+0530] {processor.py:161} INFO - Started process (PID=5236) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:53:16.763+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:53:16.764+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:53:16.764+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:53:16.767+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:53:16.767+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:53:16.768+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:53:16.778+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2024-03-09T15:54:09.883+0530] {processor.py:161} INFO - Started process (PID=5292) to work on /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:54:09.887+0530] {processor.py:830} INFO - Processing file /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-09T15:54:09.889+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:54:09.888+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:54:09.893+0530] {logging_mixin.py:188} INFO - [2024-03-09T15:54:09.893+0530] {workday.py:40} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-03-09T15:54:09.894+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-09T15:54:09.907+0530] {processor.py:183} INFO - Processing /home/kai/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds

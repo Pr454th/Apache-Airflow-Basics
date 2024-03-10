@@ -1,0 +1,1184 @@
+[2024-03-09T23:12:30.765+0530] {processor.py:161} INFO - Started process (PID=65992) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:12:30.766+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:12:30.767+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:12:30.766+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:12:30.768+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:12:30.768+0530] {dagbag.py:329} INFO - File /home/kai/airflow/dags/execute_branching.py assumed to contain no DAGs. Skipping.
+[2024-03-09T23:12:30.768+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:12:30.778+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.016 seconds
+[2024-03-09T23:12:32.527+0530] {processor.py:161} INFO - Started process (PID=66007) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:12:32.530+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:12:32.531+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:12:32.530+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:12:32.535+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:12:32.534+0530] {dagbag.py:350} ERROR - Failed to import: /home/kai/airflow/dags/execute_branching.py
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kai/airflow/dags/execute_branching.py", line 21
+    return 'not_eligible_to_vote
+           ^
+SyntaxError: unterminated string literal (detected at line 21)
+[2024-03-09T23:12:32.535+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:12:32.568+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.045 seconds
+[2024-03-09T23:13:02.918+0530] {processor.py:161} INFO - Started process (PID=66140) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:13:02.919+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:13:02.920+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:13:02.920+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:13:02.923+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:13:02.922+0530] {dagbag.py:350} ERROR - Failed to import: /home/kai/airflow/dags/execute_branching.py
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kai/airflow/dags/execute_branching.py", line 21
+    return 'not_eligible_to_vote
+           ^
+SyntaxError: unterminated string literal (detected at line 21)
+[2024-03-09T23:13:02.923+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:13:02.955+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.040 seconds
+[2024-03-09T23:13:33.536+0530] {processor.py:161} INFO - Started process (PID=66272) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:13:33.539+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:13:33.540+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:13:33.540+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:13:33.543+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:13:33.542+0530] {dagbag.py:350} ERROR - Failed to import: /home/kai/airflow/dags/execute_branching.py
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kai/airflow/dags/execute_branching.py", line 21
+    return 'not_eligible_to_vote
+           ^
+SyntaxError: unterminated string literal (detected at line 21)
+[2024-03-09T23:13:33.543+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:13:33.576+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.043 seconds
+[2024-03-09T23:14:04.000+0530] {processor.py:161} INFO - Started process (PID=66405) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:04.001+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:14:04.002+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:04.002+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:04.006+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:04.005+0530] {dagbag.py:350} ERROR - Failed to import: /home/kai/airflow/dags/execute_branching.py
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kai/airflow/dags/execute_branching.py", line 21
+    return 'not_eligible_to_vote
+           ^
+SyntaxError: unterminated string literal (detected at line 21)
+[2024-03-09T23:14:04.007+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:04.039+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.043 seconds
+[2024-03-09T23:14:13.318+0530] {processor.py:161} INFO - Started process (PID=66450) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:13.321+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:14:13.322+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.322+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:13.333+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:13.472+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.472+0530] {override.py:1769} INFO - Created Permission View: can delete on DAG:branching_dag
+[2024-03-09T23:14:13.497+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.497+0530] {override.py:1769} INFO - Created Permission View: can read on DAG:branching_dag
+[2024-03-09T23:14:13.520+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.520+0530] {override.py:1769} INFO - Created Permission View: can edit on DAG:branching_dag
+[2024-03-09T23:14:13.520+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.520+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:14:13.529+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.529+0530] {dag.py:3069} INFO - Creating ORM DAG for branching_dag
+[2024-03-09T23:14:13.537+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:13.536+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-08 00:00:00+00:00, run_after=2024-03-09 00:00:00+00:00
+[2024-03-09T23:14:13.591+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.276 seconds
+[2024-03-09T23:14:45.728+0530] {processor.py:161} INFO - Started process (PID=66613) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:45.729+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:14:45.730+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:45.729+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:45.740+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:14:45.761+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:45.761+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:14:45.778+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:14:45.778+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:14:45.810+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-09T23:15:16.828+0530] {processor.py:161} INFO - Started process (PID=66755) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:15:16.832+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:15:16.833+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:15:16.833+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:15:16.845+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:15:16.875+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:15:16.874+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:15:16.897+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:15:16.897+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:15:16.933+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.118 seconds
+[2024-03-09T23:15:47.472+0530] {processor.py:161} INFO - Started process (PID=66886) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:15:47.474+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:15:47.475+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:15:47.475+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:15:47.485+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:15:47.505+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:15:47.505+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:15:47.522+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:15:47.522+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:15:47.560+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:16:18.223+0530] {processor.py:161} INFO - Started process (PID=67018) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:16:18.228+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:16:18.229+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:16:18.229+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:16:18.240+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:16:18.259+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:16:18.259+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:16:18.277+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:16:18.276+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:16:18.309+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:16:48.924+0530] {processor.py:161} INFO - Started process (PID=67150) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:16:48.927+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:16:48.928+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:16:48.927+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:16:48.938+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:16:48.957+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:16:48.957+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:16:48.974+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:16:48.974+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:16:49.015+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.094 seconds
+[2024-03-09T23:17:19.419+0530] {processor.py:161} INFO - Started process (PID=67284) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:17:19.423+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:17:19.424+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:17:19.423+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:17:19.434+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:17:19.455+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:17:19.454+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:17:19.472+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:17:19.472+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:17:19.504+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:17:49.882+0530] {processor.py:161} INFO - Started process (PID=67415) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:17:49.885+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:17:49.886+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:17:49.886+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:17:49.897+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:17:49.916+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:17:49.916+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:17:49.934+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:17:49.933+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:17:49.968+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:18:20.492+0530] {processor.py:161} INFO - Started process (PID=67547) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:18:20.495+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:18:20.497+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:18:20.496+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:18:20.509+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:18:20.530+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:18:20.529+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:18:20.546+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:18:20.546+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:18:20.586+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.100 seconds
+[2024-03-09T23:18:51.127+0530] {processor.py:161} INFO - Started process (PID=67678) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:18:51.130+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:18:51.131+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:18:51.131+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:18:51.142+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:18:51.162+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:18:51.162+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:18:51.179+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:18:51.179+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:18:51.217+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-09T23:19:21.662+0530] {processor.py:161} INFO - Started process (PID=67810) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:19:21.666+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:19:21.667+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:19:21.667+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:19:21.678+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:19:21.698+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:19:21.698+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:19:21.717+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:19:21.717+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:19:21.749+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:19:52.342+0530] {processor.py:161} INFO - Started process (PID=67943) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:19:52.345+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:19:52.346+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:19:52.345+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:19:52.356+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:19:52.377+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:19:52.377+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:19:52.394+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:19:52.393+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:19:52.427+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:20:23.044+0530] {processor.py:161} INFO - Started process (PID=68075) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:20:23.049+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:20:23.050+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:20:23.050+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:20:23.060+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:20:23.086+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:20:23.086+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:20:23.108+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:20:23.108+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:20:23.146+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.105 seconds
+[2024-03-09T23:20:53.524+0530] {processor.py:161} INFO - Started process (PID=68206) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:20:53.527+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:20:53.528+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:20:53.528+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:20:53.538+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:20:53.557+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:20:53.557+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:20:53.575+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:20:53.575+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:20:53.608+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-09T23:21:24.107+0530] {processor.py:161} INFO - Started process (PID=68337) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:21:24.110+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:21:24.111+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:21:24.111+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:21:24.121+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:21:24.140+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:21:24.140+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:21:24.157+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:21:24.157+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:21:24.189+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.085 seconds
+[2024-03-09T23:21:54.713+0530] {processor.py:161} INFO - Started process (PID=68469) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:21:54.716+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:21:54.717+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:21:54.716+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:21:54.728+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:21:54.749+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:21:54.749+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:21:54.765+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:21:54.765+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:21:54.800+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:22:25.217+0530] {processor.py:161} INFO - Started process (PID=68601) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:22:25.220+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:22:25.221+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:22:25.221+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:22:25.230+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:22:25.251+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:22:25.250+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:22:25.268+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:22:25.267+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:22:25.299+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-09T23:22:55.699+0530] {processor.py:161} INFO - Started process (PID=68732) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:22:55.701+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:22:55.702+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:22:55.702+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:22:55.712+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:22:55.732+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:22:55.732+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:22:55.749+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:22:55.749+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:22:55.784+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:23:26.397+0530] {processor.py:161} INFO - Started process (PID=68864) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:23:26.400+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:23:26.401+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:23:26.400+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:23:26.410+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:23:26.430+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:23:26.430+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:23:26.447+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:23:26.447+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:23:26.491+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.097 seconds
+[2024-03-09T23:23:57.087+0530] {processor.py:161} INFO - Started process (PID=68996) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:23:57.091+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:23:57.092+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:23:57.092+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:23:57.103+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:23:57.123+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:23:57.123+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:23:57.140+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:23:57.140+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:23:57.174+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:24:27.662+0530] {processor.py:161} INFO - Started process (PID=69127) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:24:27.665+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:24:27.666+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:24:27.665+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:24:27.675+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:24:27.695+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:24:27.695+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:24:27.716+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:24:27.716+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:24:27.754+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.095 seconds
+[2024-03-09T23:24:58.262+0530] {processor.py:161} INFO - Started process (PID=69258) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:24:58.267+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:24:58.268+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:24:58.267+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:24:58.278+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:24:58.298+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:24:58.297+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:24:58.315+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:24:58.315+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:24:58.349+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:25:28.829+0530] {processor.py:161} INFO - Started process (PID=69389) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:25:28.832+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:25:28.833+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:25:28.833+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:25:28.844+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:25:28.864+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:25:28.863+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:25:28.882+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:25:28.882+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:25:28.921+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-09T23:25:59.299+0530] {processor.py:161} INFO - Started process (PID=69520) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:25:59.303+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:25:59.305+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:25:59.304+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:25:59.315+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:25:59.335+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:25:59.335+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:25:59.352+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:25:59.352+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:25:59.385+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:26:29.828+0530] {processor.py:161} INFO - Started process (PID=69651) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:26:29.833+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:26:29.834+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:26:29.833+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:26:29.844+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:26:29.864+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:26:29.863+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:26:29.881+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:26:29.881+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:26:29.913+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:27:00.407+0530] {processor.py:161} INFO - Started process (PID=69782) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:27:00.412+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:27:00.414+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:27:00.413+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:27:00.427+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:27:00.447+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:27:00.447+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:27:00.464+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:27:00.464+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:27:00.528+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.128 seconds
+[2024-03-09T23:27:30.992+0530] {processor.py:161} INFO - Started process (PID=69913) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:27:30.993+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:27:30.994+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:27:30.993+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:27:31.005+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:27:31.027+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:27:31.027+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:27:31.044+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:27:31.044+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:27:31.079+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:28:01.585+0530] {processor.py:161} INFO - Started process (PID=70044) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:28:01.589+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:28:01.590+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:28:01.590+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:28:01.601+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:28:01.621+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:28:01.621+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:28:01.638+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:28:01.638+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:28:01.676+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.094 seconds
+[2024-03-09T23:28:32.177+0530] {processor.py:161} INFO - Started process (PID=70176) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:28:32.181+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:28:32.182+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:28:32.182+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:28:32.193+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:28:32.213+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:28:32.213+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:28:32.231+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:28:32.231+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:28:32.265+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-09T23:29:02.681+0530] {processor.py:161} INFO - Started process (PID=70306) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:29:02.686+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:29:02.688+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:29:02.688+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:29:02.699+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:29:02.721+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:29:02.721+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:29:02.739+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:29:02.739+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:29:02.779+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.105 seconds
+[2024-03-09T23:29:33.191+0530] {processor.py:161} INFO - Started process (PID=70440) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:29:33.193+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:29:33.194+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:29:33.194+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:29:33.205+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:29:33.226+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:29:33.226+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:29:33.245+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:29:33.245+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:29:33.277+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:30:03.781+0530] {processor.py:161} INFO - Started process (PID=70572) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:30:03.786+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:30:03.787+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:30:03.786+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:30:03.797+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:30:03.818+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:30:03.818+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:30:03.834+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:30:03.834+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:30:03.867+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:30:34.380+0530] {processor.py:161} INFO - Started process (PID=70704) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:30:34.382+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:30:34.383+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:30:34.382+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:30:34.393+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:30:34.413+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:30:34.413+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:30:34.429+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:30:34.429+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:30:34.466+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:31:05.063+0530] {processor.py:161} INFO - Started process (PID=70835) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:31:05.064+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:31:05.065+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:31:05.064+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:31:05.075+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:31:05.095+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:31:05.095+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:31:05.112+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:31:05.111+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:31:05.146+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-09T23:31:35.625+0530] {processor.py:161} INFO - Started process (PID=70966) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:31:35.628+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:31:35.630+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:31:35.629+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:31:35.641+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:31:35.661+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:31:35.661+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:31:35.679+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:31:35.679+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:31:35.711+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:32:06.220+0530] {processor.py:161} INFO - Started process (PID=71098) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:32:06.222+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:32:06.223+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:32:06.223+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:32:06.237+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:32:06.257+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:32:06.257+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:32:06.274+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:32:06.274+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:32:06.315+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.101 seconds
+[2024-03-09T23:32:36.802+0530] {processor.py:161} INFO - Started process (PID=71229) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:32:36.805+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:32:36.806+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:32:36.805+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:32:36.816+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:32:36.836+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:32:36.836+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:32:36.853+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:32:36.853+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:32:36.885+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-09T23:33:07.279+0530] {processor.py:161} INFO - Started process (PID=71361) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:33:07.284+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:33:07.285+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:33:07.285+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:33:07.295+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:33:07.315+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:33:07.315+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:33:07.332+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:33:07.332+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:33:07.370+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.094 seconds
+[2024-03-09T23:33:38.023+0530] {processor.py:161} INFO - Started process (PID=71493) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:33:38.024+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:33:38.025+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:33:38.025+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:33:38.035+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:33:38.054+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:33:38.054+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:33:38.071+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:33:38.071+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:33:38.103+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.083 seconds
+[2024-03-09T23:34:08.442+0530] {processor.py:161} INFO - Started process (PID=71623) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:34:08.447+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:34:08.448+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:34:08.447+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:34:08.459+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:34:08.479+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:34:08.479+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:34:08.496+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:34:08.496+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:34:08.526+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-09T23:34:39.123+0530] {processor.py:161} INFO - Started process (PID=71755) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:34:39.127+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:34:39.129+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:34:39.128+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:34:39.138+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:34:39.158+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:34:39.158+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:34:39.176+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:34:39.176+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:34:39.215+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.095 seconds
+[2024-03-09T23:35:09.712+0530] {processor.py:161} INFO - Started process (PID=71886) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:35:09.714+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:35:09.715+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:35:09.714+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:35:09.727+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:35:09.748+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:35:09.747+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:35:09.765+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:35:09.765+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:35:09.797+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:35:40.287+0530] {processor.py:161} INFO - Started process (PID=72018) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:35:40.288+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:35:40.289+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:35:40.289+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:35:40.299+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:35:40.320+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:35:40.319+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:35:40.337+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:35:40.337+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:35:40.370+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-09T23:36:10.869+0530] {processor.py:161} INFO - Started process (PID=72149) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:36:10.872+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:36:10.873+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:36:10.873+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:36:10.886+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:36:10.909+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:36:10.908+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:36:10.925+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:36:10.925+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:36:10.959+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-09T23:36:41.337+0530] {processor.py:161} INFO - Started process (PID=72280) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:36:41.338+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:36:41.339+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:36:41.339+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:36:41.352+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:36:41.373+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:36:41.373+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:36:41.390+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:36:41.390+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:36:41.422+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:37:12.054+0530] {processor.py:161} INFO - Started process (PID=72412) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:37:12.057+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:37:12.058+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:37:12.058+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:37:12.067+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:37:12.087+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:37:12.087+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:37:12.105+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:37:12.104+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:37:12.137+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-09T23:37:42.744+0530] {processor.py:161} INFO - Started process (PID=72543) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:37:42.745+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:37:42.746+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:37:42.746+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:37:42.758+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:37:42.778+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:37:42.778+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:37:42.794+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:37:42.794+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:37:42.833+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.094 seconds
+[2024-03-09T23:38:13.473+0530] {processor.py:161} INFO - Started process (PID=72676) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:38:13.477+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:38:13.479+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:38:13.478+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:38:13.493+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:38:13.517+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:38:13.517+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:38:13.537+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:38:13.537+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:38:13.572+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.110 seconds
+[2024-03-09T23:38:44.105+0530] {processor.py:161} INFO - Started process (PID=72808) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:38:44.106+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:38:44.107+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:38:44.107+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:38:44.120+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:38:44.142+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:38:44.141+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:38:44.160+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:38:44.160+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:38:44.193+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-09T23:39:14.799+0530] {processor.py:161} INFO - Started process (PID=72940) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:39:14.802+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:39:14.803+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:39:14.803+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:39:14.814+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:39:14.835+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:39:14.834+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:39:14.855+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:39:14.854+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:39:14.894+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.098 seconds
+[2024-03-09T23:39:45.481+0530] {processor.py:161} INFO - Started process (PID=73073) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:39:45.482+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:39:45.483+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:39:45.482+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:39:45.493+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:39:45.515+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:39:45.515+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:39:45.535+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:39:45.535+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:39:45.576+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.100 seconds
+[2024-03-09T23:40:15.972+0530] {processor.py:161} INFO - Started process (PID=73206) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:40:15.975+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:40:15.976+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:40:15.975+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:40:15.986+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:40:16.008+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:40:16.007+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:40:16.026+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:40:16.025+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:40:16.058+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:40:46.689+0530] {processor.py:161} INFO - Started process (PID=73339) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:40:46.690+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:40:46.691+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:40:46.691+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:40:46.702+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:40:46.724+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:40:46.724+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:40:46.745+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:40:46.745+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:40:46.782+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-09T23:41:17.676+0530] {processor.py:161} INFO - Started process (PID=73472) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:41:17.678+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:41:17.679+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:41:17.678+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:41:17.691+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:41:17.714+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:41:17.713+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:41:17.735+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:41:17.734+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:41:17.772+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.101 seconds
+[2024-03-09T23:41:48.370+0530] {processor.py:161} INFO - Started process (PID=73605) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:41:48.374+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:41:48.376+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:41:48.375+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:41:48.394+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:41:48.428+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:41:48.428+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:41:48.460+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:41:48.460+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:41:48.501+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.138 seconds
+[2024-03-09T23:42:19.170+0530] {processor.py:161} INFO - Started process (PID=73739) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:42:19.173+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:42:19.174+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:42:19.174+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:42:19.186+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:42:19.211+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:42:19.211+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:42:19.234+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:42:19.234+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:42:19.274+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.108 seconds
+[2024-03-09T23:42:49.868+0530] {processor.py:161} INFO - Started process (PID=73872) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:42:49.870+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:42:49.871+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:42:49.870+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:42:49.886+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:42:49.911+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:42:49.910+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:42:49.935+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:42:49.934+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:42:49.968+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.107 seconds
+[2024-03-09T23:43:20.488+0530] {processor.py:161} INFO - Started process (PID=74004) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:43:20.489+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:43:20.491+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:43:20.490+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:43:20.503+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:43:20.530+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:43:20.529+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:43:20.552+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:43:20.551+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:43:20.589+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.104 seconds
+[2024-03-09T23:43:51.045+0530] {processor.py:161} INFO - Started process (PID=74136) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:43:51.046+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:43:51.047+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:43:51.047+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:43:51.057+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:43:51.078+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:43:51.078+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:43:51.097+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:43:51.096+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:43:51.129+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-09T23:44:21.721+0530] {processor.py:161} INFO - Started process (PID=74269) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:44:21.723+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:44:21.725+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:44:21.725+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:44:21.740+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:44:21.770+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:44:21.769+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:44:21.797+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:44:21.796+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:44:21.849+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.132 seconds
+[2024-03-09T23:44:52.544+0530] {processor.py:161} INFO - Started process (PID=74402) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:44:52.547+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:44:52.549+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:44:52.548+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:44:52.566+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:44:52.604+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:44:52.604+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:44:52.637+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:44:52.637+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:44:52.685+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.145 seconds
+[2024-03-09T23:45:23.350+0530] {processor.py:161} INFO - Started process (PID=74536) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:45:23.352+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:45:23.353+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:45:23.352+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:45:23.370+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:45:23.402+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:45:23.402+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:45:23.432+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:45:23.432+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:45:23.475+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.130 seconds
+[2024-03-09T23:45:54.019+0530] {processor.py:161} INFO - Started process (PID=74668) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:45:54.022+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:45:54.023+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:45:54.023+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:45:54.033+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:45:54.057+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:45:54.057+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:45:54.076+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:45:54.076+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:45:54.117+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.101 seconds
+[2024-03-09T23:46:24.920+0530] {processor.py:161} INFO - Started process (PID=74804) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:46:24.922+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:46:24.923+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:46:24.922+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:46:24.934+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:46:24.955+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:46:24.955+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:46:24.973+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:46:24.973+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:46:25.026+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.111 seconds
+[2024-03-09T23:46:55.330+0530] {processor.py:161} INFO - Started process (PID=74941) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:46:55.333+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:46:55.334+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:46:55.333+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:46:55.344+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:46:55.365+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:46:55.365+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:46:55.383+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:46:55.383+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:46:55.433+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.107 seconds
+[2024-03-09T23:47:25.961+0530] {processor.py:161} INFO - Started process (PID=75077) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:47:25.964+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:47:25.965+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:47:25.965+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:47:25.974+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:47:25.995+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:47:25.995+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:47:26.012+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:47:26.012+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:47:26.050+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:47:56.611+0530] {processor.py:161} INFO - Started process (PID=75209) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:47:56.615+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:47:56.616+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:47:56.615+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:47:56.629+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:47:56.651+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:47:56.650+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:47:56.667+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:47:56.667+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:47:56.700+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-09T23:48:27.331+0530] {processor.py:161} INFO - Started process (PID=75342) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:48:27.337+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:48:27.338+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:48:27.337+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:48:27.349+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:48:27.370+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:48:27.370+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:48:27.388+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:48:27.388+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:48:27.427+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.098 seconds
+[2024-03-09T23:48:58.053+0530] {processor.py:161} INFO - Started process (PID=75474) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:48:58.056+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:48:58.057+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:48:58.056+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:48:58.066+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:48:58.087+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:48:58.086+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:48:58.104+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:48:58.103+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:48:58.160+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.110 seconds
+[2024-03-09T23:49:28.805+0530] {processor.py:161} INFO - Started process (PID=75606) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:49:28.810+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:49:28.811+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:49:28.811+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:49:28.821+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:49:28.842+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:49:28.842+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:49:28.860+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:49:28.860+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:49:28.913+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.112 seconds
+[2024-03-09T23:49:59.506+0530] {processor.py:161} INFO - Started process (PID=75737) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:49:59.511+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:49:59.513+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:49:59.512+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:49:59.523+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:49:59.544+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:49:59.543+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:49:59.561+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:49:59.561+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:49:59.594+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-09T23:50:30.210+0530] {processor.py:161} INFO - Started process (PID=75869) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:50:30.215+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:50:30.216+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:50:30.216+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:50:30.228+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:50:30.249+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:50:30.249+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:50:30.266+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:50:30.266+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:50:30.301+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.097 seconds
+[2024-03-09T23:51:00.974+0530] {processor.py:161} INFO - Started process (PID=76000) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:51:00.975+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:51:00.976+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:51:00.976+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:51:00.987+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:51:01.007+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:51:01.007+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:51:01.023+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:51:01.023+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:51:01.079+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.108 seconds
+[2024-03-09T23:51:31.596+0530] {processor.py:161} INFO - Started process (PID=76131) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:51:31.599+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:51:31.601+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:51:31.600+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:51:31.611+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:51:31.631+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:51:31.631+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:51:31.649+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:51:31.649+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:51:31.681+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:52:02.323+0530] {processor.py:161} INFO - Started process (PID=76263) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:52:02.328+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:52:02.329+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:52:02.329+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:52:02.341+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:52:02.362+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:52:02.362+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:52:02.379+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:52:02.379+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:52:02.414+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-09T23:52:32.975+0530] {processor.py:161} INFO - Started process (PID=76394) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:52:32.978+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:52:32.979+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:52:32.978+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:52:32.989+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:52:33.009+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:52:33.009+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:52:33.026+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:52:33.026+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:52:33.060+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:53:03.724+0530] {processor.py:161} INFO - Started process (PID=76527) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:53:03.728+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:53:03.729+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:53:03.728+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:53:03.742+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:53:03.764+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:53:03.764+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:53:03.782+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:53:03.782+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:53:03.824+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.103 seconds
+[2024-03-09T23:53:34.469+0530] {processor.py:161} INFO - Started process (PID=76659) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:53:34.474+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:53:34.475+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:53:34.475+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:53:34.486+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:53:34.506+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:53:34.506+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:53:34.524+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:53:34.523+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:53:34.555+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-09T23:54:05.271+0530] {processor.py:161} INFO - Started process (PID=76791) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:54:05.273+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:54:05.274+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:54:05.274+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:54:05.284+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:54:05.305+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:54:05.305+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:54:05.323+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:54:05.323+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:54:05.358+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-09T23:54:35.889+0530] {processor.py:161} INFO - Started process (PID=76922) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:54:35.892+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:54:35.893+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:54:35.893+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:54:35.903+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:54:35.925+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:54:35.925+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:54:35.944+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:54:35.944+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:54:35.983+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-09T23:55:06.588+0530] {processor.py:161} INFO - Started process (PID=77054) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:55:06.591+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:55:06.592+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:55:06.592+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:55:06.602+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:55:06.622+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:55:06.622+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:55:06.639+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:55:06.639+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:55:06.673+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-09T23:55:37.194+0530] {processor.py:161} INFO - Started process (PID=77185) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:55:37.195+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:55:37.195+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:55:37.195+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:55:37.207+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:55:37.228+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:55:37.227+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:55:37.244+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:55:37.244+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:55:37.282+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-09T23:56:07.897+0530] {processor.py:161} INFO - Started process (PID=77317) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:56:07.900+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:56:07.901+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:56:07.901+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:56:07.913+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:56:07.934+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:56:07.934+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:56:07.951+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:56:07.950+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:56:07.984+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-09T23:56:38.242+0530] {processor.py:161} INFO - Started process (PID=77447) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:56:38.243+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:56:38.245+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:56:38.244+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:56:38.258+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:56:38.279+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:56:38.278+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:56:38.295+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:56:38.295+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:56:38.332+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.097 seconds
+[2024-03-09T23:57:08.557+0530] {processor.py:161} INFO - Started process (PID=77577) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:57:08.560+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:57:08.561+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:57:08.560+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:57:08.572+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:57:08.592+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:57:08.592+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:57:08.611+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:57:08.610+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:57:08.644+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-09T23:57:38.775+0530] {processor.py:161} INFO - Started process (PID=77706) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:57:38.776+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:57:38.778+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:57:38.777+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:57:38.791+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:57:38.811+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:57:38.810+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:57:38.827+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:57:38.827+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:57:38.865+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.095 seconds
+[2024-03-09T23:58:09.009+0530] {processor.py:161} INFO - Started process (PID=77835) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:58:09.014+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:58:09.016+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:58:09.015+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:58:09.029+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:58:09.054+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:58:09.054+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:58:09.071+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:58:09.071+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:58:09.108+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.106 seconds
+[2024-03-09T23:58:39.543+0530] {processor.py:161} INFO - Started process (PID=77966) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:58:39.547+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:58:39.548+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:58:39.548+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:58:39.559+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:58:39.580+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:58:39.579+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:58:39.596+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:58:39.596+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:58:39.647+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.109 seconds
+[2024-03-09T23:59:10.393+0530] {processor.py:161} INFO - Started process (PID=78098) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:59:10.395+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:59:10.396+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:59:10.396+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:59:10.409+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:59:10.429+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:59:10.429+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:59:10.446+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:59:10.446+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:59:10.480+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-09T23:59:41.068+0530] {processor.py:161} INFO - Started process (PID=78229) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:59:41.072+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-09T23:59:41.073+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:59:41.073+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:59:41.084+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-09T23:59:41.106+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:59:41.106+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-09T23:59:41.124+0530] {logging_mixin.py:188} INFO - [2024-03-09T23:59:41.124+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-09T23:59:41.164+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.101 seconds
+[2024-03-10T00:00:11.828+0530] {processor.py:161} INFO - Started process (PID=78417) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:00:11.831+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:00:11.832+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:00:11.832+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:00:11.845+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:00:11.866+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:00:11.865+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:00:11.883+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:00:11.883+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:00:11.915+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-10T00:00:42.489+0530] {processor.py:161} INFO - Started process (PID=78549) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:00:42.494+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:00:42.496+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:00:42.495+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:00:42.506+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:00:42.526+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:00:42.526+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:00:42.543+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:00:42.543+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:00:42.575+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-10T00:01:13.188+0530] {processor.py:161} INFO - Started process (PID=78680) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:01:13.193+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:01:13.194+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:01:13.194+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:01:13.208+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:01:13.229+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:01:13.229+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:01:13.246+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:01:13.246+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:01:13.282+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.099 seconds
+[2024-03-10T00:01:43.784+0530] {processor.py:161} INFO - Started process (PID=78812) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:01:43.789+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:01:43.790+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:01:43.789+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:01:43.800+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:01:43.821+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:01:43.820+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:01:43.838+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:01:43.838+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:01:43.870+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:02:14.490+0530] {processor.py:161} INFO - Started process (PID=78943) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:02:14.491+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:02:14.492+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:02:14.491+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:02:14.501+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:02:14.521+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:02:14.521+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:02:14.537+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:02:14.537+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:02:14.569+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.082 seconds
+[2024-03-10T00:02:45.157+0530] {processor.py:161} INFO - Started process (PID=79074) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:02:45.158+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:02:45.159+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:02:45.159+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:02:45.170+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:02:45.191+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:02:45.190+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:02:45.208+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:02:45.208+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:02:45.248+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.094 seconds
+[2024-03-10T00:03:15.840+0530] {processor.py:161} INFO - Started process (PID=79205) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:03:15.842+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:03:15.843+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:03:15.842+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:03:15.855+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:03:15.875+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:03:15.875+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:03:15.893+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:03:15.893+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:03:15.932+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-10T00:03:46.640+0530] {processor.py:161} INFO - Started process (PID=79337) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:03:46.645+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:03:46.647+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:03:46.646+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:03:46.659+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:03:46.679+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:03:46.679+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:03:46.697+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:03:46.697+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:03:46.733+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.100 seconds
+[2024-03-10T00:04:17.295+0530] {processor.py:161} INFO - Started process (PID=79468) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:04:17.297+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:04:17.297+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:04:17.297+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:04:17.307+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:04:17.327+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:04:17.327+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:04:17.344+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:04:17.344+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:04:17.378+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:04:47.925+0530] {processor.py:161} INFO - Started process (PID=79599) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:04:47.930+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:04:47.931+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:04:47.931+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:04:47.941+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:04:47.963+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:04:47.963+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:04:47.980+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:04:47.980+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:04:48.017+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.095 seconds
+[2024-03-10T00:05:18.649+0530] {processor.py:161} INFO - Started process (PID=79731) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:05:18.654+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:05:18.655+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:05:18.655+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:05:18.666+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:05:18.686+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:05:18.686+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:05:18.703+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:05:18.703+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:05:18.740+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-10T00:05:49.398+0530] {processor.py:161} INFO - Started process (PID=79862) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:05:49.403+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:05:49.404+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:05:49.404+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:05:49.416+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:05:49.437+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:05:49.437+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:05:49.454+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:05:49.454+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:05:49.496+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.104 seconds
+[2024-03-10T00:06:19.983+0530] {processor.py:161} INFO - Started process (PID=79993) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:06:19.984+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:06:19.985+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:06:19.984+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:06:19.995+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:06:20.015+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:06:20.015+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:06:20.033+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:06:20.032+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:06:20.068+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:06:50.495+0530] {processor.py:161} INFO - Started process (PID=80125) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:06:50.498+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:06:50.500+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:06:50.499+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:06:50.509+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:06:50.530+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:06:50.530+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:06:50.547+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:06:50.547+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:06:50.584+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-10T00:07:21.133+0530] {processor.py:161} INFO - Started process (PID=80256) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:07:21.138+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:07:21.139+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:07:21.139+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:07:21.153+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:07:21.177+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:07:21.177+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:07:21.193+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:07:21.193+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:07:21.227+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.099 seconds
+[2024-03-10T00:07:51.727+0530] {processor.py:161} INFO - Started process (PID=80388) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:07:51.728+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:07:51.729+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:07:51.729+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:07:51.739+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:07:51.761+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:07:51.761+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:07:51.779+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:07:51.779+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:07:51.813+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:08:22.326+0530] {processor.py:161} INFO - Started process (PID=80520) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:08:22.330+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:08:22.331+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:08:22.331+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:08:22.344+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:08:22.365+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:08:22.365+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:08:22.382+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:08:22.382+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:08:22.414+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-10T00:08:52.704+0530] {processor.py:161} INFO - Started process (PID=80651) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:08:52.704+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:08:52.705+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:08:52.705+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:08:52.715+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:08:52.735+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:08:52.734+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:08:52.752+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:08:52.752+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:08:52.790+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:09:23.578+0530] {processor.py:161} INFO - Started process (PID=80783) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:09:23.580+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:09:23.581+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:09:23.580+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:09:23.590+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:09:23.611+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:09:23.611+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:09:23.629+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:09:23.629+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:09:23.668+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-10T00:09:53.894+0530] {processor.py:161} INFO - Started process (PID=80914) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:09:53.895+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:09:53.896+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:09:53.896+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:09:53.908+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:09:53.929+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:09:53.928+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:09:53.946+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:09:53.945+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:09:53.980+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-10T00:10:24.844+0530] {processor.py:161} INFO - Started process (PID=81047) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:10:24.848+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:10:24.849+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:10:24.849+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:10:24.859+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:10:24.878+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:10:24.878+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:10:24.894+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:10:24.894+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:10:24.937+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.096 seconds
+[2024-03-10T00:10:55.966+0530] {processor.py:161} INFO - Started process (PID=81180) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:10:55.966+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:10:55.967+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:10:55.967+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:10:55.977+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:10:55.996+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:10:55.996+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:10:56.013+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:10:56.013+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:10:56.052+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:11:26.199+0530] {processor.py:161} INFO - Started process (PID=81310) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:11:26.203+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:11:26.204+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:11:26.204+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:11:26.214+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:11:26.234+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:11:26.234+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:11:26.251+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:11:26.251+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:11:26.282+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:11:56.908+0530] {processor.py:161} INFO - Started process (PID=81442) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:11:56.909+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:11:56.910+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:11:56.909+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:11:56.919+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:11:56.939+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:11:56.939+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:11:56.956+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:11:56.956+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:11:56.989+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.084 seconds
+[2024-03-10T00:12:27.536+0530] {processor.py:161} INFO - Started process (PID=81574) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:12:27.537+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:12:27.538+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:12:27.538+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:12:27.548+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:12:27.569+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:12:27.569+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:12:27.586+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:12:27.586+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:12:27.622+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:12:58.200+0530] {processor.py:161} INFO - Started process (PID=81706) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:12:58.201+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:12:58.203+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:12:58.202+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:12:58.215+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:12:58.235+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:12:58.235+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:12:58.252+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:12:58.251+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:12:58.283+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:13:28.683+0530] {processor.py:161} INFO - Started process (PID=81837) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:13:28.687+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:13:28.689+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:13:28.688+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:13:28.702+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:13:28.723+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:13:28.723+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:13:28.739+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:13:28.739+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:13:28.786+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.109 seconds
+[2024-03-10T00:13:59.451+0530] {processor.py:161} INFO - Started process (PID=81969) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:13:59.455+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:13:59.456+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:13:59.456+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:13:59.466+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:13:59.485+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:13:59.485+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:13:59.502+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:13:59.502+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:13:59.534+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:14:30.007+0530] {processor.py:161} INFO - Started process (PID=82101) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:14:30.012+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:14:30.013+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:14:30.012+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:14:30.022+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:14:30.042+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:14:30.042+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:14:30.058+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:14:30.058+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:14:30.092+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:15:00.725+0530] {processor.py:161} INFO - Started process (PID=82233) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:15:00.727+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:15:00.729+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:15:00.728+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:15:00.741+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:15:00.761+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:15:00.761+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:15:00.779+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:15:00.779+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:15:00.810+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.095 seconds
+[2024-03-10T00:15:31.223+0530] {processor.py:161} INFO - Started process (PID=82364) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:15:31.224+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:15:31.225+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:15:31.225+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:15:31.235+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:15:31.255+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:15:31.255+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:15:31.273+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:15:31.273+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:15:31.306+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:16:01.930+0530] {processor.py:161} INFO - Started process (PID=82496) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:16:01.935+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:16:01.936+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:16:01.936+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:16:01.945+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:16:01.966+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:16:01.966+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:16:01.983+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:16:01.982+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:16:02.016+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:16:32.721+0530] {processor.py:161} INFO - Started process (PID=82627) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:16:32.726+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:16:32.727+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:16:32.726+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:16:32.736+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:16:32.758+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:16:32.757+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:16:32.774+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:16:32.774+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:16:32.806+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:17:03.322+0530] {processor.py:161} INFO - Started process (PID=82762) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:17:03.323+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:17:03.324+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:17:03.324+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:17:03.337+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:17:03.364+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:17:03.363+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:17:03.385+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:17:03.384+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:17:03.420+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.101 seconds
+[2024-03-10T00:17:33.910+0530] {processor.py:161} INFO - Started process (PID=82893) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:17:33.913+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:17:33.914+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:17:33.913+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:17:33.923+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:17:33.943+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:17:33.943+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:17:33.960+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:17:33.960+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:17:33.992+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:18:04.606+0530] {processor.py:161} INFO - Started process (PID=83024) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:18:04.610+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:18:04.611+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:18:04.611+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:18:04.621+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:18:04.641+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:18:04.641+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:18:04.658+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:18:04.658+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:18:04.690+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:18:35.354+0530] {processor.py:161} INFO - Started process (PID=83155) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:18:35.355+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:18:35.356+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:18:35.356+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:18:35.365+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:18:35.386+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:18:35.386+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:18:35.404+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:18:35.404+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:18:35.436+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.085 seconds
+[2024-03-10T00:19:05.974+0530] {processor.py:161} INFO - Started process (PID=83286) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:19:05.979+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:19:05.980+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:19:05.980+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:19:05.990+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:19:06.011+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:19:06.010+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:19:06.027+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:19:06.027+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:19:06.064+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.098 seconds
+[2024-03-10T00:19:36.733+0530] {processor.py:161} INFO - Started process (PID=83418) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:19:36.734+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:19:36.735+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:19:36.735+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:19:36.745+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:19:36.766+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:19:36.765+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:19:36.782+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:19:36.782+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:19:36.821+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-10T00:20:07.457+0530] {processor.py:161} INFO - Started process (PID=83549) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:20:07.461+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:20:07.463+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:20:07.462+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:20:07.474+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:20:07.495+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:20:07.495+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:20:07.512+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:20:07.512+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:20:07.544+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-10T00:20:38.104+0530] {processor.py:161} INFO - Started process (PID=83683) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:20:38.108+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:20:38.109+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:20:38.109+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:20:38.119+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:20:38.140+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:20:38.140+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:20:38.158+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:20:38.158+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:20:38.192+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-10T00:21:08.659+0530] {processor.py:161} INFO - Started process (PID=83816) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:21:08.661+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:21:08.662+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:21:08.661+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:21:08.671+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:21:08.691+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:21:08.691+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:21:08.709+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:21:08.709+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:21:08.744+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:21:38.821+0530] {processor.py:161} INFO - Started process (PID=83945) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:21:38.826+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:21:38.827+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:21:38.826+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:21:38.838+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:21:38.858+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:21:38.858+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:21:38.875+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:21:38.875+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:21:38.908+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-10T00:22:09.885+0530] {processor.py:161} INFO - Started process (PID=84080) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:22:09.889+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:22:09.890+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:22:09.889+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:22:09.899+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:22:09.919+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:22:09.919+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:22:09.936+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:22:09.936+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:22:09.968+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:22:40.469+0530] {processor.py:161} INFO - Started process (PID=84212) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:22:40.473+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:22:40.475+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:22:40.474+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:22:40.484+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:22:40.510+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:22:40.510+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:22:40.529+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:22:40.529+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:22:40.576+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.110 seconds
+[2024-03-10T00:23:11.036+0530] {processor.py:161} INFO - Started process (PID=84343) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:23:11.038+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:23:11.039+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:23:11.039+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:23:11.051+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:23:11.074+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:23:11.074+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:23:11.093+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:23:11.093+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:23:11.130+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.097 seconds
+[2024-03-10T00:23:42.050+0530] {processor.py:161} INFO - Started process (PID=84477) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:23:42.054+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:23:42.055+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:23:42.055+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:23:42.065+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:23:42.085+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:23:42.085+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:23:42.101+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:23:42.101+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:23:42.136+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:24:12.409+0530] {processor.py:161} INFO - Started process (PID=84608) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:24:12.414+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:24:12.415+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:24:12.414+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:24:12.424+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:24:12.444+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:24:12.444+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:24:12.461+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:24:12.461+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:24:12.495+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:24:43.041+0530] {processor.py:161} INFO - Started process (PID=84740) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:24:43.045+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:24:43.046+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:24:43.045+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:24:43.056+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:24:43.076+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:24:43.076+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:24:43.094+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:24:43.094+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:24:43.128+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.091 seconds
+[2024-03-10T00:25:13.519+0530] {processor.py:161} INFO - Started process (PID=84871) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:25:13.524+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:25:13.525+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:25:13.524+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:25:13.534+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:25:13.554+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:25:13.554+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:25:13.571+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:25:13.571+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:25:13.609+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.093 seconds
+[2024-03-10T00:25:44.144+0530] {processor.py:161} INFO - Started process (PID=85002) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:25:44.147+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:25:44.148+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:25:44.148+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:25:44.157+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:25:44.177+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:25:44.177+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:25:44.194+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:25:44.194+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:25:44.227+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:26:14.825+0530] {processor.py:161} INFO - Started process (PID=85134) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:26:14.829+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:26:14.830+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:26:14.830+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:26:14.840+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:26:14.860+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:26:14.860+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:26:14.877+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:26:14.877+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:26:14.909+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:26:45.417+0530] {processor.py:161} INFO - Started process (PID=85266) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:26:45.422+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:26:45.423+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:26:45.423+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:26:45.433+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:26:45.453+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:26:45.453+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:26:45.470+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:26:45.469+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:26:45.501+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:27:15.996+0530] {processor.py:161} INFO - Started process (PID=85398) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:27:15.997+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:27:15.998+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:27:15.997+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:27:16.007+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:27:16.027+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:27:16.027+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:27:16.045+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:27:16.044+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:27:16.080+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:27:46.545+0530] {processor.py:161} INFO - Started process (PID=85530) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:27:46.548+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:27:46.549+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:27:46.548+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:27:46.558+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:27:46.578+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:27:46.578+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:27:46.595+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:27:46.595+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:27:46.629+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.086 seconds
+[2024-03-10T00:28:17.222+0530] {processor.py:161} INFO - Started process (PID=85662) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:28:17.227+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:28:17.228+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:28:17.227+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:28:17.237+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:28:17.258+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:28:17.257+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:28:17.274+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:28:17.274+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:28:17.306+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:28:47.938+0530] {processor.py:161} INFO - Started process (PID=85794) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:28:47.943+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:28:47.944+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:28:47.943+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:28:47.954+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:28:47.974+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:28:47.974+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:28:47.992+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:28:47.992+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:28:48.024+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.090 seconds
+[2024-03-10T00:29:18.619+0530] {processor.py:161} INFO - Started process (PID=85927) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:29:18.623+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:29:18.624+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:29:18.624+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:29:18.634+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:29:18.654+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:29:18.654+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:29:18.670+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:29:18.670+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:29:18.704+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:29:49.221+0530] {processor.py:161} INFO - Started process (PID=86058) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:29:49.225+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:29:49.226+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:29:49.226+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:29:49.236+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:29:49.256+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:29:49.255+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:29:49.272+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:29:49.272+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:29:49.306+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.088 seconds
+[2024-03-10T00:30:19.766+0530] {processor.py:161} INFO - Started process (PID=86190) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:30:19.767+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:30:19.768+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:30:19.768+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:30:19.778+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:30:19.798+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:30:19.798+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:30:19.815+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:30:19.815+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:30:19.846+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.083 seconds
+[2024-03-10T00:30:50.443+0530] {processor.py:161} INFO - Started process (PID=86322) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:30:50.444+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:30:50.445+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:30:50.444+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:30:50.455+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:30:50.476+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:30:50.476+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:30:50.495+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:30:50.495+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:30:50.528+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.089 seconds
+[2024-03-10T00:31:21.045+0530] {processor.py:161} INFO - Started process (PID=86454) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:31:21.049+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:31:21.050+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:31:21.050+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:31:21.061+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:31:21.081+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:31:21.081+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:31:21.097+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:31:21.097+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:31:21.129+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:31:51.619+0530] {processor.py:161} INFO - Started process (PID=86586) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:31:51.621+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:31:51.622+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:31:51.621+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:31:51.632+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:31:51.652+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:31:51.652+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:31:51.669+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:31:51.669+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:31:51.707+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds
+[2024-03-10T00:32:22.244+0530] {processor.py:161} INFO - Started process (PID=86717) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:32:22.248+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:32:22.249+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:32:22.249+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:32:22.258+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:32:22.278+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:32:22.278+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:32:22.295+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:32:22.295+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:32:22.328+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:32:52.858+0530] {processor.py:161} INFO - Started process (PID=86849) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:32:52.859+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:32:52.860+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:32:52.859+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:32:52.872+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:32:52.896+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:32:52.895+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:32:52.913+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:32:52.913+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:32:52.949+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.095 seconds
+[2024-03-10T00:33:23.453+0530] {processor.py:161} INFO - Started process (PID=86981) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:33:23.457+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:33:23.458+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:33:23.458+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:33:23.467+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:33:23.488+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:33:23.487+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:33:23.505+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:33:23.505+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:33:23.537+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.087 seconds
+[2024-03-10T00:33:53.994+0530] {processor.py:161} INFO - Started process (PID=87113) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:33:53.999+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:33:54.000+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:33:53.999+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:33:54.009+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:33:54.029+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:33:54.029+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:33:54.046+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:33:54.046+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:33:54.085+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.094 seconds
+[2024-03-10T00:34:24.625+0530] {processor.py:161} INFO - Started process (PID=87245) to work on /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:34:24.626+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching.py for tasks to queue
+[2024-03-10T00:34:24.628+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:34:24.627+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:34:24.639+0530] {processor.py:840} INFO - DAG(s) 'branching_dag' retrieved from /home/kai/airflow/dags/execute_branching.py
+[2024-03-10T00:34:24.660+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:34:24.660+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-10T00:34:24.677+0530] {logging_mixin.py:188} INFO - [2024-03-10T00:34:24.676+0530] {dag.py:3834} INFO - Setting next_dagrun for branching_dag to 2024-03-09 00:00:00+00:00, run_after=2024-03-10 00:00:00+00:00
+[2024-03-10T00:34:24.713+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching.py took 0.092 seconds

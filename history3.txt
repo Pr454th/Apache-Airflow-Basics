@@ -1,0 +1,30 @@
+    1  clear
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  sudo apt install python3-pip
+    5  clear
+    6  py --version
+    7  python --version
+    8  python3 --version
+    9  pip install 'apache-airflow==2.8.2' --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.2/constraints-3.10.txt"
+   10  airflow version
+   11  export AIRFLOW_HOME=/home/kai/.local/bin
+   12  airflow version
+   13  airflow -h
+   14  airflow cheat-sheet
+   15  airflow info
+   16  ls
+   17  cd airflow
+   18  ls
+   19  airflow config get-value webserver base-url
+   20  airflow config get-value webserver base_url
+   21  clear
+   22  airflow db init
+   23  ls -l
+   24  history > command_history.txt
+   25  airflow users -h
+   26  airflow users list
+   28  airflow users create -e kuregaikai@gmail.com -f kai -l kuregami -p kai -r Admin -u kai.user
+   29  airflow users list
+   30  airflow scheduler
+   31  history >> history3.txt

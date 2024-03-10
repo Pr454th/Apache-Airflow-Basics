@@ -1,0 +1,14 @@
+[2024-03-10T14:08:35.571+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: catchup_dag.over_18 scheduled__2024-03-06T12:00:00+00:00 [queued]>
+[2024-03-10T14:08:35.576+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: catchup_dag.over_18 scheduled__2024-03-06T12:00:00+00:00 [queued]>
+[2024-03-10T14:08:35.577+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-10T14:08:35.609+0530] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): over_18> on 2024-03-06 12:00:00+00:00
+[2024-03-10T14:08:35.611+0530] {standard_task_runner.py:60} INFO - Started process 194634 to run task
+[2024-03-10T14:08:35.614+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'catchup_dag', 'over_18', 'scheduled__2024-03-06T12:00:00+00:00', '--job-id', '161', '--raw', '--subdir', 'DAGS_FOLDER/execute_catchup.py', '--cfg-path', '/tmp/tmpz8s3xjwu']
+[2024-03-10T14:08:35.617+0530] {standard_task_runner.py:88} INFO - Job 161: Subtask over_18
+[2024-03-10T14:08:35.679+0530] {task_command.py:423} INFO - Running <TaskInstance: catchup_dag.over_18 scheduled__2024-03-06T12:00:00+00:00 [running]> on host BreakThrough.
+[2024-03-10T14:08:35.766+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='catchup_dag' AIRFLOW_CTX_TASK_ID='over_18' AIRFLOW_CTX_EXECUTION_DATE='2024-03-06T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-06T12:00:00+00:00'
+[2024-03-10T14:08:35.768+0530] {logging_mixin.py:188} INFO - This is task A
+[2024-03-10T14:08:35.768+0530] {python.py:202} INFO - Done. Returned value was: False
+[2024-03-10T14:08:35.801+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=catchup_dag, task_id=over_18, execution_date=20240306T120000, start_date=20240310T083835, end_date=20240310T083835
+[2024-03-10T14:08:35.868+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-10T14:08:35.886+0530] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,29 @@
+[2024-03-10T08:15:54.753+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_variable_dag.branch scheduled__2024-03-09T00:00:00+00:00 [queued]>
+[2024-03-10T08:15:54.759+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_variable_dag.branch scheduled__2024-03-09T00:00:00+00:00 [queued]>
+[2024-03-10T08:15:54.759+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-10T08:15:54.788+0530] {taskinstance.py:2214} INFO - Executing <Task(BranchPythonOperator): branch> on 2024-03-09 00:00:00+00:00
+[2024-03-10T08:15:54.791+0530] {standard_task_runner.py:60} INFO - Started process 99157 to run task
+[2024-03-10T08:15:54.794+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_variable_dag', 'branch', 'scheduled__2024-03-09T00:00:00+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/execute_branching_variable.py', '--cfg-path', '/tmp/tmppe416w0p']
+[2024-03-10T08:15:54.795+0530] {standard_task_runner.py:88} INFO - Job 125: Subtask branch
+[2024-03-10T08:15:54.854+0530] {task_command.py:423} INFO - Running <TaskInstance: pipeline_variable_dag.branch scheduled__2024-03-09T00:00:00+00:00 [running]> on host BreakThrough.
+[2024-03-10T08:15:54.944+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='pipeline_variable_dag' AIRFLOW_CTX_TASK_ID='branch' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-09T00:00:00+00:00'
+[2024-03-10T08:15:54.945+0530] {logging_mixin.py:188} INFO - branch
+[2024-03-10T08:15:54.945+0530] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 234, in execute
+    return self.do_branch(context, super().execute(context))
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kai/airflow/dags/execute_branching_variable.py", line 31, in branch
+    transform_action=Variable.get('transform_action', default=None)
+TypeError: Variable.get() got an unexpected keyword argument 'default'
+[2024-03-10T08:15:54.949+0530] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pipeline_variable_dag, task_id=branch, execution_date=20240309T000000, start_date=20240310T024554, end_date=20240310T024554
+[2024-03-10T08:15:54.974+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 125 for task branch (Variable.get() got an unexpected keyword argument 'default'; 99157)
+[2024-03-10T08:15:55.008+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-10T08:15:55.034+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

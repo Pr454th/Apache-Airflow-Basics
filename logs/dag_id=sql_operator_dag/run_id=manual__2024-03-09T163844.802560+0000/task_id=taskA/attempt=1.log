@@ -1,0 +1,42 @@
+[2024-03-09T22:08:47.424+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sql_operator_dag.taskA manual__2024-03-09T16:38:44.802560+00:00 [queued]>
+[2024-03-09T22:08:47.431+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sql_operator_dag.taskA manual__2024-03-09T16:38:44.802560+00:00 [queued]>
+[2024-03-09T22:08:47.432+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-09T22:08:47.460+0530] {taskinstance.py:2214} INFO - Executing <Task(SqliteOperator): taskA> on 2024-03-09 16:38:44.802560+00:00
+[2024-03-09T22:08:47.462+0530] {standard_task_runner.py:60} INFO - Started process 49040 to run task
+[2024-03-09T22:08:47.466+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'sql_operator_dag', 'taskA', 'manual__2024-03-09T16:38:44.802560+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/execute_sql_pipeline.py', '--cfg-path', '/tmp/tmpikl475ib']
+[2024-03-09T22:08:47.468+0530] {standard_task_runner.py:88} INFO - Job 95: Subtask taskA
+[2024-03-09T22:08:47.525+0530] {task_command.py:423} INFO - Running <TaskInstance: sql_operator_dag.taskA manual__2024-03-09T16:38:44.802560+00:00 [running]> on host BreakThrough.
+[2024-03-09T22:08:47.619+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='sql_operator_dag' AIRFLOW_CTX_TASK_ID='taskA' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T16:38:44.802560+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T16:38:44.802560+00:00'
+[2024-03-09T22:08:47.620+0530] {sql.py:276} INFO - Executing: CREATE TABLE IF NOT EXISTS students (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT,
+            age INTEGER NOTNULL, 
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            place TEXT
+        )
+[2024-03-09T22:08:47.624+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-09T22:08:47.642+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-09T22:08:47.642+0530] {sql.py:457} INFO - Running statement: CREATE TABLE IF NOT EXISTS students (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT,
+            age INTEGER NOTNULL, 
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            place TEXT
+        ), parameters: None
+[2024-03-09T22:08:47.643+0530] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 404, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 462, in _run_command
+    cur.execute(sql_statement)
+sqlite3.OperationalError: near "NOTNULL": syntax error
+[2024-03-09T22:08:47.646+0530] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=sql_operator_dag, task_id=taskA, execution_date=20240309T163844, start_date=20240309T163847, end_date=20240309T163847
+[2024-03-09T22:08:47.683+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 95 for task taskA (near "NOTNULL": syntax error; 49040)
+[2024-03-09T22:08:47.719+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-09T22:08:47.732+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+[2024-03-10T09:52:44.247+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_task_groups_edge_labels_dag.reading_and_preprocessing.taskB manual__2024-03-10T04:22:37.139643+00:00 [queued]>
+[2024-03-10T09:52:44.255+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_task_groups_edge_labels_dag.reading_and_preprocessing.taskB manual__2024-03-10T04:22:37.139643+00:00 [queued]>
+[2024-03-10T09:52:44.255+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-10T09:52:44.282+0530] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): reading_and_preprocessing.taskB> on 2024-03-10 04:22:37.139643+00:00
+[2024-03-10T09:52:44.286+0530] {standard_task_runner.py:60} INFO - Started process 127828 to run task
+[2024-03-10T09:52:44.290+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_task_groups_edge_labels_dag', 'reading_and_preprocessing.taskB', 'manual__2024-03-10T04:22:37.139643+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/execute_branching_task_group_edge_labels.py', '--cfg-path', '/tmp/tmp1srnanfl']
+[2024-03-10T09:52:44.292+0530] {standard_task_runner.py:88} INFO - Job 156: Subtask reading_and_preprocessing.taskB
+[2024-03-10T09:52:44.345+0530] {task_command.py:423} INFO - Running <TaskInstance: pipeline_task_groups_edge_labels_dag.reading_and_preprocessing.taskB manual__2024-03-10T04:22:37.139643+00:00 [running]> on host BreakThrough.
+[2024-03-10T09:52:44.426+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='pipeline_task_groups_edge_labels_dag' AIRFLOW_CTX_TASK_ID='reading_and_preprocessing.taskB' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T04:22:37.139643+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T04:22:37.139643+00:00'
+[2024-03-10T09:52:44.427+0530] {logging_mixin.py:188} INFO - This is task B
+[2024-03-10T09:52:44.438+0530] {logging_mixin.py:188} WARNING - /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py:27 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-10T09:52:44.483+0530] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-10T09:52:44.487+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pipeline_task_groups_edge_labels_dag, task_id=reading_and_preprocessing.taskB, execution_date=20240310T042237, start_date=20240310T042244, end_date=20240310T042244
+[2024-03-10T09:52:44.544+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-10T09:52:44.564+0530] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

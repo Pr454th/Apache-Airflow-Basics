@@ -1,0 +1,43 @@
+[2024-03-10T08:58:45.405+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_task_groups_edge_labels_dag.reading_and_preprocessing.taskA scheduled__2024-03-09T00:00:00+00:00 [queued]>
+[2024-03-10T08:58:45.411+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_task_groups_edge_labels_dag.reading_and_preprocessing.taskA scheduled__2024-03-09T00:00:00+00:00 [queued]>
+[2024-03-10T08:58:45.412+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-10T08:58:45.447+0530] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): reading_and_preprocessing.taskA> on 2024-03-09 00:00:00+00:00
+[2024-03-10T08:58:45.450+0530] {standard_task_runner.py:60} INFO - Started process 111736 to run task
+[2024-03-10T08:58:45.455+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'pipeline_task_groups_edge_labels_dag', 'reading_and_preprocessing.taskA', 'scheduled__2024-03-09T00:00:00+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/execute_branching_task_group_edge_labels.py', '--cfg-path', '/tmp/tmpy0tv02j4']
+[2024-03-10T08:58:45.456+0530] {standard_task_runner.py:88} INFO - Job 140: Subtask reading_and_preprocessing.taskA
+[2024-03-10T08:58:45.645+0530] {task_command.py:423} INFO - Running <TaskInstance: pipeline_task_groups_edge_labels_dag.reading_and_preprocessing.taskA scheduled__2024-03-09T00:00:00+00:00 [running]> on host BreakThrough.
+[2024-03-10T08:58:45.815+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='pipeline_task_groups_edge_labels_dag' AIRFLOW_CTX_TASK_ID='reading_and_preprocessing.taskA' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-09T00:00:00+00:00'
+[2024-03-10T08:58:45.824+0530] {logging_mixin.py:188} INFO - This is task A
+[2024-03-10T08:58:45.909+0530] {logging_mixin.py:188} INFO -     Policy_Number  Age  Gender Smoker Location  Coverage  Premium Deductible
+0           78571   52    Male  False    Rural     Basic   1625.0        205
+1           64238   21  Female   True    Urban  Extended   3573.0        763
+2           91267   45    Male   True    Rural   Premium   4892.0        442
+3           46321   37  Female  False    Urban     Basic   2873.0        648
+4           84692   60  Female   True    Rural   Premium   3241.0        802
+5           59418   32  Female   True    Urban  Extended   1758.0        465
+6           82019   58  Female   True    Urban  Extended   2104.0        142
+7           12347   42    Male  False    Rural  Extended   2756.0        605
+8           48392   35    Male    NaN    Urban     Basic   1962.0        NaN
+9           65913   26  Female   True    Urban       NaN   2374.0        521
+10          73516   49    Male  False    Urban  Extended   3826.0        927
+11          58237   55    Male  False      NaN     Basic   1458.0        313
+12          81925   23    Male  False    Rural   Premium   4765.0        816
+13          32846   41  Female   True      NaN  Extended   2136.0        512
+14          48731   28    Male   True    Urban     Basic   1873.0        205
+15          41627   36  Female   True    Rural  Extended   2954.0        705
+16          89534   46  Female  False    Urban   Premium   4217.0        839
+17          63918   33    Male   True      NaN   Premium   4641.0        982
+18          74829   50    Male   True    Rural     Basic   1326.0        239
+19          36572   30  Female   True    Urban  Extended   3165.0        611
+20          26384   56  Female   True    Rural   Premium   4458.0        767
+21          72618   39    Male  False      NaN     Basic   1552.0        388
+22          28471   22  Female  False    Urban  Extended   3452.0        704
+23          81293   43    Male   True    Rural  Extended      NaN           
+24          34918   27  Female  False      NaN     Basic      NaN        279
+25          52486   38    Male   True    Rural   Premium   4093.0        692
+26          19386   59    Male  False    Urban  Extended   2613.0        506
+27          97182   31  Female   True      NaN     Basic   1729.0        424
+[2024-03-10T08:58:45.961+0530] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-10T08:58:45.971+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pipeline_task_groups_edge_labels_dag, task_id=reading_and_preprocessing.taskA, execution_date=20240309T000000, start_date=20240310T032845, end_date=20240310T032845
+[2024-03-10T08:58:46.030+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-10T08:58:46.051+0530] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

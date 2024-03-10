@@ -1,0 +1,17 @@
+[2024-03-09T16:16:34.640+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world.task_2 manual__2024-03-09T10:46:29.829792+00:00 [queued]>
+[2024-03-09T16:16:34.647+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world.task_2 manual__2024-03-09T10:46:29.829792+00:00 [queued]>
+[2024-03-09T16:16:34.647+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-09T16:16:34.678+0530] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): task_2> on 2024-03-09 10:46:29.829792+00:00
+[2024-03-09T16:16:34.685+0530] {standard_task_runner.py:60} INFO - Started process 5630 to run task
+[2024-03-09T16:16:34.703+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world', 'task_2', 'manual__2024-03-09T10:46:29.829792+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/hello_world_dag.py', '--cfg-path', '/tmp/tmps6wkbjau']
+[2024-03-09T16:16:34.705+0530] {standard_task_runner.py:88} INFO - Job 18: Subtask task_2
+[2024-03-09T16:16:34.751+0530] {task_command.py:423} INFO - Running <TaskInstance: hello_world.task_2 manual__2024-03-09T10:46:29.829792+00:00 [running]> on host BreakThrough.
+[2024-03-09T16:16:34.842+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='hello_world' AIRFLOW_CTX_TASK_ID='task_2' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T10:46:29.829792+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T10:46:29.829792+00:00'
+[2024-03-09T16:16:34.842+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-09T16:16:34.843+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Welcome to Task 2"']
+[2024-03-09T16:16:34.849+0530] {subprocess.py:86} INFO - Output:
+[2024-03-09T16:16:34.850+0530] {subprocess.py:93} INFO - Welcome to Task 2
+[2024-03-09T16:16:34.850+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-09T16:16:34.901+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=hello_world, task_id=task_2, execution_date=20240309T104629, start_date=20240309T104634, end_date=20240309T104634
+[2024-03-09T16:16:34.944+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-09T16:16:34.956+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
