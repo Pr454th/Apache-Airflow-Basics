@@ -58,3 +58,8 @@ with DAG(
     )
 
 taskA >> taskB >> [taskC, taskD]
+
+
+# BackFill
+#     Make catchup=False
+#     In cmd line run: airflow dags backfill -s 2021-08-01 -e 2021-08-05 catchup_dag_id

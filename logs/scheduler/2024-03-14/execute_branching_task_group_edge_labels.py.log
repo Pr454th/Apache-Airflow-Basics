@@ -1,0 +1,462 @@
+[2024-03-14T07:42:49.249+0530] {processor.py:161} INFO - Started process (PID=307326) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:42:49.250+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:42:49.251+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:42:49.251+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:42:49.644+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:42:49.660+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:42:49.660+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:42:49.675+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:42:49.674+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:42:49.711+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.464 seconds
+[2024-03-14T07:43:20.575+0530] {processor.py:161} INFO - Started process (PID=307381) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:43:20.578+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:43:20.579+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:20.579+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:43:20.972+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:43:20.987+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:20.987+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:43:21.003+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:21.003+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:43:21.042+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.469 seconds
+[2024-03-14T07:43:51.538+0530] {processor.py:161} INFO - Started process (PID=307434) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:43:51.542+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:43:51.543+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:51.543+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:43:51.940+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:43:51.957+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:51.957+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:43:51.972+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:51.972+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:43:52.011+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.476 seconds
+[2024-03-14T07:44:22.506+0530] {processor.py:161} INFO - Started process (PID=307486) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:44:22.508+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:44:22.510+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:22.509+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:44:22.908+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:44:22.924+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:22.924+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:44:22.938+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:22.938+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:44:22.971+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.468 seconds
+[2024-03-14T07:44:53.248+0530] {processor.py:161} INFO - Started process (PID=307539) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:44:53.249+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:44:53.250+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:53.250+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:44:53.646+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:44:53.663+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:53.663+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:44:53.679+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:53.679+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:44:53.720+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.475 seconds
+[2024-03-14T07:45:24.085+0530] {processor.py:161} INFO - Started process (PID=307594) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:45:24.088+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:45:24.089+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:24.088+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:45:24.484+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:45:24.499+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:24.499+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:45:24.514+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:24.514+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:45:24.547+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.465 seconds
+[2024-03-14T07:45:54.693+0530] {processor.py:161} INFO - Started process (PID=307647) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:45:54.697+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:45:54.698+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:54.698+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:45:55.095+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:45:55.112+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:55.112+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:45:55.130+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:55.129+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:45:55.166+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.476 seconds
+[2024-03-14T07:46:25.419+0530] {processor.py:161} INFO - Started process (PID=307699) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:46:25.423+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:46:25.424+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:25.424+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:46:25.843+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:46:25.865+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:25.865+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:46:25.889+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:25.889+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:46:25.930+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.514 seconds
+[2024-03-14T07:46:56.221+0530] {processor.py:161} INFO - Started process (PID=307751) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:46:56.224+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:46:56.225+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:56.225+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:46:56.621+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:46:56.636+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:56.636+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:46:56.653+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:56.653+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:46:56.690+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T07:47:27.877+0530] {processor.py:161} INFO - Started process (PID=307804) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:47:27.878+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:47:27.879+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:27.879+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:47:28.277+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:47:28.294+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:28.293+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:47:28.308+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:28.308+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:47:28.343+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.469 seconds
+[2024-03-14T07:47:59.346+0530] {processor.py:161} INFO - Started process (PID=307856) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:47:59.348+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:47:59.349+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:59.349+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:47:59.766+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:47:59.783+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:59.783+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:47:59.798+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:59.798+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:47:59.830+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.488 seconds
+[2024-03-14T07:48:30.431+0530] {processor.py:161} INFO - Started process (PID=307908) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:48:30.434+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:48:30.435+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:30.435+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:48:30.853+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:48:30.870+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:30.870+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:48:30.887+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:30.887+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:48:30.923+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.495 seconds
+[2024-03-14T07:49:01.182+0530] {processor.py:161} INFO - Started process (PID=307962) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:49:01.183+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:49:01.184+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:01.184+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:49:01.586+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:49:01.602+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:01.601+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:49:01.617+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:01.617+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:49:01.650+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T07:49:32.012+0530] {processor.py:161} INFO - Started process (PID=308013) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:49:32.014+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:49:32.015+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:32.015+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:49:32.412+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:49:32.429+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:32.428+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:49:32.443+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:32.443+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:49:32.476+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.467 seconds
+[2024-03-14T07:50:02.707+0530] {processor.py:161} INFO - Started process (PID=308068) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:50:02.710+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:50:02.711+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:02.711+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:50:03.108+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:50:03.124+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:03.123+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:50:03.140+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:03.140+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:50:03.174+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.470 seconds
+[2024-03-14T07:50:33.396+0530] {processor.py:161} INFO - Started process (PID=308119) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:50:33.400+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:50:33.401+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:33.401+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:50:33.800+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:50:33.816+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:33.815+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:50:33.831+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:33.831+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:50:33.865+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.473 seconds
+[2024-03-14T07:51:04.074+0530] {processor.py:161} INFO - Started process (PID=308171) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:51:04.079+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:51:04.080+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:04.079+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:51:04.478+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:51:04.494+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:04.494+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:51:04.510+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:04.509+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:51:04.544+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T07:51:34.757+0530] {processor.py:161} INFO - Started process (PID=308222) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:51:34.761+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:51:34.762+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:34.762+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:51:35.162+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:51:35.179+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:35.179+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:51:35.194+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:35.194+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:51:35.234+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.481 seconds
+[2024-03-14T07:52:05.280+0530] {processor.py:161} INFO - Started process (PID=308275) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:52:05.284+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:52:05.285+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:05.285+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:52:05.683+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:52:05.698+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:05.698+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:52:05.713+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:05.712+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:52:05.748+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.471 seconds
+[2024-03-14T07:52:36.070+0530] {processor.py:161} INFO - Started process (PID=308331) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:52:36.072+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:52:36.073+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:36.073+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:52:36.471+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:52:36.487+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:36.486+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:52:36.502+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:36.502+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:52:36.538+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T07:53:06.747+0530] {processor.py:161} INFO - Started process (PID=308382) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:53:06.750+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:53:06.751+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:06.750+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:53:07.146+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:53:07.163+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:07.163+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:53:07.181+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:07.180+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:53:07.212+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.468 seconds
+[2024-03-14T07:53:38.585+0530] {processor.py:161} INFO - Started process (PID=308436) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:53:38.589+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:53:38.590+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:38.590+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:53:38.986+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:53:39.002+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:39.002+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:53:39.017+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:39.017+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:53:39.051+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.470 seconds
+[2024-03-14T07:54:10.027+0530] {processor.py:161} INFO - Started process (PID=308487) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:54:10.031+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:54:10.032+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:10.032+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:54:10.431+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:54:10.446+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:10.446+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:54:10.460+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:10.460+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:54:10.503+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.480 seconds
+[2024-03-14T07:54:40.817+0530] {processor.py:161} INFO - Started process (PID=308539) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:54:40.821+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:54:40.822+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:40.822+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:54:41.219+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:54:41.235+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:41.235+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:54:41.251+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:41.250+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:54:41.286+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T07:55:11.380+0530] {processor.py:161} INFO - Started process (PID=308595) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:55:11.381+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:55:11.382+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:11.382+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:55:11.779+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:55:11.795+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:11.794+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:55:11.810+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:11.809+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:55:11.841+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.465 seconds
+[2024-03-14T07:55:41.927+0530] {processor.py:161} INFO - Started process (PID=308647) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:55:41.931+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:55:41.932+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:41.932+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:55:42.331+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:55:42.347+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:42.347+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:55:42.362+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:42.362+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:55:42.397+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.473 seconds
+[2024-03-14T07:56:12.477+0530] {processor.py:161} INFO - Started process (PID=308702) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:56:12.481+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:56:12.482+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:12.482+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:56:12.882+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:56:12.898+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:12.898+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:56:12.913+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:12.913+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:56:12.946+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T07:56:43.180+0530] {processor.py:161} INFO - Started process (PID=308755) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:56:43.181+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:56:43.182+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:43.181+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:56:43.580+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:56:43.596+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:43.596+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:56:43.612+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:43.612+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:56:43.646+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.469 seconds
+[2024-03-14T07:57:13.896+0530] {processor.py:161} INFO - Started process (PID=308808) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:57:13.897+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:57:13.898+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:13.898+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:57:14.294+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:57:14.310+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:14.309+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:57:14.325+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:14.324+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:57:14.358+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.465 seconds
+[2024-03-14T07:57:44.819+0530] {processor.py:161} INFO - Started process (PID=308860) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:57:44.820+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:57:44.822+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:44.821+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:57:45.294+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:57:45.312+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:45.311+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:57:45.328+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:45.328+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:57:45.363+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.549 seconds
+[2024-03-14T07:58:15.912+0530] {processor.py:161} INFO - Started process (PID=308913) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:58:15.914+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:58:15.918+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:15.915+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:58:16.691+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:58:16.730+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:16.729+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:58:16.758+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:16.758+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:58:16.819+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.911 seconds
+[2024-03-14T07:58:47.604+0530] {processor.py:161} INFO - Started process (PID=308966) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:58:47.607+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:58:47.608+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:47.608+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:58:48.011+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:58:48.027+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:48.027+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:58:48.043+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:48.042+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:58:48.075+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.473 seconds
+[2024-03-14T07:59:18.294+0530] {processor.py:161} INFO - Started process (PID=309018) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:59:18.297+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:59:18.298+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:18.297+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:59:18.696+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:59:18.714+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:18.714+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:59:18.729+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:18.729+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:59:18.762+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.471 seconds
+[2024-03-14T07:59:49.244+0530] {processor.py:161} INFO - Started process (PID=309069) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:59:49.247+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T07:59:49.248+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:49.247+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:59:49.715+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T07:59:49.733+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:49.733+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:59:49.750+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:49.749+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:59:49.795+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.556 seconds
+[2024-03-14T08:00:20.061+0530] {processor.py:161} INFO - Started process (PID=309122) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:00:20.064+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:00:20.066+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:20.065+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:00:20.616+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:00:20.637+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:20.637+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:00:20.659+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:20.659+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:00:20.714+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.658 seconds
+[2024-03-14T08:00:51.032+0530] {processor.py:161} INFO - Started process (PID=309175) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:00:51.033+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:00:51.034+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:51.034+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:00:51.508+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:00:51.524+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:51.523+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:00:51.550+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:51.550+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:00:51.593+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.565 seconds
+[2024-03-14T08:01:22.263+0530] {processor.py:161} INFO - Started process (PID=309227) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:01:22.265+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:01:22.266+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:22.266+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:01:22.747+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:01:22.766+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:22.766+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:01:22.789+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:22.788+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:01:22.841+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.584 seconds
+[2024-03-14T08:01:53.462+0530] {processor.py:161} INFO - Started process (PID=309278) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:01:53.463+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:01:53.465+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:53.464+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:01:53.885+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:01:53.901+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:53.900+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:01:53.916+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:53.916+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:01:53.953+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.496 seconds
+[2024-03-14T08:02:24.495+0530] {processor.py:161} INFO - Started process (PID=309330) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:02:24.498+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:02:24.499+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:24.498+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:02:24.927+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:02:24.946+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:24.946+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:02:24.964+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:24.964+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:02:25.002+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.511 seconds
+[2024-03-14T08:02:55.506+0530] {processor.py:161} INFO - Started process (PID=309382) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:02:55.508+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:02:55.509+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:55.509+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:02:55.918+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:02:55.934+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:55.934+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:02:55.951+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:55.950+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:02:55.993+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.491 seconds
+[2024-03-14T08:03:26.528+0530] {processor.py:161} INFO - Started process (PID=309435) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:03:26.530+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:03:26.532+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:26.532+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:03:27.056+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:03:27.080+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:27.080+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:03:27.120+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:27.119+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:03:27.183+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.659 seconds
+[2024-03-14T08:03:57.731+0530] {processor.py:161} INFO - Started process (PID=309487) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:03:57.734+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:03:57.735+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:57.735+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:03:58.134+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:03:58.150+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:58.150+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:03:58.165+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:58.165+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:03:58.201+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.472 seconds
+[2024-03-14T08:04:28.625+0530] {processor.py:161} INFO - Started process (PID=309538) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:04:28.628+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:04:28.629+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:28.629+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:04:29.029+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:04:29.045+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:29.045+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:04:29.061+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:29.060+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:04:29.104+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.482 seconds
+[2024-03-14T08:04:59.308+0530] {processor.py:161} INFO - Started process (PID=309590) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:04:59.311+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:04:59.312+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:59.312+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:04:59.717+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:04:59.733+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:59.733+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:04:59.749+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:59.748+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:04:59.784+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.478 seconds
+[2024-03-14T08:05:30.267+0530] {processor.py:161} INFO - Started process (PID=309646) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:05:30.269+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:05:30.270+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:05:30.270+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:05:30.671+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:05:30.688+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:05:30.687+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:05:30.702+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:05:30.702+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:05:30.737+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.473 seconds
+[2024-03-14T08:06:01.393+0530] {processor.py:161} INFO - Started process (PID=309698) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:06:01.394+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:06:01.396+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:01.395+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:06:01.880+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:06:01.907+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:01.907+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:06:01.925+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:01.925+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:06:01.977+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.588 seconds
+[2024-03-14T08:06:32.500+0530] {processor.py:161} INFO - Started process (PID=309749) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:06:32.503+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:06:32.504+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:32.504+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:06:32.901+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:06:32.916+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:32.916+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:06:32.932+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:32.931+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:06:32.977+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.481 seconds
+[2024-03-14T08:07:03.215+0530] {processor.py:161} INFO - Started process (PID=309801) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:07:03.217+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:07:03.218+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:03.218+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:07:03.633+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:07:03.649+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:03.649+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:07:03.664+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:03.664+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:07:03.698+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.486 seconds
+[2024-03-14T08:07:33.964+0530] {processor.py:161} INFO - Started process (PID=309852) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:07:33.967+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:07:33.968+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:33.968+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:07:34.390+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:07:34.407+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:34.407+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:07:34.423+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:34.422+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:07:34.457+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.497 seconds
+[2024-03-14T08:08:04.731+0530] {processor.py:161} INFO - Started process (PID=309906) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:08:04.734+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:08:04.735+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:04.734+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:08:05.154+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:08:05.171+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:05.170+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:08:05.186+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:05.186+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:08:05.228+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.501 seconds
+[2024-03-14T08:08:35.425+0530] {processor.py:161} INFO - Started process (PID=309957) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:08:35.428+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:08:35.429+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:35.429+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:08:35.835+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:08:35.850+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:35.850+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:08:35.866+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:35.866+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:08:35.899+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.478 seconds
+[2024-03-14T08:09:06.353+0530] {processor.py:161} INFO - Started process (PID=310009) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:09:06.356+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:09:06.358+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:06.357+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:09:06.780+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:09:06.798+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:06.797+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:09:06.813+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:06.813+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:09:06.847+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.498 seconds
+[2024-03-14T08:09:37.484+0530] {processor.py:161} INFO - Started process (PID=310061) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:09:37.487+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:09:37.487+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:37.487+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:09:37.902+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:09:37.918+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:37.918+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:09:37.934+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:37.934+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:09:37.987+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.508 seconds
+[2024-03-14T08:10:08.671+0530] {processor.py:161} INFO - Started process (PID=310115) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:10:08.672+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:10:08.673+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:08.672+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:10:09.085+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:10:09.101+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:09.101+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:10:09.117+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:09.117+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:10:09.175+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.508 seconds
+[2024-03-14T08:10:39.843+0530] {processor.py:161} INFO - Started process (PID=310167) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:10:39.844+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:10:39.845+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:39.845+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:10:40.265+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:10:40.281+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:40.281+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:10:40.299+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:40.299+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:10:40.342+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.502 seconds
+[2024-03-14T08:11:10.916+0530] {processor.py:161} INFO - Started process (PID=310220) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:11:10.920+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:11:10.923+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:10.922+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:11:11.370+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:11:11.388+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:11.387+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:11:11.403+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:11.403+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:11:11.456+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.547 seconds
+[2024-03-14T08:11:42.197+0530] {processor.py:161} INFO - Started process (PID=310272) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:11:42.198+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:11:42.199+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:42.198+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:11:42.602+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:11:42.618+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:42.618+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:11:42.634+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:42.634+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:11:42.669+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.476 seconds
+[2024-03-14T08:12:13.140+0530] {processor.py:161} INFO - Started process (PID=310323) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:12:13.143+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:12:13.145+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:13.144+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:12:13.566+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:12:13.584+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:13.584+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:12:13.600+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:13.600+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:12:13.634+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.496 seconds
+[2024-03-14T08:12:44.155+0530] {processor.py:161} INFO - Started process (PID=310377) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:12:44.156+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:12:44.157+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:44.157+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:12:44.584+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:12:44.601+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:44.601+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:12:44.617+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:44.617+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:12:44.657+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.505 seconds
+[2024-03-14T08:13:15.058+0530] {processor.py:161} INFO - Started process (PID=310428) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:13:15.061+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:13:15.062+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:15.062+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:13:15.465+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:13:15.481+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:15.481+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:13:15.496+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:15.496+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:13:15.552+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.497 seconds
+[2024-03-14T08:13:45.701+0530] {processor.py:161} INFO - Started process (PID=310480) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:13:45.704+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:13:45.705+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:45.705+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:13:46.106+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:13:46.122+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:46.122+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:13:46.137+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:46.136+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:13:46.171+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.473 seconds
+[2024-03-14T08:14:16.311+0530] {processor.py:161} INFO - Started process (PID=310532) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:14:16.314+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:14:16.315+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:16.314+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:14:16.710+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:14:16.726+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:16.726+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:14:16.742+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:16.741+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:14:16.778+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.471 seconds
+[2024-03-14T08:14:47.035+0530] {processor.py:161} INFO - Started process (PID=310583) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:14:47.038+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:14:47.039+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:47.039+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:14:47.432+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:14:47.447+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:47.447+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:14:47.463+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:47.463+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:14:47.497+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.466 seconds
+[2024-03-14T08:15:17.750+0530] {processor.py:161} INFO - Started process (PID=310638) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:15:17.754+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:15:17.755+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:17.755+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:15:18.150+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:15:18.167+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:18.166+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:15:18.181+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:18.181+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:15:18.215+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.469 seconds
+[2024-03-14T08:15:48.423+0530] {processor.py:161} INFO - Started process (PID=310689) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:15:48.427+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:15:48.428+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:48.428+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:15:48.829+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:15:48.845+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:48.844+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:15:48.859+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:48.859+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:15:48.895+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.476 seconds
+[2024-03-14T08:16:19.097+0530] {processor.py:161} INFO - Started process (PID=310743) to work on /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:16:19.100+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py for tasks to queue
+[2024-03-14T08:16:19.101+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:19.100+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:16:19.503+0530] {processor.py:840} INFO - DAG(s) 'pipeline_task_groups_edge_labels_dag' retrieved from /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py
+[2024-03-14T08:16:19.518+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:19.518+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:16:19.534+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:19.533+0530] {dag.py:3834} INFO - Setting next_dagrun for pipeline_task_groups_edge_labels_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:16:19.575+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_branching_task_group_edge_labels.py took 0.481 seconds

@@ -1,0 +1,1239 @@
+[2024-03-11T20:42:44.484+0530] {processor.py:161} INFO - Started process (PID=253662) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:42:44.486+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:42:44.489+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:42:44.488+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:42:44.530+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:42:45.037+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:42:45.036+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:42:45.226+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:42:45.225+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:42:45.450+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.977 seconds
+[2024-03-11T20:43:15.857+0530] {processor.py:161} INFO - Started process (PID=253701) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:43:15.860+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:43:15.861+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:43:15.861+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:43:15.871+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:43:15.891+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:43:15.891+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:43:15.909+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:43:15.909+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:43:15.942+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T20:43:46.232+0530] {processor.py:161} INFO - Started process (PID=253739) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:43:46.233+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:43:46.234+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:43:46.234+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:43:46.244+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:43:46.265+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:43:46.264+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:43:46.282+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:43:46.282+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:43:46.322+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T20:44:17.347+0530] {processor.py:161} INFO - Started process (PID=253770) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:44:17.350+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:44:17.351+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:44:17.350+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:44:17.361+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:44:17.381+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:44:17.381+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:44:17.398+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:44:17.398+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:44:17.432+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T20:44:48.465+0530] {processor.py:161} INFO - Started process (PID=253801) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:44:48.469+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:44:48.471+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:44:48.470+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:44:48.487+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:44:48.510+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:44:48.509+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:44:48.529+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:44:48.529+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:44:48.569+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.110 seconds
+[2024-03-11T20:45:19.412+0530] {processor.py:161} INFO - Started process (PID=253832) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:45:19.414+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:45:19.415+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:45:19.415+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:45:19.427+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:45:19.452+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:45:19.451+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:45:19.472+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:45:19.472+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:45:19.516+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.108 seconds
+[2024-03-11T20:45:50.184+0530] {processor.py:161} INFO - Started process (PID=253863) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:45:50.188+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:45:50.189+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:45:50.189+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:45:50.200+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:45:50.220+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:45:50.220+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:45:50.238+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:45:50.238+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:45:50.282+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.102 seconds
+[2024-03-11T20:46:20.560+0530] {processor.py:161} INFO - Started process (PID=253894) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:46:20.564+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:46:20.565+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:46:20.565+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:46:20.578+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:46:20.601+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:46:20.600+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:46:20.620+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:46:20.620+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:46:20.657+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.100 seconds
+[2024-03-11T20:46:52.189+0530] {processor.py:161} INFO - Started process (PID=253925) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:46:52.194+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:46:52.194+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:46:52.194+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:46:52.205+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:46:52.224+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:46:52.224+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:46:52.245+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:46:52.245+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:46:52.365+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.179 seconds
+[2024-03-11T20:47:22.676+0530] {processor.py:161} INFO - Started process (PID=253956) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:47:22.681+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:47:22.682+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:47:22.682+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:47:22.692+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:47:22.713+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:47:22.713+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:47:22.813+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:47:22.813+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:47:22.848+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.175 seconds
+[2024-03-11T20:47:53.012+0530] {processor.py:161} INFO - Started process (PID=253987) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:47:53.015+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:47:53.016+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:47:53.015+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:47:53.026+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:47:53.128+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:47:53.128+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:47:53.145+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:47:53.144+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:47:53.177+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.169 seconds
+[2024-03-11T20:48:23.954+0530] {processor.py:161} INFO - Started process (PID=254018) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:48:23.957+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:48:23.958+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:48:23.958+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:48:23.971+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:48:23.992+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:48:23.991+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:48:24.010+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:48:24.009+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:48:24.045+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T20:48:54.683+0530] {processor.py:161} INFO - Started process (PID=254049) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:48:54.685+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:48:54.686+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:48:54.686+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:48:54.696+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:48:54.718+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:48:54.718+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:48:54.739+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:48:54.738+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:48:54.773+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T20:49:25.522+0530] {processor.py:161} INFO - Started process (PID=254080) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:49:25.527+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:49:25.528+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:49:25.528+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:49:25.539+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:49:25.560+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:49:25.560+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:49:25.580+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:49:25.580+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:49:25.620+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.101 seconds
+[2024-03-11T20:49:56.369+0530] {processor.py:161} INFO - Started process (PID=254111) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:49:56.374+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:49:56.375+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:49:56.374+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:49:56.384+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:49:56.406+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:49:56.405+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:49:56.424+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:49:56.424+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:49:56.464+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T20:50:27.091+0530] {processor.py:161} INFO - Started process (PID=254142) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:50:27.096+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:50:27.097+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:50:27.097+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:50:27.109+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:50:27.131+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:50:27.130+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:50:27.149+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:50:27.149+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:50:27.186+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T20:50:57.828+0530] {processor.py:161} INFO - Started process (PID=254173) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:50:57.829+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:50:57.829+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:50:57.829+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:50:57.840+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:50:57.861+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:50:57.861+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:50:57.881+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:50:57.880+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:50:57.917+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T20:51:28.552+0530] {processor.py:161} INFO - Started process (PID=254204) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:51:28.557+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:51:28.558+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:51:28.558+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:51:28.568+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:51:28.590+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:51:28.590+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:51:28.609+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:51:28.609+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:51:28.646+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.097 seconds
+[2024-03-11T20:51:59.283+0530] {processor.py:161} INFO - Started process (PID=254235) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:51:59.286+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:51:59.287+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:51:59.287+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:51:59.298+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:51:59.319+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:51:59.319+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:51:59.338+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:51:59.338+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:51:59.377+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.097 seconds
+[2024-03-11T20:52:30.006+0530] {processor.py:161} INFO - Started process (PID=254268) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:52:30.010+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:52:30.011+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:52:30.011+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:52:30.022+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:52:30.043+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:52:30.043+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:52:30.061+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:52:30.061+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:52:30.096+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.094 seconds
+[2024-03-11T20:53:00.851+0530] {processor.py:161} INFO - Started process (PID=254301) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:53:00.855+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:53:00.856+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:53:00.856+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:53:00.867+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:53:00.888+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:53:00.888+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:53:00.908+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:53:00.908+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:53:00.942+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T20:53:31.581+0530] {processor.py:161} INFO - Started process (PID=254332) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:53:31.582+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:53:31.583+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:53:31.583+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:53:31.594+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:53:31.616+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:53:31.615+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:53:31.634+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:53:31.633+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:53:31.677+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T20:54:02.317+0530] {processor.py:161} INFO - Started process (PID=254365) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:54:02.318+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:54:02.319+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:54:02.319+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:54:02.329+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:54:02.350+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:54:02.349+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:54:02.367+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:54:02.367+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:54:02.399+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.085 seconds
+[2024-03-11T20:54:33.210+0530] {processor.py:161} INFO - Started process (PID=254396) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:54:33.214+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:54:33.216+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:54:33.215+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:54:33.228+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:54:33.249+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:54:33.249+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:54:33.266+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:54:33.266+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:54:33.300+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T20:55:04.014+0530] {processor.py:161} INFO - Started process (PID=254428) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:55:04.015+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:55:04.016+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:55:04.015+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:55:04.026+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:55:04.045+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:55:04.045+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:55:04.063+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:55:04.063+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:55:04.096+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.085 seconds
+[2024-03-11T20:55:34.836+0530] {processor.py:161} INFO - Started process (PID=254462) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:55:34.843+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:55:34.849+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:55:34.846+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:55:34.906+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:55:34.970+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:55:34.969+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:55:35.013+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:55:35.012+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:55:35.071+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.250 seconds
+[2024-03-11T20:56:06.062+0530] {processor.py:161} INFO - Started process (PID=254495) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:56:06.066+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:56:06.072+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:56:06.069+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:56:06.127+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:56:06.194+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:56:06.194+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:56:06.217+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:56:06.217+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:56:06.259+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.213 seconds
+[2024-03-11T20:56:36.869+0530] {processor.py:161} INFO - Started process (PID=254526) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:56:36.872+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:56:36.876+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:56:36.874+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:56:36.907+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:56:36.957+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:56:36.957+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:56:36.981+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:56:36.981+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:56:37.036+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.176 seconds
+[2024-03-11T20:57:09.100+0530] {processor.py:161} INFO - Started process (PID=254559) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:57:09.107+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:57:09.112+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:57:09.110+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:57:09.159+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:57:09.200+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:57:09.200+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:57:09.230+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:57:09.230+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:57:09.284+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.204 seconds
+[2024-03-11T20:57:40.252+0530] {processor.py:161} INFO - Started process (PID=254590) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:57:40.253+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:57:40.254+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:57:40.254+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:57:40.269+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:57:40.295+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:57:40.295+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:57:40.318+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:57:40.318+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:57:40.365+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.119 seconds
+[2024-03-11T20:58:11.652+0530] {processor.py:161} INFO - Started process (PID=254623) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:58:11.657+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:58:11.663+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:58:11.660+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:58:11.710+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:58:11.814+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:58:11.813+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:58:11.920+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:58:11.919+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:58:12.038+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.401 seconds
+[2024-03-11T20:58:42.422+0530] {processor.py:161} INFO - Started process (PID=254656) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:58:42.428+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:58:42.432+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:58:42.430+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:58:42.486+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:58:42.596+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:58:42.595+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:58:42.696+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:58:42.696+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:58:42.770+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.362 seconds
+[2024-03-11T20:59:13.525+0530] {processor.py:161} INFO - Started process (PID=254687) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:59:13.527+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:59:13.529+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:59:13.528+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:59:13.547+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:59:13.589+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:59:13.588+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:59:13.626+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:59:13.626+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:59:13.679+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.162 seconds
+[2024-03-11T20:59:44.722+0530] {processor.py:161} INFO - Started process (PID=254720) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:59:44.724+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T20:59:44.725+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:59:44.725+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:59:44.743+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T20:59:44.773+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:59:44.773+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T20:59:44.800+0530] {logging_mixin.py:188} INFO - [2024-03-11T20:59:44.799+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T20:59:44.849+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.134 seconds
+[2024-03-11T21:00:15.665+0530] {processor.py:161} INFO - Started process (PID=254751) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:00:15.668+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:00:15.670+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:00:15.669+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:00:15.693+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:00:15.743+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:00:15.742+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:00:15.794+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:00:15.793+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:00:15.872+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.216 seconds
+[2024-03-11T21:00:46.832+0530] {processor.py:161} INFO - Started process (PID=254784) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:00:46.835+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:00:46.838+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:00:46.837+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:00:46.870+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:00:46.918+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:00:46.917+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:00:46.962+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:00:46.962+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:00:47.014+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.195 seconds
+[2024-03-11T21:01:17.231+0530] {processor.py:161} INFO - Started process (PID=254817) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:01:17.235+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:01:17.238+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:01:17.237+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:01:17.254+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:01:17.279+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:01:17.279+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:01:17.301+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:01:17.301+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:01:17.350+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.125 seconds
+[2024-03-11T21:01:47.549+0530] {processor.py:161} INFO - Started process (PID=254850) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:01:47.553+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:01:47.554+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:01:47.553+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:01:47.564+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:01:47.586+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:01:47.586+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:01:47.605+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:01:47.604+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:01:47.648+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:02:18.372+0530] {processor.py:161} INFO - Started process (PID=254883) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:02:18.376+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:02:18.377+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:02:18.377+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:02:18.389+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:02:18.410+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:02:18.410+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:02:18.428+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:02:18.428+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:02:18.463+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:02:48.936+0530] {processor.py:161} INFO - Started process (PID=254914) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:02:48.939+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:02:48.941+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:02:48.940+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:02:48.951+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:02:48.972+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:02:48.972+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:02:48.991+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:02:48.991+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:02:49.031+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T21:03:19.636+0530] {processor.py:161} INFO - Started process (PID=254945) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:03:19.639+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:03:19.640+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:03:19.640+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:03:19.652+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:03:19.674+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:03:19.674+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:03:19.692+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:03:19.692+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:03:19.735+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.103 seconds
+[2024-03-11T21:03:50.475+0530] {processor.py:161} INFO - Started process (PID=254978) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:03:50.477+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:03:50.478+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:03:50.478+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:03:50.489+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:03:50.510+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:03:50.509+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:03:50.529+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:03:50.529+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:03:50.565+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:04:22.384+0530] {processor.py:161} INFO - Started process (PID=255009) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:04:22.385+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:04:22.386+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:04:22.385+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:04:22.397+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:04:22.417+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:04:22.417+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:04:22.435+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:04:22.435+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:04:22.484+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:04:53.404+0530] {processor.py:161} INFO - Started process (PID=255040) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:04:53.407+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:04:53.409+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:04:53.408+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:04:53.419+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:04:53.439+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:04:53.439+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:04:53.459+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:04:53.459+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:04:53.496+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T21:05:24.416+0530] {processor.py:161} INFO - Started process (PID=255073) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:05:24.417+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:05:24.418+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:05:24.417+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:05:24.428+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:05:24.449+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:05:24.449+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:05:24.467+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:05:24.467+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:05:24.513+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.101 seconds
+[2024-03-11T21:05:55.283+0530] {processor.py:161} INFO - Started process (PID=255104) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:05:55.287+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:05:55.288+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:05:55.288+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:05:55.297+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:05:55.318+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:05:55.318+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:05:55.336+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:05:55.336+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:05:55.387+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.106 seconds
+[2024-03-11T21:06:26.321+0530] {processor.py:161} INFO - Started process (PID=255135) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:06:26.326+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:06:26.327+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:06:26.326+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:06:26.339+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:06:26.360+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:06:26.360+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:06:26.378+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:06:26.378+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:06:26.416+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.101 seconds
+[2024-03-11T21:06:57.366+0530] {processor.py:161} INFO - Started process (PID=255166) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:06:57.368+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:06:57.369+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:06:57.369+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:06:57.380+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:06:57.400+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:06:57.400+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:06:57.419+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:06:57.418+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:06:57.452+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T21:07:28.495+0530] {processor.py:161} INFO - Started process (PID=255197) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:07:28.499+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:07:28.500+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:07:28.499+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:07:28.510+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:07:28.531+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:07:28.530+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:07:28.549+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:07:28.548+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:07:28.630+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.139 seconds
+[2024-03-11T21:07:59.382+0530] {processor.py:161} INFO - Started process (PID=255230) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:07:59.383+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:07:59.384+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:07:59.383+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:07:59.393+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:07:59.414+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:07:59.414+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:07:59.432+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:07:59.432+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:07:59.473+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:08:29.950+0530] {processor.py:161} INFO - Started process (PID=255261) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:08:29.952+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:08:29.954+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:08:29.953+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:08:29.967+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:08:29.987+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:08:29.987+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:08:30.005+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:08:30.005+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:08:30.041+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:09:00.550+0530] {processor.py:161} INFO - Started process (PID=255292) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:09:00.551+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:09:00.552+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:09:00.552+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:09:00.562+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:09:00.583+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:09:00.583+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:09:00.602+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:09:00.602+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:09:00.649+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.103 seconds
+[2024-03-11T21:09:31.073+0530] {processor.py:161} INFO - Started process (PID=255324) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:09:31.076+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:09:31.077+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:09:31.077+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:09:31.087+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:09:31.108+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:09:31.108+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:09:31.127+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:09:31.127+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:09:31.161+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:10:01.971+0530] {processor.py:161} INFO - Started process (PID=255357) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:10:01.972+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:10:01.973+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:10:01.973+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:10:01.984+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:10:02.005+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:10:02.005+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:10:02.023+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:10:02.023+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:10:02.079+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.113 seconds
+[2024-03-11T21:10:32.676+0530] {processor.py:161} INFO - Started process (PID=255388) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:10:32.680+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:10:32.681+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:10:32.681+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:10:32.691+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:10:32.712+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:10:32.712+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:10:32.729+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:10:32.729+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:10:32.764+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T21:11:03.387+0530] {processor.py:161} INFO - Started process (PID=255419) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:11:03.392+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:11:03.394+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:11:03.393+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:11:03.405+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:11:03.427+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:11:03.427+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:11:03.446+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:11:03.446+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:11:03.482+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T21:11:33.935+0530] {processor.py:161} INFO - Started process (PID=255454) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:11:33.937+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:11:33.938+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:11:33.938+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:11:33.949+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:11:33.971+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:11:33.971+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:11:33.989+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:11:33.989+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:11:34.024+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:12:04.741+0530] {processor.py:161} INFO - Started process (PID=255485) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:12:04.742+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:12:04.743+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:12:04.743+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:12:04.754+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:12:04.775+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:12:04.775+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:12:04.794+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:12:04.794+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:12:04.831+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:12:35.735+0530] {processor.py:161} INFO - Started process (PID=255516) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:12:35.740+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:12:35.741+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:12:35.741+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:12:35.751+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:12:35.771+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:12:35.771+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:12:35.790+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:12:35.790+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:12:35.842+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.111 seconds
+[2024-03-11T21:13:06.251+0530] {processor.py:161} INFO - Started process (PID=255549) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:13:06.255+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:13:06.257+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:13:06.256+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:13:06.274+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:13:06.297+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:13:06.297+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:13:06.316+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:13:06.316+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:13:06.350+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:13:36.923+0530] {processor.py:161} INFO - Started process (PID=255580) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:13:36.928+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:13:36.930+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:13:36.929+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:13:36.941+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:13:36.962+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:13:36.961+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:13:36.979+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:13:36.979+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:13:37.013+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:14:07.798+0530] {processor.py:161} INFO - Started process (PID=255611) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:14:07.803+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:14:07.804+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:14:07.804+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:14:07.819+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:14:07.842+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:14:07.842+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:14:07.860+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:14:07.859+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:14:07.908+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.116 seconds
+[2024-03-11T21:14:38.453+0530] {processor.py:161} INFO - Started process (PID=255642) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:14:38.458+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:14:38.459+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:14:38.459+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:14:38.471+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:14:38.491+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:14:38.491+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:14:38.510+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:14:38.510+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:14:38.547+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T21:15:09.139+0530] {processor.py:161} INFO - Started process (PID=255673) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:15:09.144+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:15:09.145+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:15:09.144+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:15:09.154+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:15:09.175+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:15:09.174+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:15:09.193+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:15:09.193+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:15:09.225+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.089 seconds
+[2024-03-11T21:15:39.686+0530] {processor.py:161} INFO - Started process (PID=255704) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:15:39.688+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:15:39.688+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:15:39.688+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:15:39.698+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:15:39.718+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:15:39.718+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:15:39.736+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:15:39.736+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:15:39.775+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:16:10.626+0530] {processor.py:161} INFO - Started process (PID=255737) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:16:10.631+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:16:10.632+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:16:10.631+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:16:10.643+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:16:10.663+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:16:10.663+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:16:10.681+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:16:10.681+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:16:10.721+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.100 seconds
+[2024-03-11T21:16:41.391+0530] {processor.py:161} INFO - Started process (PID=255768) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:16:41.393+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:16:41.394+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:16:41.394+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:16:41.405+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:16:41.426+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:16:41.426+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:16:41.446+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:16:41.446+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:16:41.479+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:17:12.368+0530] {processor.py:161} INFO - Started process (PID=255802) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:17:12.373+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:17:12.375+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:17:12.374+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:17:12.387+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:17:12.407+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:17:12.407+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:17:12.426+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:17:12.425+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:17:12.458+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:17:43.297+0530] {processor.py:161} INFO - Started process (PID=255833) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:17:43.302+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:17:43.303+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:17:43.303+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:17:43.315+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:17:43.336+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:17:43.336+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:17:43.354+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:17:43.354+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:17:43.387+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:18:14.054+0530] {processor.py:161} INFO - Started process (PID=255864) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:18:14.059+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:18:14.060+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:18:14.059+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:18:14.070+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:18:14.092+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:18:14.091+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:18:14.111+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:18:14.111+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:18:14.145+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:18:45.042+0530] {processor.py:161} INFO - Started process (PID=255895) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:18:45.044+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:18:45.045+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:18:45.045+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:18:45.055+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:18:45.076+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:18:45.076+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:18:45.096+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:18:45.095+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:18:45.129+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.089 seconds
+[2024-03-11T21:19:15.648+0530] {processor.py:161} INFO - Started process (PID=255926) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:19:15.652+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:19:15.653+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:19:15.653+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:19:15.664+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:19:15.686+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:19:15.686+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:19:15.704+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:19:15.704+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:19:15.737+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:19:46.361+0530] {processor.py:161} INFO - Started process (PID=255957) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:19:46.366+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:19:46.367+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:19:46.366+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:19:46.377+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:19:46.397+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:19:46.397+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:19:46.415+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:19:46.415+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:19:46.449+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.091 seconds
+[2024-03-11T21:20:16.870+0530] {processor.py:161} INFO - Started process (PID=255988) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:20:16.872+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:20:16.872+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:20:16.872+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:20:16.882+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:20:16.901+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:20:16.901+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:20:16.918+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:20:16.918+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:20:16.955+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T21:20:47.835+0530] {processor.py:161} INFO - Started process (PID=256019) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:20:47.839+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:20:47.840+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:20:47.840+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:20:47.850+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:20:47.870+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:20:47.870+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:20:47.888+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:20:47.888+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:20:47.926+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:21:18.277+0530] {processor.py:161} INFO - Started process (PID=256050) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:21:18.281+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:21:18.282+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:21:18.282+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:21:18.291+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:21:18.312+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:21:18.312+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:21:18.330+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:21:18.329+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:21:18.370+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T21:21:49.499+0530] {processor.py:161} INFO - Started process (PID=256081) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:21:49.504+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:21:49.505+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:21:49.504+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:21:49.515+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:21:49.535+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:21:49.535+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:21:49.553+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:21:49.553+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:21:49.586+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:22:20.633+0530] {processor.py:161} INFO - Started process (PID=256113) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:22:20.638+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:22:20.639+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:22:20.638+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:22:20.649+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:22:20.669+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:22:20.669+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:22:20.687+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:22:20.687+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:22:20.741+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.112 seconds
+[2024-03-11T21:22:50.852+0530] {processor.py:161} INFO - Started process (PID=256144) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:22:50.856+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:22:50.857+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:22:50.857+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:22:50.867+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:22:50.889+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:22:50.889+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:22:50.908+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:22:50.908+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:22:50.942+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:23:21.705+0530] {processor.py:161} INFO - Started process (PID=256175) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:23:21.710+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:23:21.710+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:23:21.710+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:23:21.720+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:23:21.742+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:23:21.742+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:23:21.761+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:23:21.761+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:23:21.794+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:23:52.554+0530] {processor.py:161} INFO - Started process (PID=256206) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:23:52.559+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:23:52.560+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:23:52.559+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:23:52.569+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:23:52.589+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:23:52.589+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:23:52.607+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:23:52.607+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:23:52.648+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T21:24:23.495+0530] {processor.py:161} INFO - Started process (PID=256237) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:24:23.499+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:24:23.500+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:24:23.500+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:24:23.511+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:24:23.531+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:24:23.530+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:24:23.548+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:24:23.548+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:24:23.582+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:24:54.225+0530] {processor.py:161} INFO - Started process (PID=256268) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:24:54.226+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:24:54.227+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:24:54.227+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:24:54.237+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:24:54.258+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:24:54.257+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:24:54.276+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:24:54.276+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:24:54.308+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.086 seconds
+[2024-03-11T21:25:25.026+0530] {processor.py:161} INFO - Started process (PID=256301) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:25:25.028+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:25:25.029+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:25:25.028+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:25:25.041+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:25:25.071+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:25:25.071+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:25:25.091+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:25:25.091+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:25:25.127+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:25:56.182+0530] {processor.py:161} INFO - Started process (PID=256332) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:25:56.183+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:25:56.184+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:25:56.184+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:25:56.194+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:25:56.216+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:25:56.216+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:25:56.234+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:25:56.234+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:25:56.265+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.086 seconds
+[2024-03-11T21:26:27.221+0530] {processor.py:161} INFO - Started process (PID=256363) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:26:27.226+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:26:27.227+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:26:27.226+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:26:27.239+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:26:27.260+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:26:27.259+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:26:27.277+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:26:27.277+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:26:27.315+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T21:26:57.869+0530] {processor.py:161} INFO - Started process (PID=256394) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:26:57.870+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:26:57.871+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:26:57.871+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:26:57.883+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:26:57.905+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:26:57.904+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:26:57.924+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:26:57.923+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:26:57.977+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.113 seconds
+[2024-03-11T21:27:28.724+0530] {processor.py:161} INFO - Started process (PID=256425) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:27:28.729+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:27:28.730+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:27:28.729+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:27:28.740+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:27:28.762+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:27:28.762+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:27:28.779+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:27:28.779+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:27:28.834+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.114 seconds
+[2024-03-11T21:27:59.452+0530] {processor.py:161} INFO - Started process (PID=256456) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:27:59.453+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:27:59.454+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:27:59.453+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:27:59.464+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:27:59.485+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:27:59.485+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:27:59.502+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:27:59.502+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:27:59.539+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T21:28:30.225+0530] {processor.py:161} INFO - Started process (PID=256487) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:28:30.230+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:28:30.231+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:28:30.231+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:28:30.241+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:28:30.262+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:28:30.261+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:28:30.279+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:28:30.279+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:28:30.313+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:29:01.013+0530] {processor.py:161} INFO - Started process (PID=256518) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:29:01.015+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:29:01.016+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:29:01.016+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:29:01.028+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:29:01.048+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:29:01.048+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:29:01.066+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:29:01.066+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:29:01.099+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T21:29:31.906+0530] {processor.py:161} INFO - Started process (PID=256549) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:29:31.910+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:29:31.911+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:29:31.911+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:29:31.921+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:29:31.941+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:29:31.941+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:29:31.959+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:29:31.959+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:29:32.003+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.101 seconds
+[2024-03-11T21:30:02.536+0530] {processor.py:161} INFO - Started process (PID=256580) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:30:02.540+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:30:02.541+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:30:02.541+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:30:02.550+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:30:02.572+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:30:02.571+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:30:02.589+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:30:02.589+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:30:02.626+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:30:33.282+0530] {processor.py:161} INFO - Started process (PID=256611) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:30:33.287+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:30:33.289+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:30:33.288+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:30:33.303+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:30:33.325+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:30:33.325+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:30:33.343+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:30:33.343+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:30:33.380+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.102 seconds
+[2024-03-11T21:31:04.064+0530] {processor.py:161} INFO - Started process (PID=256642) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:31:04.068+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:31:04.069+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:31:04.069+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:31:04.080+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:31:04.101+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:31:04.101+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:31:04.120+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:31:04.120+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:31:04.161+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.101 seconds
+[2024-03-11T21:31:34.814+0530] {processor.py:161} INFO - Started process (PID=256673) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:31:34.818+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:31:34.820+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:31:34.819+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:31:34.834+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:31:34.856+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:31:34.856+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:31:34.873+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:31:34.873+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:31:34.906+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.097 seconds
+[2024-03-11T21:32:05.566+0530] {processor.py:161} INFO - Started process (PID=256704) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:32:05.567+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:32:05.567+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:32:05.567+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:32:05.577+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:32:05.598+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:32:05.598+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:32:05.617+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:32:05.617+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:32:05.658+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T21:32:36.535+0530] {processor.py:161} INFO - Started process (PID=256735) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:32:36.540+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:32:36.541+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:32:36.540+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:32:36.554+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:32:36.575+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:32:36.575+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:32:36.595+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:32:36.595+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:32:36.632+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.102 seconds
+[2024-03-11T21:33:07.290+0530] {processor.py:161} INFO - Started process (PID=256768) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:33:07.294+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:33:07.295+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:33:07.295+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:33:07.306+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:33:07.327+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:33:07.327+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:33:07.346+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:33:07.346+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:33:07.388+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.103 seconds
+[2024-03-11T21:33:38.049+0530] {processor.py:161} INFO - Started process (PID=256801) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:33:38.051+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:33:38.051+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:33:38.051+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:33:38.061+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:33:38.082+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:33:38.082+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:33:38.099+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:33:38.099+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:33:38.132+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.086 seconds
+[2024-03-11T21:34:08.835+0530] {processor.py:161} INFO - Started process (PID=256832) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:34:08.840+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:34:08.840+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:34:08.840+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:34:08.851+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:34:08.871+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:34:08.871+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:34:08.889+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:34:08.889+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:34:08.937+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.105 seconds
+[2024-03-11T21:34:39.653+0530] {processor.py:161} INFO - Started process (PID=256863) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:34:39.656+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:34:39.657+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:34:39.657+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:34:39.669+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:34:39.689+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:34:39.689+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:34:39.709+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:34:39.709+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:34:39.744+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:35:09.378+0530] {processor.py:161} INFO - Started process (PID=256898) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:35:09.379+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:35:09.380+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:35:09.380+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:35:09.393+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:35:09.493+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:35:09.493+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:35:09.509+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:35:09.509+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-10 00:00:00+00:00, run_after=2024-03-11 00:00:00+00:00
+[2024-03-11T21:35:09.550+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.175 seconds
+[2024-03-11T21:35:40.216+0530] {processor.py:161} INFO - Started process (PID=256942) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:35:40.221+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:35:40.224+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:35:40.223+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:35:40.251+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:35:40.284+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:35:40.284+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:35:40.308+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:35:40.308+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:35:40.346+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.139 seconds
+[2024-03-11T21:36:11.272+0530] {processor.py:161} INFO - Started process (PID=256973) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:36:11.275+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:36:11.276+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:36:11.275+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:36:11.287+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:36:11.307+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:36:11.307+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:36:11.326+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:36:11.325+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:36:11.359+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:36:42.012+0530] {processor.py:161} INFO - Started process (PID=257006) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:36:42.016+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:36:42.017+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:36:42.017+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:36:42.028+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:36:42.054+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:36:42.053+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:36:42.075+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:36:42.075+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:36:42.117+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.109 seconds
+[2024-03-11T21:37:13.014+0530] {processor.py:161} INFO - Started process (PID=257040) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:37:13.016+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:37:13.017+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:37:13.017+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:37:13.031+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:37:13.051+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:37:13.051+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:37:13.069+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:37:13.069+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:37:13.103+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.094 seconds
+[2024-03-11T21:37:43.801+0530] {processor.py:161} INFO - Started process (PID=257071) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:37:43.805+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:37:43.807+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:37:43.806+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:37:43.817+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:37:43.838+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:37:43.838+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:37:43.856+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:37:43.856+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:37:43.894+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.097 seconds
+[2024-03-11T21:38:14.599+0530] {processor.py:161} INFO - Started process (PID=257104) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:38:14.600+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:38:14.602+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:38:14.601+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:38:14.613+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:38:14.635+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:38:14.635+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:38:14.653+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:38:14.653+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:38:14.689+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:38:45.392+0530] {processor.py:161} INFO - Started process (PID=257135) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:38:45.397+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:38:45.399+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:38:45.398+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:38:45.414+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:38:45.436+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:38:45.436+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:38:45.456+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:38:45.456+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:38:45.496+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.109 seconds
+[2024-03-11T21:39:16.169+0530] {processor.py:161} INFO - Started process (PID=257166) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:39:16.170+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:39:16.171+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:39:16.171+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:39:16.186+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:39:16.212+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:39:16.212+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:39:16.233+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:39:16.232+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:39:16.268+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.103 seconds
+[2024-03-11T21:39:46.919+0530] {processor.py:161} INFO - Started process (PID=257197) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:39:46.924+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:39:46.926+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:39:46.925+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:39:46.935+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:39:46.958+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:39:46.957+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:39:46.977+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:39:46.976+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:39:47.026+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.111 seconds
+[2024-03-11T21:40:17.820+0530] {processor.py:161} INFO - Started process (PID=257228) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:40:17.822+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:40:17.823+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:40:17.822+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:40:17.838+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:40:17.859+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:40:17.859+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:40:17.877+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:40:17.877+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:40:17.913+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T21:40:48.599+0530] {processor.py:161} INFO - Started process (PID=257259) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:40:48.603+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:40:48.604+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:40:48.604+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:40:48.615+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:40:48.638+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:40:48.638+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:40:48.659+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:40:48.658+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:40:48.695+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T21:41:19.409+0530] {processor.py:161} INFO - Started process (PID=257290) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:41:19.411+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:41:19.412+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:41:19.411+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:41:19.421+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:41:19.445+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:41:19.444+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:41:19.464+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:41:19.464+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:41:19.503+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T21:41:50.269+0530] {processor.py:161} INFO - Started process (PID=257321) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:41:50.274+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:41:50.276+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:41:50.275+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:41:50.289+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:41:50.312+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:41:50.312+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:41:50.331+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:41:50.331+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:41:50.368+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:42:21.024+0530] {processor.py:161} INFO - Started process (PID=257352) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:42:21.025+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:42:21.027+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:42:21.026+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:42:21.041+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:42:21.067+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:42:21.066+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:42:21.087+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:42:21.086+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:42:21.125+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.106 seconds
+[2024-03-11T21:42:51.974+0530] {processor.py:161} INFO - Started process (PID=257388) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:42:51.978+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:42:51.979+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:42:51.979+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:42:51.989+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:42:52.011+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:42:52.010+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:42:52.032+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:42:52.032+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:42:52.075+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.106 seconds
+[2024-03-11T21:43:23.009+0530] {processor.py:161} INFO - Started process (PID=257436) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:43:23.012+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:43:23.013+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:43:23.013+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:43:23.021+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:43:23.045+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:43:23.044+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:43:23.063+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:43:23.062+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:43:23.097+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.091 seconds
+[2024-03-11T21:43:53.752+0530] {processor.py:161} INFO - Started process (PID=257481) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:43:53.754+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:43:53.754+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:43:53.754+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:43:53.763+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:43:53.784+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:43:53.784+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:43:53.803+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:43:53.802+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:43:53.843+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.094 seconds
+[2024-03-11T21:44:24.082+0530] {processor.py:161} INFO - Started process (PID=257525) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:44:24.085+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:44:24.086+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:44:24.086+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:44:24.095+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:44:24.116+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:44:24.116+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:44:24.136+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:44:24.135+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:44:24.174+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:44:54.293+0530] {processor.py:161} INFO - Started process (PID=257551) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:44:54.296+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:44:54.298+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:44:54.297+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:44:54.315+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:44:54.352+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:44:54.352+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:44:54.374+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:44:54.373+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:44:54.409+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.124 seconds
+[2024-03-11T21:45:24.562+0530] {processor.py:161} INFO - Started process (PID=257585) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:45:24.565+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:45:24.566+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:45:24.566+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:45:24.576+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:45:24.600+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:45:24.600+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:45:24.618+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:45:24.617+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:45:24.652+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T21:45:54.841+0530] {processor.py:161} INFO - Started process (PID=257617) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:45:54.845+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:45:54.846+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:45:54.846+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:45:54.859+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:45:54.882+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:45:54.882+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:45:54.900+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:45:54.899+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:45:54.934+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.100 seconds
+[2024-03-11T21:46:25.145+0530] {processor.py:161} INFO - Started process (PID=257649) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:46:25.150+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:46:25.152+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:46:25.151+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:46:25.166+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:46:25.189+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:46:25.189+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:46:25.207+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:46:25.206+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:46:25.243+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:46:55.465+0530] {processor.py:161} INFO - Started process (PID=257687) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:46:55.470+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:46:55.471+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:46:55.471+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:46:55.483+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:46:55.505+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:46:55.505+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:46:55.523+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:46:55.523+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:46:55.564+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:47:25.961+0530] {processor.py:161} INFO - Started process (PID=257719) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:47:25.967+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:47:25.968+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:47:25.967+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:47:25.977+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:47:26.002+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:47:26.001+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:47:26.020+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:47:26.019+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:47:26.054+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.100 seconds
+[2024-03-11T21:47:56.439+0530] {processor.py:161} INFO - Started process (PID=257751) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:47:56.444+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:47:56.445+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:47:56.444+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:47:56.454+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:47:56.477+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:47:56.477+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:47:56.500+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:47:56.500+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:47:56.537+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.102 seconds
+[2024-03-11T21:48:26.755+0530] {processor.py:161} INFO - Started process (PID=257783) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:48:26.760+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:48:26.761+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:48:26.760+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:48:26.770+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:48:26.792+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:48:26.792+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:48:26.811+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:48:26.811+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:48:26.848+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.097 seconds
+[2024-03-11T21:48:57.246+0530] {processor.py:161} INFO - Started process (PID=257815) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:48:57.247+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:48:57.248+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:48:57.248+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:48:57.258+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:48:57.281+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:48:57.280+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:48:57.299+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:48:57.299+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:48:57.338+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:49:27.635+0530] {processor.py:161} INFO - Started process (PID=257847) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:49:27.639+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:49:27.640+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:49:27.640+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:49:27.649+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:49:27.671+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:49:27.671+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:49:27.690+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:49:27.690+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:49:27.750+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.119 seconds
+[2024-03-11T21:49:57.987+0530] {processor.py:161} INFO - Started process (PID=257881) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:49:57.988+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:49:57.989+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:49:57.989+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:49:57.999+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:49:58.021+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:49:58.021+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:49:58.039+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:49:58.039+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:49:58.076+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T21:50:28.396+0530] {processor.py:161} INFO - Started process (PID=257913) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:50:28.398+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:50:28.399+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:50:28.398+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:50:28.407+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:50:28.429+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:50:28.429+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:50:28.448+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:50:28.447+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:50:28.485+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.091 seconds
+[2024-03-11T21:50:58.790+0530] {processor.py:161} INFO - Started process (PID=257947) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:50:58.795+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:50:58.796+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:50:58.795+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:50:58.806+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:50:58.828+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:50:58.828+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:50:58.846+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:50:58.846+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:50:58.881+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.095 seconds
+[2024-03-11T21:51:29.017+0530] {processor.py:161} INFO - Started process (PID=257979) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:51:29.019+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:51:29.020+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:51:29.019+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:51:29.029+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:51:29.052+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:51:29.052+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:51:29.070+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:51:29.070+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:51:29.104+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T21:51:59.607+0530] {processor.py:161} INFO - Started process (PID=258010) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:51:59.611+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:51:59.613+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:51:59.612+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:51:59.628+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:51:59.653+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:51:59.653+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:51:59.674+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:51:59.673+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:51:59.709+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.106 seconds
+[2024-03-11T21:52:29.895+0530] {processor.py:161} INFO - Started process (PID=258042) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:52:29.896+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:52:29.897+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:52:29.897+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:52:29.906+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:52:29.928+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:52:29.928+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:52:29.947+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:52:29.947+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:52:29.983+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:53:00.084+0530] {processor.py:161} INFO - Started process (PID=258073) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:53:00.086+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:53:00.087+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:53:00.086+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:53:00.096+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:53:00.119+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:53:00.119+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:53:00.138+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:53:00.138+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:53:00.177+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T21:53:30.380+0530] {processor.py:161} INFO - Started process (PID=258105) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:53:30.382+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:53:30.383+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:53:30.383+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:53:30.394+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:53:30.417+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:53:30.417+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:53:30.435+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:53:30.435+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:53:30.469+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.094 seconds
+[2024-03-11T21:54:00.946+0530] {processor.py:161} INFO - Started process (PID=258137) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:54:00.951+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:54:00.952+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:54:00.951+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:54:00.960+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:54:00.982+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:54:00.981+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:54:01.000+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:54:01.000+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:54:01.042+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T21:54:33.529+0530] {processor.py:161} INFO - Started process (PID=258169) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:54:33.533+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:54:33.535+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:54:33.534+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:54:33.547+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:54:33.570+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:54:33.569+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:54:33.588+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:54:33.588+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:54:33.630+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.107 seconds
+[2024-03-11T21:55:04.478+0530] {processor.py:161} INFO - Started process (PID=258193) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:55:04.483+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:55:04.484+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:55:04.484+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:55:04.493+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:55:04.516+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:55:04.515+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:55:04.534+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:55:04.534+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:55:04.567+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.091 seconds
+[2024-03-11T21:55:35.383+0530] {processor.py:161} INFO - Started process (PID=258225) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:55:35.386+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:55:35.388+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:55:35.387+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:55:35.398+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:55:35.420+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:55:35.420+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:55:35.438+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:55:35.438+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:55:35.471+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:56:06.713+0530] {processor.py:161} INFO - Started process (PID=258257) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:56:06.717+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:56:06.718+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:56:06.718+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:56:06.727+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:56:06.749+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:56:06.749+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:56:06.768+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:56:06.768+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:56:06.801+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T21:56:37.735+0530] {processor.py:161} INFO - Started process (PID=258289) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:56:37.740+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:56:37.741+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:56:37.741+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:56:37.750+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:56:37.772+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:56:37.771+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:56:37.790+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:56:37.790+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:56:37.823+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.091 seconds
+[2024-03-11T21:57:09.233+0530] {processor.py:161} INFO - Started process (PID=258331) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:57:09.234+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:57:09.234+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:57:09.234+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:57:09.246+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:57:09.270+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:57:09.270+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:57:09.289+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:57:09.288+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:57:09.323+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.094 seconds
+[2024-03-11T21:57:40.137+0530] {processor.py:161} INFO - Started process (PID=258382) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:57:40.142+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:57:40.143+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:57:40.143+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:57:40.157+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:57:40.265+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:57:40.265+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:57:40.386+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:57:40.386+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:57:40.489+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.358 seconds
+[2024-03-11T21:58:10.913+0530] {processor.py:161} INFO - Started process (PID=258431) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:58:10.915+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:58:10.916+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:58:10.916+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:58:10.925+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:58:10.950+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:58:10.950+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:58:10.970+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:58:10.970+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:58:11.014+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.104 seconds
+[2024-03-11T21:58:41.729+0530] {processor.py:161} INFO - Started process (PID=258470) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:58:41.732+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:58:41.733+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:58:41.733+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:58:41.741+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:58:41.764+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:58:41.764+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:58:41.782+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:58:41.782+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:58:41.814+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T21:59:12.560+0530] {processor.py:161} INFO - Started process (PID=258503) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:59:12.562+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:59:12.563+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:59:12.563+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:59:12.572+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:59:12.593+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:59:12.593+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:59:12.610+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:59:12.610+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:59:12.642+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.086 seconds
+[2024-03-11T21:59:43.372+0530] {processor.py:161} INFO - Started process (PID=258540) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:59:43.375+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T21:59:43.376+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:59:43.375+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:59:43.384+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T21:59:43.406+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:59:43.406+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T21:59:43.424+0530] {logging_mixin.py:188} INFO - [2024-03-11T21:59:43.424+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T21:59:43.457+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T22:00:14.095+0530] {processor.py:161} INFO - Started process (PID=258583) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:00:14.097+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:00:14.099+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:00:14.098+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:00:14.107+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:00:14.131+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:00:14.131+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:00:14.151+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:00:14.151+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:00:14.190+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.098 seconds
+[2024-03-11T22:00:44.940+0530] {processor.py:161} INFO - Started process (PID=258625) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:00:44.943+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:00:44.945+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:00:44.944+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:00:44.953+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:00:44.974+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:00:44.974+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:00:44.993+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:00:44.993+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:00:45.027+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T22:01:15.827+0530] {processor.py:161} INFO - Started process (PID=258675) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:01:15.830+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:01:15.831+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:01:15.830+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:01:15.840+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:01:15.861+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:01:15.861+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:01:15.878+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:01:15.878+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:01:15.910+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T22:01:46.559+0530] {processor.py:161} INFO - Started process (PID=258710) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:01:46.561+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:01:46.562+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:01:46.561+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:01:46.571+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:01:46.592+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:01:46.592+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:01:46.610+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:01:46.610+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:01:46.643+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.088 seconds
+[2024-03-11T22:02:17.280+0530] {processor.py:161} INFO - Started process (PID=258743) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:02:17.284+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:02:17.285+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:02:17.285+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:02:17.293+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:02:17.315+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:02:17.314+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:02:17.332+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:02:17.332+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:02:17.366+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T22:02:47.768+0530] {processor.py:161} INFO - Started process (PID=258776) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:02:47.772+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:02:47.773+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:02:47.773+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:02:47.784+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:02:47.806+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:02:47.805+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:02:47.824+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:02:47.824+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:02:47.859+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.096 seconds
+[2024-03-11T22:03:18.426+0530] {processor.py:161} INFO - Started process (PID=258811) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:03:18.430+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:03:18.431+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:03:18.431+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:03:18.440+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:03:18.461+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:03:18.461+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:03:18.478+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:03:18.478+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:03:18.524+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.102 seconds
+[2024-03-11T22:03:49.065+0530] {processor.py:161} INFO - Started process (PID=258844) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:03:49.070+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:03:49.072+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:03:49.071+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:03:49.080+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:03:49.101+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:03:49.101+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:03:49.118+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:03:49.118+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:03:49.162+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.100 seconds
+[2024-03-11T22:04:20.211+0530] {processor.py:161} INFO - Started process (PID=258877) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:04:20.215+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:04:20.217+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:04:20.216+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:04:20.226+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:04:20.246+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:04:20.246+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:04:20.264+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:04:20.264+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:04:20.311+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.103 seconds
+[2024-03-11T22:04:51.430+0530] {processor.py:161} INFO - Started process (PID=258913) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:04:51.433+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:04:51.435+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:04:51.434+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:04:51.446+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:04:51.466+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:04:51.466+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:04:51.484+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:04:51.484+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:04:51.517+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T22:05:22.128+0530] {processor.py:161} INFO - Started process (PID=258946) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:05:22.133+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:05:22.135+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:05:22.134+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:05:22.148+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:05:22.170+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:05:22.170+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:05:22.188+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:05:22.188+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:05:22.223+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.100 seconds
+[2024-03-11T22:05:52.741+0530] {processor.py:161} INFO - Started process (PID=258979) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:05:52.742+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:05:52.743+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:05:52.743+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:05:52.753+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:05:52.776+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:05:52.776+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:05:52.797+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:05:52.796+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:05:52.835+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.099 seconds
+[2024-03-11T22:06:23.474+0530] {processor.py:161} INFO - Started process (PID=259012) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:06:23.477+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:06:23.478+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:06:23.477+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:06:23.490+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:06:23.510+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:06:23.510+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:06:23.528+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:06:23.528+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:06:23.562+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T22:06:54.132+0530] {processor.py:161} INFO - Started process (PID=259045) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:06:54.137+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:06:54.138+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:06:54.137+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:06:54.146+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:06:54.167+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:06:54.167+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:06:54.185+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:06:54.185+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:06:54.221+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T22:07:24.694+0530] {processor.py:161} INFO - Started process (PID=259078) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:07:24.699+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:07:24.700+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:07:24.699+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:07:24.709+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:07:24.731+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:07:24.730+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:07:24.749+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:07:24.749+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:07:24.782+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.091 seconds
+[2024-03-11T22:07:55.516+0530] {processor.py:161} INFO - Started process (PID=259111) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:07:55.517+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:07:55.518+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:07:55.517+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:07:55.527+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:07:55.547+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:07:55.547+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:07:55.565+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:07:55.564+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:07:55.596+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.084 seconds
+[2024-03-11T22:08:26.166+0530] {processor.py:161} INFO - Started process (PID=259144) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:08:26.170+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:08:26.171+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:08:26.171+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:08:26.180+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:08:26.202+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:08:26.202+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:08:26.220+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:08:26.220+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:08:26.251+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.090 seconds
+[2024-03-11T22:08:56.760+0530] {processor.py:161} INFO - Started process (PID=259179) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:08:56.764+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:08:56.765+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:08:56.765+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:08:56.774+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:08:56.801+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:08:56.801+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:08:56.819+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:08:56.818+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:08:56.853+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.097 seconds
+[2024-03-11T22:09:27.735+0530] {processor.py:161} INFO - Started process (PID=259221) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:09:27.736+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:09:27.737+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:09:27.736+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:09:27.747+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:09:27.782+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:09:27.782+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:09:27.870+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:09:27.869+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:09:28.192+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.461 seconds
+[2024-03-11T22:09:58.843+0530] {processor.py:161} INFO - Started process (PID=259261) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:09:58.844+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:09:58.845+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:09:58.845+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:09:58.856+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:09:58.878+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:09:58.878+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:09:58.896+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:09:58.896+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:09:58.931+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.093 seconds
+[2024-03-11T22:10:29.606+0530] {processor.py:161} INFO - Started process (PID=259300) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:10:29.609+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:10:29.610+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:10:29.609+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:10:29.619+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:10:29.642+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:10:29.641+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:10:29.661+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:10:29.661+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:10:29.694+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.092 seconds
+[2024-03-11T22:11:00.697+0530] {processor.py:161} INFO - Started process (PID=259333) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:11:00.700+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:11:00.701+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:11:00.700+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:11:00.710+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:11:00.731+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:11:00.731+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:11:00.751+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:11:00.751+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:11:00.783+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.089 seconds
+[2024-03-11T22:11:31.524+0530] {processor.py:161} INFO - Started process (PID=259366) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:11:31.526+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:11:31.528+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:11:31.528+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:11:31.538+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:11:31.562+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:11:31.562+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:11:31.581+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:11:31.580+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:11:31.623+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.103 seconds
+[2024-03-11T22:12:02.225+0530] {processor.py:161} INFO - Started process (PID=259399) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:12:02.228+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:12:02.229+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:12:02.228+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:12:02.237+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:12:02.260+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:12:02.259+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:12:02.278+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:12:02.277+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:12:02.310+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.089 seconds
+[2024-03-11T22:12:33.007+0530] {processor.py:161} INFO - Started process (PID=259432) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:12:33.013+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:12:33.016+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:12:33.015+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:12:33.043+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:12:33.073+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:12:33.073+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:12:33.092+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:12:33.092+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:12:33.141+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.144 seconds
+[2024-03-11T22:13:03.785+0530] {processor.py:161} INFO - Started process (PID=259465) to work on /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:13:03.788+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/execute_python_operators.py for tasks to queue
+[2024-03-11T22:13:03.790+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:13:03.789+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:13:03.800+0530] {processor.py:840} INFO - DAG(s) 'python_operator_dag' retrieved from /home/kai/airflow/dags/execute_python_operators.py
+[2024-03-11T22:13:03.822+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:13:03.822+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-11T22:13:03.840+0530] {logging_mixin.py:188} INFO - [2024-03-11T22:13:03.839+0530] {dag.py:3834} INFO - Setting next_dagrun for python_operator_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-11T22:13:03.875+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/execute_python_operators.py took 0.094 seconds

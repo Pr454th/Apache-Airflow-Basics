@@ -1,0 +1,42 @@
+[2024-03-12T22:39:54.490+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskflow_branching_operators_dag.write_csv manual__2024-03-12T17:09:38.794089+00:00 [queued]>
+[2024-03-12T22:39:54.496+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskflow_branching_operators_dag.write_csv manual__2024-03-12T17:09:38.794089+00:00 [queued]>
+[2024-03-12T22:39:54.496+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-12T22:39:54.526+0530] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): write_csv> on 2024-03-12 17:09:38.794089+00:00
+[2024-03-12T22:39:54.539+0530] {standard_task_runner.py:60} INFO - Started process 280027 to run task
+[2024-03-12T22:39:54.547+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'taskflow_branching_operators_dag', 'write_csv', 'manual__2024-03-12T17:09:38.794089+00:00', '--job-id', '218', '--raw', '--subdir', 'DAGS_FOLDER/taskflow_branching_operators_dag.py', '--cfg-path', '/tmp/tmpn7rnru45']
+[2024-03-12T22:39:54.549+0530] {standard_task_runner.py:88} INFO - Job 218: Subtask write_csv
+[2024-03-12T22:39:54.598+0530] {task_command.py:423} INFO - Running <TaskInstance: taskflow_branching_operators_dag.write_csv manual__2024-03-12T17:09:38.794089+00:00 [running]> on host BreakThrough.
+[2024-03-12T22:39:54.689+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='taskflow_branching_operators_dag' AIRFLOW_CTX_TASK_ID='write_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T17:09:38.794089+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-12T17:09:38.794089+00:00'
+[2024-03-12T22:39:54.692+0530] {logging_mixin.py:188} INFO - This is task D
+[2024-03-12T22:39:54.720+0530] {logging_mixin.py:188} WARNING - /home/kai/airflow/dags/taskflow_branching_operators_dag.py:70 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-12T22:39:54.731+0530] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kai/airflow/dags/taskflow_branching_operators_dag.py", line 71, in write_csv
+    df.to_csv('dags/datasets/{0}.csv'.format(title), index=False)
+  File "/home/kai/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3964, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/kai/.local/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/home/kai/.local/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/home/kai/.local/lib/python3.10/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/kai/.local/lib/python3.10/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'dags/datasets'
+[2024-03-12T22:39:54.755+0530] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=taskflow_branching_operators_dag, task_id=write_csv, execution_date=20240312T170938, start_date=20240312T170954, end_date=20240312T170954
+[2024-03-12T22:39:54.781+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 218 for task write_csv (Cannot save file into a non-existent directory: 'dags/datasets'; 280027)
+[2024-03-12T22:39:54.801+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-12T22:39:54.812+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

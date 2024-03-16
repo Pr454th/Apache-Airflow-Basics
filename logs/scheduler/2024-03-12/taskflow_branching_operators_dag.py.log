@@ -1,0 +1,764 @@
+[2024-03-12T22:16:30.574+0530] {processor.py:161} INFO - Started process (PID=277831) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:16:30.575+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:16:30.576+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:16:30.576+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:16:31.019+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:16:31.026+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.455 seconds
+[2024-03-12T22:17:01.231+0530] {processor.py:161} INFO - Started process (PID=277872) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:17:01.232+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:17:01.233+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:17:01.232+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:17:01.681+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:17:01.691+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.464 seconds
+[2024-03-12T22:17:32.085+0530] {processor.py:161} INFO - Started process (PID=277916) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:17:32.088+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:17:32.089+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:17:32.089+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:17:32.492+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:17:32.498+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.416 seconds
+[2024-03-12T22:18:02.875+0530] {processor.py:161} INFO - Started process (PID=277957) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:18:02.876+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:18:02.877+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:18:02.877+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:18:03.285+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:18:03.291+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.419 seconds
+[2024-03-12T22:18:33.605+0530] {processor.py:161} INFO - Started process (PID=277998) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:18:33.610+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:18:33.611+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:18:33.611+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:18:34.011+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:18:34.018+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.416 seconds
+[2024-03-12T22:19:04.446+0530] {processor.py:161} INFO - Started process (PID=278039) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:19:04.448+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:19:04.449+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:19:04.449+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:19:04.877+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:19:04.884+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.443 seconds
+[2024-03-12T22:19:35.140+0530] {processor.py:161} INFO - Started process (PID=278080) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:19:35.144+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:19:35.145+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:19:35.145+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:19:35.548+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:19:35.555+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.419 seconds
+[2024-03-12T22:20:05.794+0530] {processor.py:161} INFO - Started process (PID=278121) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:20:05.795+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:20:05.796+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:20:05.795+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:20:06.201+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:20:06.208+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.418 seconds
+[2024-03-12T22:20:36.693+0530] {processor.py:161} INFO - Started process (PID=278162) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:20:36.696+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:20:36.697+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:20:36.697+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:20:37.098+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:20:37.104+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.415 seconds
+[2024-03-12T22:21:07.221+0530] {processor.py:161} INFO - Started process (PID=278203) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:21:07.222+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:21:07.222+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:21:07.222+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:21:07.653+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:21:07.660+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.442 seconds
+[2024-03-12T22:21:38.184+0530] {processor.py:161} INFO - Started process (PID=278244) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:21:38.188+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:21:38.190+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:21:38.189+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:21:38.592+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:21:38.598+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.419 seconds
+[2024-03-12T22:22:08.872+0530] {processor.py:161} INFO - Started process (PID=278286) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:22:08.873+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:22:08.874+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:22:08.873+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:22:09.292+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:22:09.300+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.432 seconds
+[2024-03-12T22:22:39.923+0530] {processor.py:161} INFO - Started process (PID=278327) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:22:39.926+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:22:39.927+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:22:39.926+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:22:40.326+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:22:40.333+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.413 seconds
+[2024-03-12T22:23:10.543+0530] {processor.py:161} INFO - Started process (PID=278368) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:23:10.544+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:23:10.546+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:23:10.545+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:23:10.946+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:23:10.953+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.413 seconds
+[2024-03-12T22:23:41.398+0530] {processor.py:161} INFO - Started process (PID=278409) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:23:41.402+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:23:41.403+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:23:41.402+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:23:41.802+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:23:41.809+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.414 seconds
+[2024-03-12T22:24:12.037+0530] {processor.py:161} INFO - Started process (PID=278450) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:24:12.038+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:24:12.039+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:12.039+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:24:12.435+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:24:12.442+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.408 seconds
+[2024-03-12T22:24:42.994+0530] {processor.py:161} INFO - Started process (PID=278496) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:24:42.996+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:24:42.997+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:42.997+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:24:43.401+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:24:43.562+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:43.561+0530] {override.py:1769} INFO - Created Permission View: can delete on DAG:taskflow_branching_operators_dag
+[2024-03-12T22:24:43.586+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:43.585+0530] {override.py:1769} INFO - Created Permission View: can read on DAG:taskflow_branching_operators_dag
+[2024-03-12T22:24:43.608+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:43.607+0530] {override.py:1769} INFO - Created Permission View: can edit on DAG:taskflow_branching_operators_dag
+[2024-03-12T22:24:43.609+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:43.608+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:24:43.617+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:43.617+0530] {dag.py:3069} INFO - Creating ORM DAG for taskflow_branching_operators_dag
+[2024-03-12T22:24:43.625+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:24:43.624+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:24:43.663+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.674 seconds
+[2024-03-12T22:25:13.961+0530] {processor.py:161} INFO - Started process (PID=278543) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:25:13.962+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:25:13.963+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:25:13.963+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:25:14.402+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:25:14.417+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:25:14.417+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:25:14.432+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:25:14.432+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:25:14.467+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.509 seconds
+[2024-03-12T22:25:44.690+0530] {processor.py:161} INFO - Started process (PID=278594) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:25:44.692+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:25:44.693+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:25:44.693+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:25:45.137+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:25:45.152+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:25:45.151+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:25:45.168+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:25:45.168+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:25:45.222+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.535 seconds
+[2024-03-12T22:26:16.011+0530] {processor.py:161} INFO - Started process (PID=278642) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:26:16.014+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:26:16.015+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:26:16.015+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:26:16.441+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:26:16.460+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:26:16.460+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:26:16.476+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:26:16.476+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:26:16.517+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.512 seconds
+[2024-03-12T22:26:40.373+0530] {processor.py:161} INFO - Started process (PID=278688) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:26:40.377+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:26:40.378+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:26:40.378+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:26:40.789+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:26:40.804+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:26:40.804+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:26:40.819+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:26:40.819+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:26:40.859+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.492 seconds
+[2024-03-12T22:27:11.478+0530] {processor.py:161} INFO - Started process (PID=278735) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:27:11.480+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:27:11.481+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:27:11.481+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:27:11.884+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:27:11.899+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:27:11.899+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:27:11.916+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:27:11.916+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:27:11.952+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.478 seconds
+[2024-03-12T22:27:42.061+0530] {processor.py:161} INFO - Started process (PID=278776) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:27:42.064+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:27:42.065+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:27:42.065+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:27:42.467+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:27:42.482+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:27:42.481+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:27:42.498+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:27:42.498+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:27:42.553+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.495 seconds
+[2024-03-12T22:28:12.785+0530] {processor.py:161} INFO - Started process (PID=278822) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:28:12.786+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:28:12.787+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:28:12.787+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:28:13.190+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:28:13.268+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:28:13.268+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:28:13.281+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:28:13.281+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:28:13.327+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.545 seconds
+[2024-03-12T22:28:43.388+0530] {processor.py:161} INFO - Started process (PID=278863) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:28:43.389+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:28:43.390+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:28:43.389+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:28:43.808+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:28:43.825+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:28:43.824+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:28:43.841+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:28:43.841+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:28:43.893+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.508 seconds
+[2024-03-12T22:29:14.019+0530] {processor.py:161} INFO - Started process (PID=278904) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:29:14.023+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:29:14.024+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:29:14.024+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:29:14.429+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:29:14.444+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:29:14.443+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:29:14.460+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:29:14.459+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:29:14.501+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.486 seconds
+[2024-03-12T22:29:44.730+0530] {processor.py:161} INFO - Started process (PID=278945) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:29:44.735+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:29:44.736+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:29:44.735+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:29:45.139+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:29:45.155+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:29:45.155+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:29:45.171+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:29:45.171+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:29:45.207+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.480 seconds
+[2024-03-12T22:30:15.357+0530] {processor.py:161} INFO - Started process (PID=278986) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:30:15.359+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:30:15.360+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:30:15.359+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:30:15.764+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:30:15.780+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:30:15.779+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:30:15.795+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:30:15.795+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:30:15.830+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.476 seconds
+[2024-03-12T22:30:45.932+0530] {processor.py:161} INFO - Started process (PID=279027) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:30:45.936+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:30:45.937+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:30:45.937+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:30:46.339+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:30:46.359+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:30:46.359+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:30:46.377+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:30:46.376+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:30:46.421+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.493 seconds
+[2024-03-12T22:31:16.897+0530] {processor.py:161} INFO - Started process (PID=279068) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:31:16.898+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:31:16.899+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:31:16.899+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:31:17.309+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:31:17.325+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:31:17.324+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:31:17.340+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:31:17.339+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:31:17.380+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.488 seconds
+[2024-03-12T22:31:47.877+0530] {processor.py:161} INFO - Started process (PID=279109) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:31:47.883+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:31:47.886+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:31:47.885+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:31:48.303+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:31:48.319+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:31:48.319+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:31:48.335+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:31:48.335+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:31:48.383+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.510 seconds
+[2024-03-12T22:32:18.833+0530] {processor.py:161} INFO - Started process (PID=279150) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:32:18.834+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:32:18.835+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:32:18.835+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:32:19.249+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:32:19.265+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:32:19.264+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:32:19.281+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:32:19.281+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:32:19.321+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.492 seconds
+[2024-03-12T22:32:49.953+0530] {processor.py:161} INFO - Started process (PID=279192) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:32:49.957+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:32:49.959+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:32:49.958+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:32:50.365+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:32:50.381+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:32:50.381+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:32:50.403+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:32:50.403+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:32:50.442+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.493 seconds
+[2024-03-12T22:33:21.211+0530] {processor.py:161} INFO - Started process (PID=279233) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:21.215+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:33:21.217+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:21.216+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:21.634+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:21.649+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:21.648+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:33:21.664+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:21.664+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:33:21.718+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.511 seconds
+[2024-03-12T22:33:22.910+0530] {processor.py:161} INFO - Started process (PID=279246) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:22.912+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:33:22.914+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:22.913+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:23.398+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:23.362+0530] {dagbag.py:350} ERROR - Failed to import: /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kai/airflow/dags/taskflow_branching_operators_dag.py", line 81, in <module>
+    taskflow_branching_dag()
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/home/kai/airflow/dags/taskflow_branching_operators_dag.py", line 77, in taskflow_branching_dag
+    filter_by_weight_task=filter_by_weight(cleaned_data)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/lib/python3.10/inspect.py", line 3186, in bind
+    return self._bind(args, kwargs)
+  File "/usr/lib/python3.10/inspect.py", line 3107, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2024-03-12T22:33:23.398+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:23.432+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.536 seconds
+[2024-03-12T22:33:53.555+0530] {processor.py:161} INFO - Started process (PID=279287) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:53.557+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:33:53.558+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:53.557+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:53.963+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:33:53.961+0530] {dagbag.py:350} ERROR - Failed to import: /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/kai/airflow/dags/taskflow_branching_operators_dag.py", line 81, in <module>
+    taskflow_branching_dag()
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/home/kai/airflow/dags/taskflow_branching_operators_dag.py", line 77, in taskflow_branching_dag
+    filter_by_weight_task=filter_by_weight(cleaned_data)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/lib/python3.10/inspect.py", line 3186, in bind
+    return self._bind(args, kwargs)
+  File "/usr/lib/python3.10/inspect.py", line 3107, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2024-03-12T22:33:53.963+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:33:53.998+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.447 seconds
+[2024-03-12T22:34:21.773+0530] {processor.py:161} INFO - Started process (PID=279333) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:34:21.778+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:34:21.779+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:34:21.778+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:34:22.324+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:34:22.405+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:34:22.404+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:34:22.419+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:34:22.419+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:34:22.493+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.723 seconds
+[2024-03-12T22:34:53.271+0530] {processor.py:161} INFO - Started process (PID=279378) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:34:53.274+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:34:53.275+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:34:53.275+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:34:53.679+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:34:53.695+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:34:53.695+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:34:53.710+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:34:53.709+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:34:53.746+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.478 seconds
+[2024-03-12T22:35:24.218+0530] {processor.py:161} INFO - Started process (PID=279421) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:35:24.221+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:35:24.223+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:35:24.222+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:35:24.635+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:35:24.650+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:35:24.650+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:35:24.665+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:35:24.665+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-11 00:00:00+00:00, run_after=2024-03-12 00:00:00+00:00
+[2024-03-12T22:35:24.714+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.499 seconds
+[2024-03-12T22:35:55.267+0530] {processor.py:161} INFO - Started process (PID=279477) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:35:55.270+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:35:55.271+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:35:55.270+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:35:55.713+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:35:55.730+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:35:55.730+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:35:55.749+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:35:55.749+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:35:55.788+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.525 seconds
+[2024-03-12T22:36:26.023+0530] {processor.py:161} INFO - Started process (PID=279537) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:26.024+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:36:26.025+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:26.024+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:26.445+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:26.460+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:26.460+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:36:26.477+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:26.476+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:36:26.514+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.494 seconds
+[2024-03-12T22:36:30.037+0530] {processor.py:161} INFO - Started process (PID=279550) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:30.038+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:36:30.039+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:30.039+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:30.444+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:30.460+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:30.459+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:36:30.476+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:30.476+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:36:30.513+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.480 seconds
+[2024-03-12T22:36:52.378+0530] {processor.py:161} INFO - Started process (PID=279601) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:52.379+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:36:52.380+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:52.379+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:52.852+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:36:52.872+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:52.871+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:36:52.889+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:36:52.889+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:36:52.925+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.551 seconds
+[2024-03-12T22:37:23.923+0530] {processor.py:161} INFO - Started process (PID=279659) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:37:23.925+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:37:23.926+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:37:23.926+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:37:24.358+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:37:24.375+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:37:24.374+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:37:24.391+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:37:24.391+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:37:24.429+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.510 seconds
+[2024-03-12T22:37:49.453+0530] {processor.py:161} INFO - Started process (PID=279694) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:37:49.455+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:37:49.456+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:37:49.456+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:37:49.856+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:37:49.872+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:37:49.871+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:37:49.888+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:37:49.888+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:37:49.920+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.471 seconds
+[2024-03-12T22:38:20.027+0530] {processor.py:161} INFO - Started process (PID=279776) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:20.028+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:38:20.029+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:20.029+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:20.444+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:20.460+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:20.460+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:38:20.477+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:20.477+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:38:20.512+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.488 seconds
+[2024-03-12T22:38:43.325+0530] {processor.py:161} INFO - Started process (PID=279812) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:43.328+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:38:43.329+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:43.329+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:43.733+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:43.752+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:43.751+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:38:43.768+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:43.768+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:38:43.804+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.482 seconds
+[2024-03-12T22:38:58.313+0530] {processor.py:161} INFO - Started process (PID=279849) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:58.314+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:38:58.315+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:58.315+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:58.823+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:38:58.840+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:58.840+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:38:58.857+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:38:58.857+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:38:58.892+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.583 seconds
+[2024-03-12T22:39:29.342+0530] {processor.py:161} INFO - Started process (PID=279942) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:39:29.345+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:39:29.346+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:39:29.346+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:39:29.762+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:39:29.777+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:39:29.777+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:39:29.793+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:39:29.792+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:39:29.829+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.489 seconds
+[2024-03-12T22:39:34.909+0530] {processor.py:161} INFO - Started process (PID=279962) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:39:34.912+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:39:34.913+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:39:34.913+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:39:35.324+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:39:35.339+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:39:35.339+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:39:35.355+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:39:35.354+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:39:35.390+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.485 seconds
+[2024-03-12T22:40:05.454+0530] {processor.py:161} INFO - Started process (PID=280053) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:05.456+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:40:05.457+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:05.457+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:05.865+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:05.881+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:05.880+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:40:05.897+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:05.897+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:40:05.932+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.483 seconds
+[2024-03-12T22:40:24.957+0530] {processor.py:161} INFO - Started process (PID=280079) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:24.960+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:40:24.962+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:24.961+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:25.546+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:25.563+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:25.563+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:40:25.581+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:25.581+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:40:25.623+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.670 seconds
+[2024-03-12T22:40:56.091+0530] {processor.py:161} INFO - Started process (PID=280176) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:56.092+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:40:56.093+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:56.093+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:56.493+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:40:56.509+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:56.509+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:40:56.524+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:40:56.524+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:40:56.559+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.471 seconds
+[2024-03-12T22:41:27.195+0530] {processor.py:161} INFO - Started process (PID=280227) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:41:27.198+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:41:27.199+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:41:27.199+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:41:27.623+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:41:27.639+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:41:27.639+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:41:27.657+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:41:27.656+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:41:27.692+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.501 seconds
+[2024-03-12T22:41:58.280+0530] {processor.py:161} INFO - Started process (PID=280274) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:41:58.284+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:41:58.288+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:41:58.286+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:41:58.784+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:41:58.800+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:41:58.800+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:41:58.816+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:41:58.816+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:41:58.866+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.591 seconds
+[2024-03-12T22:42:29.271+0530] {processor.py:161} INFO - Started process (PID=280324) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:42:29.274+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:42:29.276+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:42:29.275+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:42:29.752+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:42:29.772+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:42:29.772+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:42:29.798+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:42:29.797+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:42:29.835+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.570 seconds
+[2024-03-12T22:43:00.174+0530] {processor.py:161} INFO - Started process (PID=280365) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:43:00.178+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:43:00.180+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:43:00.179+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:43:00.584+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:43:00.601+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:43:00.601+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:43:00.617+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:43:00.617+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:43:00.651+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.485 seconds
+[2024-03-12T22:43:31.263+0530] {processor.py:161} INFO - Started process (PID=280407) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:43:31.267+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:43:31.268+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:43:31.268+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:43:31.672+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:43:31.687+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:43:31.687+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:43:31.703+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:43:31.703+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:43:31.740+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.480 seconds
+[2024-03-12T22:44:02.134+0530] {processor.py:161} INFO - Started process (PID=280448) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:44:02.138+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:44:02.139+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:44:02.139+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:44:02.548+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:44:02.564+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:44:02.564+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:44:02.581+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:44:02.581+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:44:02.623+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.493 seconds
+[2024-03-12T22:44:32.839+0530] {processor.py:161} INFO - Started process (PID=280489) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:44:32.844+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:44:32.845+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:44:32.845+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:44:33.248+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:44:33.264+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:44:33.264+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:44:33.280+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:44:33.280+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:44:33.315+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.480 seconds
+[2024-03-12T22:45:03.464+0530] {processor.py:161} INFO - Started process (PID=280530) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:45:03.469+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:45:03.470+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:45:03.470+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:45:03.888+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:45:03.905+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:45:03.904+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:45:03.921+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:45:03.921+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:45:03.963+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.503 seconds
+[2024-03-12T22:45:34.187+0530] {processor.py:161} INFO - Started process (PID=280571) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:45:34.192+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:45:34.193+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:45:34.193+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:45:34.517+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:45:34.538+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:45:34.537+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:45:34.556+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:45:34.556+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:45:34.591+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.408 seconds
+[2024-03-12T22:46:04.741+0530] {processor.py:161} INFO - Started process (PID=280612) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:46:04.745+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:46:04.746+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:46:04.746+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:46:05.068+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:46:05.089+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:46:05.089+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:46:05.108+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:46:05.108+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:46:05.145+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.407 seconds
+[2024-03-12T22:46:35.368+0530] {processor.py:161} INFO - Started process (PID=280655) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:46:35.372+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:46:35.374+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:46:35.373+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:46:35.695+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:46:35.716+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:46:35.716+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:46:35.736+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:46:35.736+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:46:35.780+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.416 seconds
+[2024-03-12T22:47:06.519+0530] {processor.py:161} INFO - Started process (PID=280696) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:47:06.520+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:47:06.521+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:47:06.520+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:47:06.867+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:47:06.889+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:47:06.889+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:47:06.908+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:47:06.907+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:47:06.967+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.452 seconds
+[2024-03-12T22:47:37.677+0530] {processor.py:161} INFO - Started process (PID=280737) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:47:37.680+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:47:37.681+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:47:37.681+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:47:38.005+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:47:38.027+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:47:38.027+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:47:38.046+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:47:38.046+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:47:38.081+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.407 seconds
+[2024-03-12T22:48:09.140+0530] {processor.py:161} INFO - Started process (PID=280778) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:48:09.141+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:48:09.142+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:48:09.142+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:48:09.459+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:48:09.479+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:48:09.478+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:48:09.498+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:48:09.497+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:48:09.538+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.402 seconds
+[2024-03-12T22:48:39.838+0530] {processor.py:161} INFO - Started process (PID=280819) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:48:39.843+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:48:39.844+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:48:39.843+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:48:40.168+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:48:40.190+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:48:40.189+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:48:40.210+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:48:40.210+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:48:40.251+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.416 seconds
+[2024-03-12T22:49:10.559+0530] {processor.py:161} INFO - Started process (PID=280863) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:49:10.564+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:49:10.567+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:49:10.567+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:49:10.940+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:49:10.964+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:49:10.964+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:49:10.983+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:49:10.983+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:49:11.022+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.466 seconds
+[2024-03-12T22:49:41.259+0530] {processor.py:161} INFO - Started process (PID=280904) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:49:41.261+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:49:41.262+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:49:41.262+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:49:41.590+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:49:41.613+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:49:41.613+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:49:41.633+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:49:41.632+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:49:41.672+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.418 seconds
+[2024-03-12T22:50:11.858+0530] {processor.py:161} INFO - Started process (PID=280945) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:50:11.861+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:50:11.862+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:50:11.862+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:50:12.201+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:50:12.222+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:50:12.221+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:50:12.242+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:50:12.242+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:50:12.284+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.431 seconds
+[2024-03-12T22:50:42.547+0530] {processor.py:161} INFO - Started process (PID=280986) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:50:42.548+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:50:42.549+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:50:42.548+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:50:42.869+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:50:42.890+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:50:42.890+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:50:42.908+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:50:42.908+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:50:42.946+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.403 seconds
+[2024-03-12T22:51:13.306+0530] {processor.py:161} INFO - Started process (PID=281027) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:51:13.311+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:51:13.312+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:51:13.311+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:51:13.634+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:51:13.654+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:51:13.654+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:51:13.674+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:51:13.673+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:51:13.734+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.432 seconds
+[2024-03-12T22:51:44.014+0530] {processor.py:161} INFO - Started process (PID=281068) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:51:44.019+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:51:44.021+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:51:44.020+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:51:44.336+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:51:44.357+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:51:44.357+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:51:44.376+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:51:44.376+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:51:44.423+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.413 seconds
+[2024-03-12T22:52:14.764+0530] {processor.py:161} INFO - Started process (PID=281112) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:52:14.769+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:52:14.770+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:52:14.769+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:52:15.088+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:52:15.108+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:52:15.107+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:52:15.126+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:52:15.126+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:52:15.181+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.421 seconds
+[2024-03-12T22:52:45.360+0530] {processor.py:161} INFO - Started process (PID=281153) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:52:45.362+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:52:45.364+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:52:45.363+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:52:45.689+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:52:45.709+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:52:45.708+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:52:45.729+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:52:45.728+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:52:45.770+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.418 seconds
+[2024-03-12T22:53:16.169+0530] {processor.py:161} INFO - Started process (PID=281219) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:53:16.171+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:53:16.172+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:53:16.172+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:53:16.671+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:53:16.700+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:53:16.700+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:53:16.725+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:53:16.724+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:53:16.778+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.615 seconds
+[2024-03-12T22:53:47.773+0530] {processor.py:161} INFO - Started process (PID=281272) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:53:47.774+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:53:47.775+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:53:47.775+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:53:48.227+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:53:48.281+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:53:48.281+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:53:48.395+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:53:48.394+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:53:48.507+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.740 seconds
+[2024-03-12T22:54:18.777+0530] {processor.py:161} INFO - Started process (PID=281325) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:54:18.778+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:54:18.780+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:54:18.780+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:54:19.171+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:54:19.197+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:54:19.197+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:54:19.229+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:54:19.228+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:54:19.275+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.504 seconds
+[2024-03-12T22:54:50.061+0530] {processor.py:161} INFO - Started process (PID=281374) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:54:50.065+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:54:50.066+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:54:50.065+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:54:50.381+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:54:50.403+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:54:50.402+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:54:50.423+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:54:50.423+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:54:50.459+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.401 seconds
+[2024-03-12T22:55:20.688+0530] {processor.py:161} INFO - Started process (PID=281418) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:55:20.691+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:55:20.692+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:55:20.692+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:55:21.056+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:55:21.081+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:55:21.081+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:55:21.101+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:55:21.101+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:55:21.136+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.452 seconds
+[2024-03-12T22:55:51.444+0530] {processor.py:161} INFO - Started process (PID=281461) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:55:51.448+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:55:51.449+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:55:51.448+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:55:51.771+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:55:51.791+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:55:51.791+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:55:51.810+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:55:51.810+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:55:51.847+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.406 seconds
+[2024-03-12T22:56:22.592+0530] {processor.py:161} INFO - Started process (PID=281502) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:56:22.595+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:56:22.596+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:56:22.596+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:56:22.915+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:56:22.935+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:56:22.935+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:56:22.954+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:56:22.954+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:56:23.003+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.414 seconds
+[2024-03-12T22:56:53.743+0530] {processor.py:161} INFO - Started process (PID=281544) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:56:53.746+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:56:53.747+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:56:53.747+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:56:54.077+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:56:54.100+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:56:54.100+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:56:54.119+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:56:54.119+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:56:54.152+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.414 seconds
+[2024-03-12T22:57:24.385+0530] {processor.py:161} INFO - Started process (PID=281605) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:57:24.387+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:57:24.388+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:57:24.388+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:57:24.715+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:57:24.736+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:57:24.736+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:57:24.755+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:57:24.755+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:57:24.801+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.421 seconds
+[2024-03-12T22:57:55.459+0530] {processor.py:161} INFO - Started process (PID=281649) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:57:55.461+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:57:55.462+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:57:55.462+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:57:55.778+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:57:55.799+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:57:55.798+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:57:55.817+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:57:55.817+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:57:55.867+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.411 seconds
+[2024-03-12T22:58:26.332+0530] {processor.py:161} INFO - Started process (PID=281691) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:58:26.335+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:58:26.336+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:58:26.336+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:58:26.649+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:58:26.669+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:58:26.669+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:58:26.688+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:58:26.688+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:58:26.730+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.401 seconds
+[2024-03-12T22:58:57.216+0530] {processor.py:161} INFO - Started process (PID=281733) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:58:57.220+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:58:57.221+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:58:57.221+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:58:57.546+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:58:57.568+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:58:57.568+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:58:57.587+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:58:57.587+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:58:57.646+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.435 seconds
+[2024-03-12T22:59:28.085+0530] {processor.py:161} INFO - Started process (PID=281775) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:59:28.090+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:59:28.091+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:59:28.090+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:59:28.489+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:59:28.516+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:59:28.515+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:59:28.567+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:59:28.566+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:59:28.672+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.590 seconds
+[2024-03-12T22:59:59.188+0530] {processor.py:161} INFO - Started process (PID=281821) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:59:59.190+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T22:59:59.191+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:59:59.191+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:59:59.508+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T22:59:59.529+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:59:59.528+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T22:59:59.549+0530] {logging_mixin.py:188} INFO - [2024-03-12T22:59:59.549+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T22:59:59.585+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.403 seconds
+[2024-03-12T23:00:29.774+0530] {processor.py:161} INFO - Started process (PID=281863) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:00:29.777+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:00:29.778+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:00:29.777+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:00:30.093+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:00:30.114+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:00:30.114+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:00:30.134+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:00:30.134+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:00:30.173+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.403 seconds
+[2024-03-12T23:01:00.499+0530] {processor.py:161} INFO - Started process (PID=281905) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:01:00.503+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:01:00.504+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:01:00.504+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:01:00.825+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:01:00.845+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:01:00.844+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:01:00.862+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:01:00.862+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:01:00.924+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.430 seconds
+[2024-03-12T23:01:31.234+0530] {processor.py:161} INFO - Started process (PID=281947) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:01:31.236+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:01:31.237+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:01:31.236+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:01:31.550+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:01:31.571+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:01:31.571+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:01:31.591+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:01:31.590+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:01:31.637+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.406 seconds
+[2024-03-12T23:02:01.958+0530] {processor.py:161} INFO - Started process (PID=281989) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:02:01.962+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:02:01.964+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:02:01.963+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:02:02.281+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:02:02.300+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:02:02.300+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:02:02.319+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:02:02.318+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:02:02.362+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.408 seconds
+[2024-03-12T23:02:32.677+0530] {processor.py:161} INFO - Started process (PID=282031) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:02:32.680+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:02:32.681+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:02:32.681+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:02:32.995+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:02:33.015+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:02:33.014+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:02:33.032+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:02:33.032+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:02:33.073+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.400 seconds
+[2024-03-12T23:03:03.290+0530] {processor.py:161} INFO - Started process (PID=282074) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:03:03.293+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:03:03.294+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:03:03.294+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:03:03.659+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:03:03.684+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:03:03.684+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:03:03.708+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:03:03.708+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:03:03.859+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.572 seconds
+[2024-03-12T23:03:34.276+0530] {processor.py:161} INFO - Started process (PID=282116) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:03:34.280+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:03:34.282+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:03:34.281+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:03:34.858+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:03:34.900+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:03:34.899+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:03:34.940+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:03:34.939+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:03:35.001+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 0.731 seconds
+[2024-03-12T23:04:05.442+0530] {processor.py:161} INFO - Started process (PID=282158) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:04:05.451+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:04:05.454+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:04:05.452+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:04:06.381+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:04:06.456+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:04:06.455+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:04:06.533+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:04:06.532+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:04:06.615+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.183 seconds
+[2024-03-12T23:04:37.674+0530] {processor.py:161} INFO - Started process (PID=282200) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:04:37.678+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:04:37.680+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:04:37.679+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:04:38.781+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:04:38.873+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:04:38.872+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:04:38.964+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:04:38.963+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:04:39.378+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.718 seconds
+[2024-03-12T23:05:09.503+0530] {processor.py:161} INFO - Started process (PID=282242) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:05:09.511+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:05:09.514+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:05:09.513+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:05:10.632+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:05:10.723+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:05:10.722+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:05:10.819+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:05:10.819+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:05:10.921+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.431 seconds
+[2024-03-12T23:05:41.155+0530] {processor.py:161} INFO - Started process (PID=282284) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:05:41.159+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:05:41.164+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:05:41.161+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:05:42.314+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:05:42.409+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:05:42.408+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:05:42.504+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:05:42.503+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:05:42.607+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.464 seconds
+[2024-03-12T23:06:12.899+0530] {processor.py:161} INFO - Started process (PID=282326) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:06:12.906+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:06:12.910+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:06:12.908+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:06:14.061+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:06:14.151+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:06:14.150+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:06:14.245+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:06:14.244+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:06:14.348+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.462 seconds
+[2024-03-12T23:06:44.605+0530] {processor.py:161} INFO - Started process (PID=282368) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:06:44.610+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:06:44.616+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:06:44.614+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:06:45.856+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:06:45.957+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:06:45.955+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:06:46.401+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:06:46.400+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:06:46.510+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.921 seconds
+[2024-03-12T23:07:17.413+0530] {processor.py:161} INFO - Started process (PID=282410) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:07:17.421+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:07:17.424+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:07:17.423+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:07:18.660+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:07:18.769+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:07:18.768+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:07:18.875+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:07:18.874+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:07:18.985+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.584 seconds
+[2024-03-12T23:07:50.399+0530] {processor.py:161} INFO - Started process (PID=282452) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:07:50.404+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:07:50.407+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:07:50.405+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:07:51.673+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:07:51.790+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:07:51.789+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:07:51.907+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:07:51.906+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:07:52.024+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 1.639 seconds
+[2024-03-12T23:08:25.648+0530] {processor.py:161} INFO - Started process (PID=282494) to work on /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:08:25.658+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/taskflow_branching_operators_dag.py for tasks to queue
+[2024-03-12T23:08:25.665+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:08:25.662+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:08:27.278+0530] {processor.py:840} INFO - DAG(s) 'taskflow_branching_operators_dag' retrieved from /home/kai/airflow/dags/taskflow_branching_operators_dag.py
+[2024-03-12T23:08:27.319+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:08:27.319+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-12T23:08:27.369+0530] {logging_mixin.py:188} INFO - [2024-03-12T23:08:27.369+0530] {dag.py:3834} INFO - Setting next_dagrun for taskflow_branching_operators_dag to 2024-03-12 00:00:00+00:00, run_after=2024-03-13 00:00:00+00:00
+[2024-03-12T23:08:27.650+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/taskflow_branching_operators_dag.py took 2.031 seconds

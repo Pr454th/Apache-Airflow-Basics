@@ -1,0 +1,469 @@
+[2024-03-14T07:42:45.673+0530] {processor.py:161} INFO - Started process (PID=307323) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:42:45.674+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:42:45.675+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:42:45.675+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:42:45.684+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:42:45.764+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:42:45.763+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:42:45.778+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:42:45.778+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:42:45.818+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.147 seconds
+[2024-03-14T07:43:16.604+0530] {processor.py:161} INFO - Started process (PID=307378) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:43:16.607+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:43:16.608+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:16.608+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:43:16.616+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:43:16.636+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:16.636+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:43:16.652+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:16.652+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:43:16.690+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.089 seconds
+[2024-03-14T07:43:47.542+0530] {processor.py:161} INFO - Started process (PID=307431) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:43:47.546+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:43:47.547+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:47.547+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:43:47.556+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:43:47.576+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:47.575+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:43:47.592+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:43:47.592+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:43:47.624+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.086 seconds
+[2024-03-14T07:44:18.800+0530] {processor.py:161} INFO - Started process (PID=307483) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:44:18.801+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:44:18.802+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:18.802+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:44:18.811+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:44:18.832+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:18.832+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:44:18.849+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:18.849+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:44:18.881+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:44:49.818+0530] {processor.py:161} INFO - Started process (PID=307536) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:44:49.819+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:44:49.820+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:49.820+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:44:49.828+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:44:49.848+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:49.848+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:44:49.866+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:44:49.865+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:44:49.899+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:45:20.547+0530] {processor.py:161} INFO - Started process (PID=307591) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:45:20.550+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:45:20.551+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:20.551+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:45:20.559+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:45:20.579+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:20.579+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:45:20.595+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:20.595+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:45:20.628+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:45:51.279+0530] {processor.py:161} INFO - Started process (PID=307642) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:45:51.283+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:45:51.284+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:51.284+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:45:51.293+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:45:51.313+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:51.312+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:45:51.330+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:45:51.330+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:45:51.361+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.085 seconds
+[2024-03-14T07:46:21.998+0530] {processor.py:161} INFO - Started process (PID=307696) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:46:22.003+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:46:22.004+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:22.003+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:46:22.012+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:46:22.032+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:22.032+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:46:22.048+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:22.048+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:46:22.080+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:46:52.810+0530] {processor.py:161} INFO - Started process (PID=307747) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:46:52.813+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:46:52.814+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:52.814+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:46:52.822+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:46:52.842+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:52.842+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:46:52.858+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:46:52.858+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:46:52.890+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.083 seconds
+[2024-03-14T07:47:24.960+0530] {processor.py:161} INFO - Started process (PID=307801) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:47:24.961+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:47:24.962+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:24.961+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:47:24.970+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:47:24.990+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:24.990+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:47:25.007+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:25.007+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:47:25.041+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.085 seconds
+[2024-03-14T07:47:55.921+0530] {processor.py:161} INFO - Started process (PID=307853) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:47:55.924+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:47:55.925+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:55.925+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:47:55.933+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:47:55.953+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:55.952+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:47:55.969+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:47:55.968+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:47:56.000+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.082 seconds
+[2024-03-14T07:48:26.806+0530] {processor.py:161} INFO - Started process (PID=307905) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:48:26.808+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:48:26.809+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:26.809+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:48:26.820+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:48:26.845+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:26.845+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:48:26.868+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:26.867+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:48:26.905+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.102 seconds
+[2024-03-14T07:48:57.791+0530] {processor.py:161} INFO - Started process (PID=307959) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:48:57.794+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:48:57.795+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:57.795+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:48:57.803+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:48:57.823+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:57.823+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:48:57.840+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:48:57.840+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:48:57.872+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:49:28.577+0530] {processor.py:161} INFO - Started process (PID=308010) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:49:28.580+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:49:28.581+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:28.581+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:49:28.589+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:49:28.609+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:28.609+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:49:28.626+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:28.626+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:49:28.664+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.090 seconds
+[2024-03-14T07:49:59.536+0530] {processor.py:161} INFO - Started process (PID=308062) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:49:59.539+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:49:59.540+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:59.539+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:49:59.548+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:49:59.567+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:59.567+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:49:59.584+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:49:59.583+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:49:59.621+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.089 seconds
+[2024-03-14T07:50:30.301+0530] {processor.py:161} INFO - Started process (PID=308116) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:50:30.305+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:50:30.306+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:30.306+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:50:30.314+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:50:30.334+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:30.333+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:50:30.350+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:50:30.349+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:50:30.382+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:51:01.173+0530] {processor.py:161} INFO - Started process (PID=308168) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:51:01.178+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:51:01.179+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:01.178+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:51:01.187+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:51:01.207+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:01.207+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:51:01.224+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:01.224+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:51:01.257+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.087 seconds
+[2024-03-14T07:51:32.063+0530] {processor.py:161} INFO - Started process (PID=308219) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:51:32.067+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:51:32.068+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:32.068+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:51:32.076+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:51:32.096+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:32.096+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:51:32.113+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:51:32.113+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:51:32.147+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.087 seconds
+[2024-03-14T07:52:03.001+0530] {processor.py:161} INFO - Started process (PID=308273) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:52:03.002+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:52:03.003+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:03.003+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:52:03.011+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:52:03.031+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:03.031+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:52:03.047+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:03.047+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:52:03.079+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.081 seconds
+[2024-03-14T07:52:33.868+0530] {processor.py:161} INFO - Started process (PID=308328) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:52:33.871+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:52:33.872+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:33.871+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:52:33.880+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:52:33.900+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:33.900+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:52:33.916+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:52:33.916+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:52:33.951+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.087 seconds
+[2024-03-14T07:53:04.729+0530] {processor.py:161} INFO - Started process (PID=308380) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:53:04.732+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:53:04.733+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:04.733+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:53:04.741+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:53:04.761+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:04.761+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:53:04.778+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:04.778+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:53:04.810+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.083 seconds
+[2024-03-14T07:53:36.865+0530] {processor.py:161} INFO - Started process (PID=308434) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:53:36.869+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:53:36.870+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:36.870+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:53:36.878+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:53:36.898+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:36.898+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:53:36.914+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:53:36.914+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:53:36.960+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.098 seconds
+[2024-03-14T07:54:07.584+0530] {processor.py:161} INFO - Started process (PID=308485) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:54:07.588+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:54:07.589+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:07.588+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:54:07.597+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:54:07.617+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:07.616+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:54:07.633+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:07.633+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:54:07.670+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.089 seconds
+[2024-03-14T07:54:38.538+0530] {processor.py:161} INFO - Started process (PID=308537) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:54:38.542+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:54:38.543+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:38.543+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:54:38.551+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:54:38.571+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:38.571+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:54:38.587+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:54:38.587+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:54:38.620+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.085 seconds
+[2024-03-14T07:55:09.099+0530] {processor.py:161} INFO - Started process (PID=308593) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:55:09.104+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:55:09.105+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:09.104+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:55:09.113+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:55:09.132+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:09.132+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:55:09.149+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:09.149+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:55:09.183+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.087 seconds
+[2024-03-14T07:55:39.643+0530] {processor.py:161} INFO - Started process (PID=308645) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:55:39.647+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:55:39.648+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:39.648+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:55:39.656+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:55:39.676+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:39.676+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:55:39.692+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:55:39.692+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:55:39.725+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.085 seconds
+[2024-03-14T07:56:10.201+0530] {processor.py:161} INFO - Started process (PID=308700) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:56:10.205+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:56:10.206+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:10.206+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:56:10.216+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:56:10.236+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:10.236+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:56:10.253+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:10.252+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:56:10.285+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.088 seconds
+[2024-03-14T07:56:42.026+0530] {processor.py:161} INFO - Started process (PID=308754) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:56:42.027+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:56:42.028+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:42.027+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:56:42.036+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:56:42.055+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:42.055+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:56:42.071+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:56:42.071+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:56:42.107+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.085 seconds
+[2024-03-14T07:57:12.761+0530] {processor.py:161} INFO - Started process (PID=308807) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:57:12.764+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:57:12.765+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:12.765+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:57:12.773+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:57:12.793+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:12.793+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:57:12.810+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:12.810+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:57:12.842+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T07:57:43.675+0530] {processor.py:161} INFO - Started process (PID=308859) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:57:43.676+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:57:43.677+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:43.676+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:57:43.686+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:57:43.708+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:43.708+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:57:43.726+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:57:43.726+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:57:43.763+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.093 seconds
+[2024-03-14T07:58:14.662+0530] {processor.py:161} INFO - Started process (PID=308911) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:58:14.664+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:58:14.665+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:14.664+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:58:14.676+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:58:14.703+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:14.703+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:58:14.724+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:14.724+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:58:14.759+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.100 seconds
+[2024-03-14T07:58:45.321+0530] {processor.py:161} INFO - Started process (PID=308965) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:58:45.323+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:58:45.325+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:45.324+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:58:45.334+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:58:45.354+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:45.354+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:58:45.371+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:58:45.370+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:58:45.418+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.101 seconds
+[2024-03-14T07:59:16.111+0530] {processor.py:161} INFO - Started process (PID=309017) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:59:16.114+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:59:16.115+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:16.115+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:59:16.124+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:59:16.144+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:16.144+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:59:16.162+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:16.162+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:59:16.197+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.089 seconds
+[2024-03-14T07:59:46.955+0530] {processor.py:161} INFO - Started process (PID=309068) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:59:46.958+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T07:59:46.959+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:46.959+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:59:46.969+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T07:59:46.999+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:46.998+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T07:59:47.022+0530] {logging_mixin.py:188} INFO - [2024-03-14T07:59:47.022+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T07:59:47.059+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.109 seconds
+[2024-03-14T08:00:18.796+0530] {processor.py:161} INFO - Started process (PID=309121) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:00:18.801+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:00:18.803+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:18.802+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:00:18.823+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:00:18.869+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:18.869+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:00:18.898+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:18.898+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:00:18.962+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.171 seconds
+[2024-03-14T08:00:49.895+0530] {processor.py:161} INFO - Started process (PID=309174) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:00:49.898+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:00:49.899+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:49.899+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:00:49.908+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:00:49.932+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:49.932+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:00:49.949+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:00:49.949+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:00:49.982+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.090 seconds
+[2024-03-14T08:01:21.015+0530] {processor.py:161} INFO - Started process (PID=309226) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:01:21.017+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:01:21.018+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:21.018+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:01:21.030+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:01:21.058+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:21.058+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:01:21.087+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:21.086+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:01:21.126+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.115 seconds
+[2024-03-14T08:01:52.205+0530] {processor.py:161} INFO - Started process (PID=309277) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:01:52.208+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:01:52.210+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:52.209+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:01:52.220+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:01:52.240+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:52.240+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:01:52.260+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:01:52.260+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:01:52.305+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.106 seconds
+[2024-03-14T08:02:23.351+0530] {processor.py:161} INFO - Started process (PID=309329) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:02:23.354+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:02:23.355+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:23.355+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:02:23.363+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:02:23.383+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:23.383+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:02:23.400+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:23.399+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:02:23.432+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T08:02:54.372+0530] {processor.py:161} INFO - Started process (PID=309380) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:02:54.374+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:02:54.375+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:54.374+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:02:54.383+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:02:54.403+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:54.403+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:02:54.421+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:02:54.421+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:02:54.453+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.086 seconds
+[2024-03-14T08:03:25.382+0530] {processor.py:161} INFO - Started process (PID=309434) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:03:25.385+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:03:25.386+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:25.385+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:03:25.394+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:03:25.415+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:25.415+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:03:25.438+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:25.438+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:03:25.475+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.096 seconds
+[2024-03-14T08:03:56.489+0530] {processor.py:161} INFO - Started process (PID=309486) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:03:56.492+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:03:56.494+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:56.493+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:03:56.502+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:03:56.524+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:56.524+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:03:56.544+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:03:56.544+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:03:56.602+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.116 seconds
+[2024-03-14T08:04:27.486+0530] {processor.py:161} INFO - Started process (PID=309537) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:04:27.489+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:04:27.490+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:27.490+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:04:27.498+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:04:27.518+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:27.518+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:04:27.535+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:27.534+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:04:27.576+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.093 seconds
+[2024-03-14T08:04:58.160+0530] {processor.py:161} INFO - Started process (PID=309589) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:04:58.163+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:04:58.164+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:58.164+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:04:58.172+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:04:58.192+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:58.192+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:04:58.209+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:04:58.209+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:04:58.247+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.090 seconds
+[2024-03-14T08:05:29.013+0530] {processor.py:161} INFO - Started process (PID=309645) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:05:29.016+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:05:29.017+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:05:29.016+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:05:29.026+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:05:29.051+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:05:29.051+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:05:29.070+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:05:29.069+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:05:29.115+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.106 seconds
+[2024-03-14T08:06:00.144+0530] {processor.py:161} INFO - Started process (PID=309697) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:06:00.147+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:06:00.148+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:00.147+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:06:00.157+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:06:00.180+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:00.179+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:06:00.197+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:00.197+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:06:00.239+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.098 seconds
+[2024-03-14T08:06:31.207+0530] {processor.py:161} INFO - Started process (PID=309748) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:06:31.208+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:06:31.209+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:31.209+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:06:31.217+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:06:31.237+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:31.237+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:06:31.253+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:06:31.253+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:06:31.289+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.086 seconds
+[2024-03-14T08:07:02.067+0530] {processor.py:161} INFO - Started process (PID=309800) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:07:02.070+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:07:02.071+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:02.070+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:07:02.079+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:07:02.098+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:02.098+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:07:02.116+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:02.116+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:07:02.146+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.083 seconds
+[2024-03-14T08:07:32.716+0530] {processor.py:161} INFO - Started process (PID=309851) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:07:32.720+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:07:32.722+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:32.722+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:07:32.737+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:07:32.776+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:32.776+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:07:32.799+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:07:32.799+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:07:32.842+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.131 seconds
+[2024-03-14T08:08:03.586+0530] {processor.py:161} INFO - Started process (PID=309905) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:08:03.589+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:08:03.590+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:03.590+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:08:03.599+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:08:03.619+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:03.618+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:08:03.635+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:03.635+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:08:03.676+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.093 seconds
+[2024-03-14T08:08:34.290+0530] {processor.py:161} INFO - Started process (PID=309956) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:08:34.293+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:08:34.294+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:34.293+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:08:34.303+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:08:34.323+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:34.323+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:08:34.340+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:08:34.340+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:08:34.374+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.088 seconds
+[2024-03-14T08:09:05.192+0530] {processor.py:161} INFO - Started process (PID=310008) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:09:05.194+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:09:05.195+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:05.195+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:09:05.205+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:09:05.226+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:05.226+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:09:05.245+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:05.245+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:09:05.279+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.090 seconds
+[2024-03-14T08:09:36.338+0530] {processor.py:161} INFO - Started process (PID=310060) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:09:36.341+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:09:36.342+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:36.341+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:09:36.350+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:09:36.370+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:36.370+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:09:36.387+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:09:36.387+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:09:36.423+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.088 seconds
+[2024-03-14T08:10:07.532+0530] {processor.py:161} INFO - Started process (PID=310114) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:10:07.533+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:10:07.534+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:07.534+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:10:07.543+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:10:07.563+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:07.563+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:10:07.580+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:07.579+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:10:07.615+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.087 seconds
+[2024-03-14T08:10:38.812+0530] {processor.py:161} INFO - Started process (PID=310166) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:10:38.815+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:10:38.816+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:38.816+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:10:38.827+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:10:38.850+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:38.850+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:10:38.872+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:10:38.871+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:10:38.905+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.097 seconds
+[2024-03-14T08:11:09.628+0530] {processor.py:161} INFO - Started process (PID=310219) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:11:09.631+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:11:09.632+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:09.632+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:11:09.642+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:11:09.662+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:09.662+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:11:09.680+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:09.680+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:11:09.720+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.097 seconds
+[2024-03-14T08:11:40.192+0530] {processor.py:161} INFO - Started process (PID=310271) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:11:40.193+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:11:40.194+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:40.194+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:11:40.203+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:11:40.223+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:40.223+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:11:40.239+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:11:40.239+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:11:40.281+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.092 seconds
+[2024-03-14T08:12:10.970+0530] {processor.py:161} INFO - Started process (PID=310322) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:12:10.972+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:12:10.973+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:10.972+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:12:10.981+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:12:11.001+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:11.001+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:12:11.018+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:11.018+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:12:11.052+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T08:12:41.981+0530] {processor.py:161} INFO - Started process (PID=310374) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:12:41.982+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:12:41.983+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:41.983+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:12:41.994+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:12:42.018+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:42.017+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:12:42.036+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:12:42.035+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:12:42.072+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.093 seconds
+[2024-03-14T08:13:12.873+0530] {processor.py:161} INFO - Started process (PID=310427) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:13:12.876+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:13:12.877+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:12.877+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:13:12.886+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:13:12.906+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:12.906+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:13:12.923+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:12.923+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:13:12.956+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.087 seconds
+[2024-03-14T08:13:43.511+0530] {processor.py:161} INFO - Started process (PID=310479) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:13:43.514+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:13:43.515+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:43.514+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:13:43.523+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:13:43.543+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:43.542+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:13:43.559+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:13:43.559+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:13:43.592+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.084 seconds
+[2024-03-14T08:14:14.127+0530] {processor.py:161} INFO - Started process (PID=310530) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:14:14.130+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:14:14.131+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:14.131+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:14:14.140+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:14:14.160+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:14.160+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:14:14.176+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:14.176+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:14:14.210+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.086 seconds
+[2024-03-14T08:14:44.849+0530] {processor.py:161} INFO - Started process (PID=310582) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:14:44.852+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:14:44.853+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:44.853+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:14:44.861+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:14:44.881+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:44.881+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:14:44.898+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:14:44.898+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:14:44.936+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.090 seconds
+[2024-03-14T08:15:15.582+0530] {processor.py:161} INFO - Started process (PID=310636) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:15:15.586+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:15:15.587+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:15.587+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:15:15.596+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:15:15.616+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:15.615+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:15:15.632+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:15.632+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:15:15.665+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.086 seconds
+[2024-03-14T08:15:46.237+0530] {processor.py:161} INFO - Started process (PID=310688) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:15:46.241+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:15:46.242+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:46.242+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:15:46.252+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:15:46.272+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:46.272+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:15:46.288+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:15:46.288+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:15:46.325+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.092 seconds
+[2024-03-14T08:16:16.925+0530] {processor.py:161} INFO - Started process (PID=310742) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:16:16.928+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:16:16.929+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:16.929+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:16:16.937+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:16:16.957+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:16.957+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:16:16.974+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:16.974+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:16:17.009+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.088 seconds
+[2024-03-14T08:16:47.883+0530] {processor.py:161} INFO - Started process (PID=310801) to work on /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:16:47.884+0530] {processor.py:830} INFO - Processing file /home/kai/airflow/dags/cross_task_communications.py for tasks to queue
+[2024-03-14T08:16:47.885+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:47.885+0530] {dagbag.py:540} INFO - Filling up the DagBag from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:16:47.896+0530] {processor.py:840} INFO - DAG(s) 'cross_task_dag' retrieved from /home/kai/airflow/dags/cross_task_communications.py
+[2024-03-14T08:16:47.921+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:47.920+0530] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T08:16:47.942+0530] {logging_mixin.py:188} INFO - [2024-03-14T08:16:47.942+0530] {dag.py:3834} INFO - Setting next_dagrun for cross_task_dag to 2024-03-13 00:00:00+00:00, run_after=2024-03-14 00:00:00+00:00
+[2024-03-14T08:16:47.988+0530] {processor.py:183} INFO - Processing /home/kai/airflow/dags/cross_task_communications.py took 0.109 seconds

@@ -1,0 +1,17 @@
+[2024-03-12T22:38:06.515+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskflow_branching_operators_dag.branch manual__2024-03-12T17:07:57.170946+00:00 [queued]>
+[2024-03-12T22:38:06.521+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskflow_branching_operators_dag.branch manual__2024-03-12T17:07:57.170946+00:00 [queued]>
+[2024-03-12T22:38:06.521+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-12T22:38:06.561+0530] {taskinstance.py:2214} INFO - Executing <Task(_BranchPythonDecoratedOperator): branch> on 2024-03-12 17:07:57.170946+00:00
+[2024-03-12T22:38:06.567+0530] {standard_task_runner.py:60} INFO - Started process 279751 to run task
+[2024-03-12T22:38:06.573+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'taskflow_branching_operators_dag', 'branch', 'manual__2024-03-12T17:07:57.170946+00:00', '--job-id', '207', '--raw', '--subdir', 'DAGS_FOLDER/taskflow_branching_operators_dag.py', '--cfg-path', '/tmp/tmp58k1czla']
+[2024-03-12T22:38:06.576+0530] {standard_task_runner.py:88} INFO - Job 207: Subtask branch
+[2024-03-12T22:38:06.631+0530] {task_command.py:423} INFO - Running <TaskInstance: taskflow_branching_operators_dag.branch manual__2024-03-12T17:07:57.170946+00:00 [running]> on host BreakThrough.
+[2024-03-12T22:38:06.718+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='taskflow_branching_operators_dag' AIRFLOW_CTX_TASK_ID='branch' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T17:07:57.170946+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-12T17:07:57.170946+00:00'
+[2024-03-12T22:38:06.719+0530] {logging_mixin.py:188} INFO - branching
+[2024-03-12T22:38:06.722+0530] {python.py:202} INFO - Done. Returned value was: filter_by_weight
+[2024-03-12T22:38:06.722+0530] {branch.py:35} INFO - Branch into filter_by_weight
+[2024-03-12T22:38:06.723+0530] {skipmixin.py:178} INFO - Following branch filter_by_weight
+[2024-03-12T22:38:06.730+0530] {skipmixin.py:244} INFO - Skipping tasks [('filter_by_car', -1)]
+[2024-03-12T22:38:06.816+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=taskflow_branching_operators_dag, task_id=branch, execution_date=20240312T170757, start_date=20240312T170806, end_date=20240312T170806
+[2024-03-12T22:38:06.868+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-12T22:38:06.889+0530] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

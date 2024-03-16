@@ -1,0 +1,412 @@
+[2024-03-13T20:25:04.083+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskflow_sql_operations_dag.insert_records manual__2024-03-13T14:54:57.959540+00:00 [queued]>
+[2024-03-13T20:25:04.091+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskflow_sql_operations_dag.insert_records manual__2024-03-13T14:54:57.959540+00:00 [queued]>
+[2024-03-13T20:25:04.091+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-13T20:25:04.124+0530] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): insert_records> on 2024-03-13 14:54:57.959540+00:00
+[2024-03-13T20:25:04.128+0530] {standard_task_runner.py:60} INFO - Started process 294629 to run task
+[2024-03-13T20:25:04.131+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'taskflow_sql_operations_dag', 'insert_records', 'manual__2024-03-13T14:54:57.959540+00:00', '--job-id', '241', '--raw', '--subdir', 'DAGS_FOLDER/taskflow_sql_operations.py', '--cfg-path', '/tmp/tmp95vxm1j6']
+[2024-03-13T20:25:04.132+0530] {standard_task_runner.py:88} INFO - Job 241: Subtask insert_records
+[2024-03-13T20:25:04.208+0530] {task_command.py:423} INFO - Running <TaskInstance: taskflow_sql_operations_dag.insert_records manual__2024-03-13T14:54:57.959540+00:00 [running]> on host BreakThrough.
+[2024-03-13T20:25:04.315+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='taskflow_sql_operations_dag' AIRFLOW_CTX_TASK_ID='insert_records' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T14:54:57.959540+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T14:54:57.959540+00:00'
+[2024-03-13T20:25:04.326+0530] {logging_mixin.py:188} INFO - This is task C
+[2024-03-13T20:25:04.369+0530] {logging_mixin.py:188} WARNING - /home/kai/airflow/dags/taskflow_sql_operations.py:50 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-03-13T20:25:04.383+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Toyoty', 'Aygo', 1000, 790, 99)
+                
+[2024-03-13T20:25:04.388+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.410+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.410+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Toyoty', 'Aygo', 1000, 790, 99)
+                , parameters: None
+[2024-03-13T20:25:04.411+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.412+0530] {logging_mixin.py:188} WARNING - /home/kai/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py:407 AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+[2024-03-13T20:25:04.432+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mitsubishi', 'Space Star', 1200, 1160, 95)
+                
+[2024-03-13T20:25:04.434+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.437+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.438+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mitsubishi', 'Space Star', 1200, 1160, 95)
+                , parameters: None
+[2024-03-13T20:25:04.439+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.458+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Citigo', 1000, 929, 95)
+                
+[2024-03-13T20:25:04.460+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.462+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.463+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Citigo', 1000, 929, 95)
+                , parameters: None
+[2024-03-13T20:25:04.463+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.488+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Fiat', '500', 900, 865, 90)
+                
+[2024-03-13T20:25:04.497+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.502+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.503+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Fiat', '500', 900, 865, 90)
+                , parameters: None
+[2024-03-13T20:25:04.505+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.524+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mini', 'Cooper', 1500, 1140, 105)
+                
+[2024-03-13T20:25:04.526+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.528+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.528+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mini', 'Cooper', 1500, 1140, 105)
+                , parameters: None
+[2024-03-13T20:25:04.528+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.546+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('VW', 'Up!', 1000, 929, 105)
+                
+[2024-03-13T20:25:04.549+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.551+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.551+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('VW', 'Up!', 1000, 929, 105)
+                , parameters: None
+[2024-03-13T20:25:04.551+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.569+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Fabia', 1400, 1109, 90)
+                
+[2024-03-13T20:25:04.574+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.576+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.576+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Fabia', 1400, 1109, 90)
+                , parameters: None
+[2024-03-13T20:25:04.577+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.597+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'A-Class', 1500, 1365, 92)
+                
+[2024-03-13T20:25:04.602+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.608+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.609+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'A-Class', 1500, 1365, 92)
+                , parameters: None
+[2024-03-13T20:25:04.610+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.629+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Fiesta', 1500, 1112, 98)
+                
+[2024-03-13T20:25:04.631+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.632+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.633+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Fiesta', 1500, 1112, 98)
+                , parameters: None
+[2024-03-13T20:25:04.633+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.652+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Audi', 'A1', 1600, 1150, 99)
+                
+[2024-03-13T20:25:04.663+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.668+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.669+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Audi', 'A1', 1600, 1150, 99)
+                , parameters: None
+[2024-03-13T20:25:04.670+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.690+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Hyundai', 'I20', 1100, 980, 99)
+                
+[2024-03-13T20:25:04.693+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.695+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.695+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Hyundai', 'I20', 1100, 980, 99)
+                , parameters: None
+[2024-03-13T20:25:04.696+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.719+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Suzuki', 'Swift', 1300, 990, 101)
+                
+[2024-03-13T20:25:04.723+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.727+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.727+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Suzuki', 'Swift', 1300, 990, 101)
+                , parameters: None
+[2024-03-13T20:25:04.727+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.746+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Fiesta', 1000, 1112, 99)
+                
+[2024-03-13T20:25:04.748+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.750+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.750+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Fiesta', 1000, 1112, 99)
+                , parameters: None
+[2024-03-13T20:25:04.750+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.774+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Honda', 'Civic', 1600, 1252, 94)
+                
+[2024-03-13T20:25:04.783+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.788+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.790+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Honda', 'Civic', 1600, 1252, 94)
+                , parameters: None
+[2024-03-13T20:25:04.791+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.816+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Hundai', 'I30', 1600, 1326, 97)
+                
+[2024-03-13T20:25:04.823+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.829+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.830+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Hundai', 'I30', 1600, 1326, 97)
+                , parameters: None
+[2024-03-13T20:25:04.831+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.852+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Opel', 'Astra', 1600, 1330, 97)
+                
+[2024-03-13T20:25:04.857+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.862+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.862+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Opel', 'Astra', 1600, 1330, 97)
+                , parameters: None
+[2024-03-13T20:25:04.863+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.891+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('BMW', '1', 1600, 1365, 99)
+                
+[2024-03-13T20:25:04.895+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.897+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.898+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('BMW', '1', 1600, 1365, 99)
+                , parameters: None
+[2024-03-13T20:25:04.898+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.920+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mazda', '3', 2200, 1280, 104)
+                
+[2024-03-13T20:25:04.925+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.928+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.929+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mazda', '3', 2200, 1280, 104)
+                , parameters: None
+[2024-03-13T20:25:04.929+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.948+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Rapid', 1600, 1119, 104)
+                
+[2024-03-13T20:25:04.951+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.955+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.956+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Rapid', 1600, 1119, 104)
+                , parameters: None
+[2024-03-13T20:25:04.957+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:04.976+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Focus', 2000, 1328, 105)
+                
+[2024-03-13T20:25:04.979+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.981+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:04.981+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Focus', 2000, 1328, 105)
+                , parameters: None
+[2024-03-13T20:25:04.982+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.001+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Mondeo', 1600, 1584, 94)
+                
+[2024-03-13T20:25:05.005+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.010+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.010+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'Mondeo', 1600, 1584, 94)
+                , parameters: None
+[2024-03-13T20:25:05.011+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.030+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Opel', 'Insignia', 2000, 1428, 99)
+                
+[2024-03-13T20:25:05.032+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.034+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.035+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Opel', 'Insignia', 2000, 1428, 99)
+                , parameters: None
+[2024-03-13T20:25:05.035+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.054+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'C-Class', 2100, 1365, 99)
+                
+[2024-03-13T20:25:05.058+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.061+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.061+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'C-Class', 2100, 1365, 99)
+                , parameters: None
+[2024-03-13T20:25:05.062+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.086+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Octavia', 1600, 1415, 99)
+                
+[2024-03-13T20:25:05.091+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.094+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.094+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Skoda', 'Octavia', 1600, 1415, 99)
+                , parameters: None
+[2024-03-13T20:25:05.095+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.113+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Volvo', 'S60', 2000, 1415, 99)
+                
+[2024-03-13T20:25:05.115+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.117+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.117+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Volvo', 'S60', 2000, 1415, 99)
+                , parameters: None
+[2024-03-13T20:25:05.118+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.137+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'CLA', 1500, 1465, 102)
+                
+[2024-03-13T20:25:05.140+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.142+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.143+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'CLA', 1500, 1465, 102)
+                , parameters: None
+[2024-03-13T20:25:05.143+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.167+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Audi', 'A4', 2000, 1490, 104)
+                
+[2024-03-13T20:25:05.170+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.173+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.173+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Audi', 'A4', 2000, 1490, 104)
+                , parameters: None
+[2024-03-13T20:25:05.174+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.203+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Audi', 'A6', 2000, 1725, 114)
+                
+[2024-03-13T20:25:05.206+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.209+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.209+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Audi', 'A6', 2000, 1725, 114)
+                , parameters: None
+[2024-03-13T20:25:05.210+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.234+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Volvo', 'V70', 1600, 1523, 109)
+                
+[2024-03-13T20:25:05.237+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.241+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.241+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Volvo', 'V70', 1600, 1523, 109)
+                , parameters: None
+[2024-03-13T20:25:05.242+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.268+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('BMW', '5', 2000, 1705, 114)
+                
+[2024-03-13T20:25:05.271+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.275+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.275+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('BMW', '5', 2000, 1705, 114)
+                , parameters: None
+[2024-03-13T20:25:05.276+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.296+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'E-Class', 2100, 1605, 115)
+                
+[2024-03-13T20:25:05.298+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.300+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.301+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'E-Class', 2100, 1605, 115)
+                , parameters: None
+[2024-03-13T20:25:05.301+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.323+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Volvo', 'XC70', 2000, 1746, 117)
+                
+[2024-03-13T20:25:05.325+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.327+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.327+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Volvo', 'XC70', 2000, 1746, 117)
+                , parameters: None
+[2024-03-13T20:25:05.327+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.353+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'B-Max', 1600, 1235, 104)
+                
+[2024-03-13T20:25:05.356+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.359+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.359+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Ford', 'B-Max', 1600, 1235, 104)
+                , parameters: None
+[2024-03-13T20:25:05.359+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.380+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('BMW', '216', 1600, 1390, 108)
+                
+[2024-03-13T20:25:05.382+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.384+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.384+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('BMW', '216', 1600, 1390, 108)
+                , parameters: None
+[2024-03-13T20:25:05.385+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.407+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Opel', 'Zafira', 1600, 1405, 109)
+                
+[2024-03-13T20:25:05.409+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.411+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.411+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Opel', 'Zafira', 1600, 1405, 109)
+                , parameters: None
+[2024-03-13T20:25:05.412+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.433+0530] {sql.py:276} INFO - Executing: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'SLK', 2500, 1395, 120)
+                
+[2024-03-13T20:25:05.435+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.438+0530] {base.py:83} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-03-13T20:25:05.438+0530] {sql.py:457} INFO - Running statement: 
+                INSERT INTO Car (name, model, volume, weight, co2)
+                VALUES ('Mercedes', 'SLK', 2500, 1395, 120)
+                , parameters: None
+[2024-03-13T20:25:05.439+0530] {sql.py:466} INFO - Rows affected: 1
+[2024-03-13T20:25:05.460+0530] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-13T20:25:05.464+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=taskflow_sql_operations_dag, task_id=insert_records, execution_date=20240313T145457, start_date=20240313T145504, end_date=20240313T145505
+[2024-03-13T20:25:05.511+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-13T20:25:05.527+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

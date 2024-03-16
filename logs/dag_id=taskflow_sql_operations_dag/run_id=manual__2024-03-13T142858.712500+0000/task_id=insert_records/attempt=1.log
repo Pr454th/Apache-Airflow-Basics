@@ -1,0 +1,29 @@
+[2024-03-13T19:59:08.622+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskflow_sql_operations_dag.insert_records manual__2024-03-13T14:28:58.712500+00:00 [queued]>
+[2024-03-13T19:59:08.629+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskflow_sql_operations_dag.insert_records manual__2024-03-13T14:28:58.712500+00:00 [queued]>
+[2024-03-13T19:59:08.629+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-13T19:59:08.664+0530] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): insert_records> on 2024-03-13 14:28:58.712500+00:00
+[2024-03-13T19:59:08.667+0530] {standard_task_runner.py:60} INFO - Started process 291980 to run task
+[2024-03-13T19:59:08.679+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'taskflow_sql_operations_dag', 'insert_records', 'manual__2024-03-13T14:28:58.712500+00:00', '--job-id', '233', '--raw', '--subdir', 'DAGS_FOLDER/taskflow_sql_operations.py', '--cfg-path', '/tmp/tmpiwpxgo6m']
+[2024-03-13T19:59:08.680+0530] {standard_task_runner.py:88} INFO - Job 233: Subtask insert_records
+[2024-03-13T19:59:08.729+0530] {task_command.py:423} INFO - Running <TaskInstance: taskflow_sql_operations_dag.insert_records manual__2024-03-13T14:28:58.712500+00:00 [running]> on host BreakThrough.
+[2024-03-13T19:59:08.812+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='taskflow_sql_operations_dag' AIRFLOW_CTX_TASK_ID='insert_records' AIRFLOW_CTX_EXECUTION_DATE='2024-03-13T14:28:58.712500+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-13T14:28:58.712500+00:00'
+[2024-03-13T19:59:08.813+0530] {logging_mixin.py:188} INFO - This is task C
+[2024-03-13T19:59:08.814+0530] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/kai/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kai/airflow/dags/taskflow_sql_operations.py", line 48, in insert_records
+    data=ti.xcom_pull(task_ids='read_task')
+NameError: name 'ti' is not defined
+[2024-03-13T19:59:08.817+0530] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=taskflow_sql_operations_dag, task_id=insert_records, execution_date=20240313T142858, start_date=20240313T142908, end_date=20240313T142908
+[2024-03-13T19:59:08.847+0530] {standard_task_runner.py:107} ERROR - Failed to execute job 233 for task insert_records (name 'ti' is not defined; 291980)
+[2024-03-13T19:59:08.884+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-13T19:59:08.896+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

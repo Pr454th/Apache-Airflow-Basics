@@ -48,4 +48,4 @@ with DAG(
         python_callable=taskD
     )
 
-taskA >> taskB >> taskC >> taskD
+taskA >> [taskB, taskC] >> taskD

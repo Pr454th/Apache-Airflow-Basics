@@ -1,0 +1,15 @@
+[2024-03-11T22:09:45.956+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: xcom_taskflow_dag.notify manual__2024-03-11T16:39:36.054949+00:00 [queued]>
+[2024-03-11T22:09:45.963+0530] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: xcom_taskflow_dag.notify manual__2024-03-11T16:39:36.054949+00:00 [queued]>
+[2024-03-11T22:09:45.963+0530] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-11T22:09:45.994+0530] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): notify> on 2024-03-11 16:39:36.054949+00:00
+[2024-03-11T22:09:45.996+0530] {standard_task_runner.py:60} INFO - Started process 259248 to run task
+[2024-03-11T22:09:46.000+0530] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'xcom_taskflow_dag', 'notify', 'manual__2024-03-11T16:39:36.054949+00:00', '--job-id', '198', '--raw', '--subdir', 'DAGS_FOLDER/taskflow_xcom_dag.py', '--cfg-path', '/tmp/tmpuky40z8b']
+[2024-03-11T22:09:46.001+0530] {standard_task_runner.py:88} INFO - Job 198: Subtask notify
+[2024-03-11T22:09:46.054+0530] {task_command.py:423} INFO - Running <TaskInstance: xcom_taskflow_dag.notify manual__2024-03-11T16:39:36.054949+00:00 [running]> on host BreakThrough.
+[2024-03-11T22:09:46.153+0530] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='kai' AIRFLOW_CTX_DAG_ID='xcom_taskflow_dag' AIRFLOW_CTX_TASK_ID='notify' AIRFLOW_CTX_EXECUTION_DATE='2024-03-11T16:39:36.054949+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-11T16:39:36.054949+00:00'
+[2024-03-11T22:09:46.154+0530] {logging_mixin.py:188} INFO - Total price: 3.2
+[2024-03-11T22:09:46.154+0530] {logging_mixin.py:188} INFO - Average price: 0.64
+[2024-03-11T22:09:46.154+0530] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-11T22:09:46.159+0530] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=xcom_taskflow_dag, task_id=notify, execution_date=20240311T163936, start_date=20240311T163945, end_date=20240311T163946
+[2024-03-11T22:09:46.212+0530] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-11T22:09:46.223+0530] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
